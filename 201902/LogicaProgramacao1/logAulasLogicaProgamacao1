@@ -11,7 +11,7 @@
 	Os conectivos são representações da seguinte forma:
 														~ corresponde a "não"
 														˄ corresponde a "e"
-														˄ corresponde a "ou"
+														˅ corresponde a "ou"
 														=> corresponde a "então"
 														<=> corresponde a "se e somente se"
 	A partir de uma proposição podemos realizar outra proposição.
@@ -26,9 +26,31 @@
 	2 < 3 E 3 < 2 - F
 	2 < 3 E 2 + 3 < 3 + 4 - V
 	7 > 18 OU 2 * 6 < 17 - V
-	8 > 6 OU 7 < 12 5 > 9 - V
+	8 > 6 OU 7 < 12 E 5 > 9 - V
 	(8  > 6 OU 7 < 12) E 5 > 9 - F
-	NAO (9 < 5 OU 11 < 16) - V
+	NAO (9 < 5 OU 11 < 16) - F
 	NAO 9 < 5 OU 11 < 16 - V
-	
+	Disjunção exclusiva: ou se te darei uma bola ou te darei uma bicicleta : ambas verdadeiras serão falsas : a expressão só será verdadeira se uma das proposições for verdadeira e a outra falsa.
+	Conectivo "se ... então ..." : só será falsa se a segunda proposiçao for falsa.
+	Dicas: Se pedro é rico então Maria é médica.
+		"condição suficiente" é uma premissa. - Pedro ser rico é condição suficiente para Maria ser médica.
+ 		"condição necessária" é a consequência - Maria ser médica é condição necessária para que Pedro seja rico.
+	Representação matemática "se ... então...."
+	Conectivo "... se  e somente se ..." - Eduardo fica alegre se e somente se Maria sorri. E Mariana sorri somente se Eduardo fica alegre. : duas proposições verdadeiras geram resultado verdadeiro e duas proposições falsas geram resultado verdadeiros, apenas um verdadeiro gera resultado falso.
+	Representação matemática.
+	Exercicio tabela verdade
+		P * Q * P ˄ Q * P ˅ Q * P => Q * P <=> Q
+		V * V * V	  * V     * V      * V			
+		V * F * F     * V     * F      * F
+		F * V * F     * V     * V      * F
+		F * F * F     * F     * V      * V
+	Dicas tabela verdade:
+							"E" somente será verdadeiro quando todas as proposições forem verdadeiras
+							"OU" somente será verdadeiro quando pelo menos uma proposição for verdadeira
+							"XOR" somente será verdadeiro quando somente uma das proposições for verdadeira
+							"se ... entao..." somente será verdadeiro quando a primeira expressão for verdadeira e a segunda falsa
+							"... se e somente ..." somente será verdadeira quando quando ambas proposições forem verdadeiras ou falsas.
+							
+							
+							
 	
