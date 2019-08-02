@@ -1,0 +1,39 @@
+##Dia 31/07/2019.
+	Professor: Diogenes
+	www.netacad.com : teoria 11 capítulos + exercícios ao final de cada capítulos
+	Componente: Tecno RC 2019 02
+	10% da nota é presença e interesse do aluno.
+	Exercícios corresponderão a 30% da nota e podem ser realizados em 3 tentativas, professor é quem libera para realizar os exercícios.
+	40% prova final (50 questões) + 20% avaliação prática (baseado no simulador, 10 tentativas, texto em inglês)
+	packet tracer é o simulador da CISCO.
+	Horário de atendimento do professor: quinta das 14h as 16h - avisar na sala ou por email.
+	Certificação CISCO é organizada em 4 módulos, a matéria de Redes de Computadores é equivalente ao primeiro módulo.
+	Referência bibliográfica: KUROSE Redes de Computadores e a Internet: uma abordagem top-down, TANEBAUM: Redes de Computadores.
+	Apresentação da plataforma da CISCO.
+	Apresentação sobre a presença de redes de computadores na vida atual.
+	O que define se uma rede é grande ou pequena é o número de hosts (máquinas).
+	As máquinas podem ser divididas em clientes e servidores.
+		Clientes solicitam serviços ao servidor.
+		Servidor provê os serivços solicitados ao cliente.
+	Rede ponto a ponto (P2P) não há hierarquia entre servidores e clientes, hora o cliente pode atuar como cliente ou servidor, o mesmo para o servidores.
+	Será estudados os dispositivos: computadores (dispositivos finais:	destino final da informação),
+																		roteadores (interconectar redes diferentes e escolher o melhor caminho),
+																		switch,
+																		meios fisicos são os cabos por onde transitam os dados,
+																		aplicações.
+	Diagramas de topologia:
+							fisica:	mostra exatamente onde os equipamentos estão instalados e conectados.
+							logica:	endereço IP.
+	Rede LAN	: mesma área geográfica, local
+	Rede WAN	: área geográfica distante, longa distancia.
+	Internet	: junção das LAN e WAN.
+	Internet rede desmilitarizada.
+	Extranet rede acesso externo porém com restrições.
+	Intranet rede acesso interno à rede.
+	ISP - Internet Service Provider	: tecnologias de conexão A(assyncronous)DSL.
+	Metrointernet redes metropolitanas.
+	Antigamente existiam redes para os diversos serviços telefonia, video, dados, etc.
+	Agora existe uma única rede que converge todo os serviços no formato de dados, unificando todos os serviços.
+	Qualidades de uma rede.
+	
+		
