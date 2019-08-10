@@ -35,5 +35,39 @@
 	Antigamente existiam redes para os diversos serviços telefonia, video, dados, etc.
 	Agora existe uma única rede que converge todo os serviços no formato de dados, unificando todos os serviços.
 	Qualidades de uma rede.
+
+##Dia 07/08/2019.
+	NetAcad: 1.3
+	Redundância de redes como tolerância à falha.
+	Escalabilidade: a rede consegue expandir sem afetar o desempenho da rede existente.
+	Qualidade de serviço (QoS) : priorizar certos serviços sobre outros.
+	Segurança: usuário e senha para acesso ao equipamentos. Confidenciabilidade, Disponbilidade, Integridade.
+	NetAcad: 1.4
+	Bring your own device
+	Colaboração online.
+	Comunicação por vídeo.
+	Computação em nuvem.
+	YoutubeGo.
+	Tendências tecnológicas em Casa.
+	Redes powerline.
+	Banda larga sem fio.
+	Ameaça às redes.
+	Solução de segurança: antivirus e antispyware, filtragem por firewall, firewall dedicado, lista de controle ACL, redes privadas virtuais (VPN).
+	Arquitetura da CISCO.
+	Sugestão de assistir: 1.5.1.2 Guerreiros da Net
+	NetAcad: 2. Configuração de um Sistema Operacional da Rede.
+	Kernel é que faz comunicação entre hardware e software de um computador e controla como os recursos de hardware são usados para atender os requisitos de software.
+	Shell é a interface que permite que os usuários solicitem tarefas específicas ao computador. Essas interações podem ser feitas por meio das interfaces CLI e GUI.
+	Métodos de acesso: cabo usado para acesso exclusivamente ao console do equipamento na porta RS232, ssh, telnet.
+	Programas de emulação de terminal.
+	Prompt é o cabeçalho de uma linha de comando. É uma forma do SO falar ao usuário que está pronto aguardando comandos do usuário. o Nome do prompt é o host (nome do equipamento). o ">" é o modo de operação(permissão) do usuário.
+	Comando Enable alterna para como privilegiado e o modo de operação será o #.
+	Comando Disable retorna para o usuário e o modo de operação será o >.
+	Comando Configure Terminal para alterar o modo de configuração global (diversas configuraçãoes do equipamento).
+	Comando line console 0 alterar o modo de configuração global para específico (apenas configuraçãoes da console 0).
+	Comando exit retorna um nível no modo de configuração.
+	O caracter ? mostra os comandos possíveis de serem executados no atual modo.
+	
+	
 	
 		

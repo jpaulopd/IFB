@@ -53,4 +53,195 @@
 							
 							
 							
+##Dia 05/0/2019.
+	Atividades avaliativas estarão em "Exercícios" no nead.
+	Ordem de precedência de conectivos: ~ < ˄ < ˅ < xor < se entao < se e somente 
+	Lista 1
+		1)
+			p = está frio
+			q = está chovendo
+			a) ~p: não está frio
+			b) p ˄ q : está frio e está chovendo
+			c) p ˅ q : está frio ou está chovendo
+			d) q <=> p: está frio se e somente se está chovendo
+			e) p => ~q : se está frio então não está chovendo.
+			f) p ˅ q : está frio ou não está chovendo.
+			g) ~p ˄ ~q : não está frio e não está chovendo.
+			h) p ˄ ~q => p : se está frio e não está chovendo então está frio.
+			
+		2)
+			p = Antônio é rico
+			q = Jose é feliz
+			a) q => p : se Jose é feliz então Antônio é rico
+			b) p ˅ ~q : Antônio é rico e José não é feliz
+			c) q <=> ~p : Jose é feliz se e somente se Antônio não é rico
+			d) ~p => q : Se Antônio não é rico então José é feliz
+			e) ~~p : Antônio é rico
+			f) p ˄ q : Antônio é rico e José é feliz.
+			
+		3)
+			p = Carlos fala frances 
+			q = Carlos fala ingles
+			r = Carlos fala alemao
+			a) Carlos fala frances ou ingles, mas não fala alemao : p ˅ q ˄ ~r
+			b) Carlos fala frances e ingles, ou nao fala frances e alemao : p ˄ q ˅ ~(q ˄ r)
+			c) É falso que Carlos fala frances  mas não que fala alemao : ~(p ^ ~r)
+			d) É falso que Carlos fala ingles ou alemão mas não que fala frances : ~(q ˅ r ˄ ~p)
+		
+		4) 
+			p = Maria é rica
+			q = Maria é feliz
+			a) Maria é pobre, mas feliz : ~p ˄ q
+			b) Maria é rica ou infeliz : p ˅ q 
+			c) ~p ˄ ~q
+			d) ~p ˅ p ˄ ~q
+			
+		5)
+			p = está chovendo
+			q = está ventando
+			a) ~~p : está chovendo
+			b) p ˄ q : está chovendo e está ventando
+			c) está ventando ou não está chovendo
+			d) está ventando se e somente se está chovendo
+			e) não está chovendo ou não está ventando 
+		
+		6)
+			a) se x > 0 então y =2 : x => y
+			b) y = 4 e se x < y entao x < 5 : x ˄ y => y
+			c) x é maior que 5 e menor que 7 ou x não é igual a 6 : (x ˄ y) ˅ ~r
+
+		7) 
+			V	F	V
+			V	F	V
+			V	F	V
+			F	V	F
+			
+		8)
+			V	V	V
+			V	F	V
+			F	V	V
+			F	F	F
+			V	F	V
+			V	F	V
+			V	F	V
+			V	F	V
+			
+		9) 
+			a) ~q ˅ ~p	: 
+						   q| p | ~q | ~p | ~q ˅ ~ p
+						  v	| v | f  | f  | f
+						  V | f | F  | v  | v
+						  f | v | v  | f  | v
+						  F | f | V  | v  | v
+			d) (P ˅ R ) ˄ Q :
+							p | q | r | P ˅ R |  (P ˅ R ) ˄ Q
+							V | V | V | V     |  V
+							V | V | F | V     |  V
+							V | F | F | 
+			c) P ^ Q ^ R: 
+							p | q | r | P ^ Q |  P ^ Q ^ R
+							V | V | V | V     | V
+							V | V | F | F     | F
+							V | F | F | F     | F
+							F | F | F | F     | F
+							F | V | V | F     | F
+							F | V | F | F     | F
+							F | F | V | F     | F
+							F | V | V | F     | F
 	
+
+	Início aula sobre algoritmos.
+	Algoritmo textual informal.
+	Algoritmo gráfico semi-formal.
+	Algoritmo textual formal.
+	Torre de hanói 
+		Levar o círculo 1 para o eixo 3;
+		Levar o círcula 2 para o eixo 2;
+		Levar o circulo 1 para o eixo 2;
+		Levar o circulo 3 para o eixo 3;
+		Levar o circulo 1 para o eixo 1;
+		Levar o circulo 2 para o eixo 3;
+		Levar o circulo 1 para o eixo 3;
+						  
+##Dia 06/08/2019.
+	Exercicio de fixação sobre algoritmo para trocar uma lampada:
+		Resolução:
+			Posicionar escada sob a lâmpada a ser trocada;
+			Retirar lâmpada queimada;
+			Inserir lâmpada nova;
+			Testar lâmpada nova;
+				Se não funcionar, troque a por outra lâmpada.
+				Se funcionar, descarte a lâmpada usada.
+	Exercicio de algoritmo: recepcionista deve verificar bilhete e direcionar para sala correta, se cliente estiver 30 min adiantado (deve ser informado não estar aberto) ou atrasado não pode entrar (deve ser informado que não poderá entrar).
+		Pedir bilhete ao cliente.
+		Se bilhete válido, informar sala correta.
+			Se não, cliente atrasado, informar a impossibilidade de não entrar mais na sessão.
+			Se nao, cliente adiantado, informar que a impossibilidade entrar naquele momento, sendo necessário aguardar.
+			Se não, então, informar que não há possibilidade de entrar em alguma sessão.
+	Criar fluxograma do mesmo algoritmo.
+	Objetivos: composição de um programa, compreender lógica, conhecer a representação de um algoritmo.
+	Algoritmo é uma definição de passos para resolver um problema, logo, programar é desenvolver um algoritmo para o computador desenvolver.
+	Fluxograma:
+		bola : inicio e fim de programa.
+		retangulo: processo - calculos e atribuicoes
+		rentangulo inclinado: entra de dados (leitura)
+		retangulo ondulado: saida de dados (impressao)
+		losango: tomada de decisao
+		seta: sentindo do fluxo
+	
+		Vários exemplos fluxograma de algoritmos.
+		Exercicios
+			1) Algoritmo: entrada valor inteiro e impressao de seu dobro.
+				Inicio
+				Entrada: número inteiro
+				Processamento: numero inteiro * 2 = N;
+				Saida: N
+				Fim
+			2) Algoritmo: ler nome de duas pessoas, imprimir nome com maior número de caracteres
+				Inicio
+				Entrada: nome1, nome2
+				Processamento: contarCaracteres nome1 e nome2
+				Decisão: se nome1 >  nome2, então:
+							Saida: nome1
+						 se nome1 < nome 1, então:
+							Saida: nome2
+						 se nome1 = nome2
+							Saida: nome1, nome2
+				Fim
+			3) Algoritmo: ler três números inteiros, imprimir na tela soma dos dois primeiros subtraido do terceiro
+				Inicio
+				Entrada: n1, n2, n3
+				Processamento: n1 + n2 - n3 = R
+				Saida: R
+				Fim
+			4) Algoritmo: ler dois numeros inteiros, imprimir tela maior numero
+				Inicio
+				Entrada: n1, n2
+				Decisao: se n1 > n2, entao Saida n1
+						 se n1 < n2, entao Saida n2
+				Fim
+			5) Algoritmo: ler dois numeros inteiros, ler operador e apresenta saida
+				Inicio
+				Entrada: n1, n2
+				Entrada: operador
+				Se operador = +, então n1 + n2 = R
+					Saida = R
+				Se operador = -, então n1 - n2 = R
+					Saida = R
+				Se não, FIM
+				Fim
+			6) Algoritmo: leia dois números inteiros, leia operacao matematica, imprima resultado
+				Inicio
+				Entrada: n1, n2
+				Entrada: operador
+				Se operador = +, então n1 + n2 = R
+					Saida = R
+				Se operador = -, então n1 - n2 = R
+					Saida = R
+				Se operador = *, então n1 * n2 = R
+					Saida = R
+				Se operador = /, então n1 / n2 = R
+					Saida = R
+				Se não, FIM
+				Fim
+			7) Algoritmo: olhar para os dois lados da rua; aguardar que não tenha carros na via; atravesar com celeridade a rua.

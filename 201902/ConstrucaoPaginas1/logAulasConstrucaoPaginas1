@@ -8,3 +8,29 @@
 	Diferença site e sistema web: site é um ambiente estático e o sistema tem utilização de banco de dados.
 	O objetivo da matéria é oferecer até a a interface gráfica de sites.
 	thiago.segato@ifb.edu.br
+	
+##Dia 08/08/2019
+	http://html5test.com/
+	Explicações sobre a origem da internet.
+	Explicações sobre páginas, servidores, requisições, navegadores, etc.
+	Evitar nomes de paginas no plural, sem ascento.
+	Organizar arquivos em pastas separadas.
+	Sintaxe básica.
+	Declaração <!DOCTYPE html> : aparece antes do <html> e serve para identificar como html 5.
+	Codificação de caracteres, mas não o idioma da página para indexação:
+		<meta charset= "ISO-8859-1"> dentro <head> para identificar caracteres em português.
+		alternativa é o UTF-8, stackoverflow indica essa como melhor opção.
+	www.materialpalette.com
+	Linguagem do site <html lang="pt-br">
+	<br /> tag orfão para pula linha
+	italico <em>
+	negrito <strong>
+	Cor luz: cor baseado em frequencia de luz. RGB
+		#Hexadecimal se repetir duas casas é cinza, 000000 é preto, FFFFFF é branco
+	Cor pigmento: baseado em tonalidades. CMYK
+	www.material.io - oficial do google
+	#212121 é a tendência de uso de cor de fundo
+	
+	
+	
+	
