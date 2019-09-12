@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<link href="https://fonts.googleapis.com/css?family=Lexend+Peta|Lobster|Lobster+Two|Open+Sans|Roboto&display=swap" rel="stylesheet">
+		<title>PICA PAU GAMES </title>
+		<title>ESCAMBO</title>
+	</head>
+	<body link="#FF5252" alink="#FF5252" vlink="#FF5252">
+		<img id="topo" src="img/banner.jpg" alt="Banner com imagem de um pica-pau"  >
+		
+		<center>
+			<font size="4" face="Open Sans">
+				<a href="index.html">HOME</a>
+				<a href="index.html#pag_rank">RANKING</a>
+				<a href="index.html#pag_not">NOTÍCIAS</a>
+				<a href="escambo.html">ESCAMBO</a>
+			</font>
+		</center>
+
+		<font color="#3F5185" face="LOBSTER" size="5">
+			<h1 align="center">Escambo</h1>
+			<p align="center">Compra, venda e troca de jogos...</p>
+		</font>
+
+		<form name="" method="" action="">
+			<p>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome" size="50" maxlength="25" autofocus required />
+			</p>
+
+			<p>
+				<label for="login">Login:</label>
+				<input type="text" name="login" id="login" placeholder="	Digite seu login " />
+
+				<label for="senha">Senha:</label>
+				<input type="password" name="senha" id="senha" placeholder="	Digite sua senha " />
+			</p>
+
+			<p>
+				<label for="email">E-mail:</label>
+				<input type="email" name="email" id="Email" placeholder="email@dominio.com" />
+
+				<label for="celular">Telefone:</label>
+				<input type="tel" name="celular" id="celular" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$" />
+			</p>
+
+
+			<p>
+				<label for="jogos">Jogos:</label>
+				<select name="jogos" id="jogos">
+					<option>Selecione</option>
+					<option value="WOODY WOODPECKER ESCAPE FROM BUZZ BUZZARD PARK">WOODY WOODPECKER ESCAPE FROM BUZZ BUZZARD PARK</option>
+					<option value="WOODY WOODPECKER RACING">WOODY WOODPECKER RACING</option>
+					<option value="WOODY WOODPECKER CRAZY CASTLE 5">WOODY WOODPECKER CRAZY CASTLE 5</option>
+				</select>
+			</p>
+
+			<p>
+				<label for="data">Data:</label>
+				<input type="date" name="data" id="data">
+
+				<label for="hora">Hora:</label>
+				<input type="time" name="hora" id="hora">
+
+				<label for="qtde">Quantidade:</label>
+				<input type="number" name="qtde" id="qtde" min="1" max="10" step="1">
+				<input type="range" name="qtde" id="qtde" min="1" max="10" step="1">
+			</p>
+
+			<fieldset>
+				<legend>Plataforma</legend>
+				<input type="radio" name="plataforma" value="switch">
+				<label >Switch</label> <br/>
+
+				<input type="radio" name="plataforma" value="xbox">
+				<label >XBox</label> <br/>
+
+			</fieldset>
+			<br/>
+			<fieldset>
+				<legend>Adicionais</legend>
+				<input type="checkbox" name="adicionais" value="controle">
+				<label >Controle</label> <br/>
+
+				<input type="checkbox" name="adicionais" value="mousepad">
+				<label >Mousepad</label> <br/>
+
+			</fieldset>
+			<input type="submit" name="" />
+		</form>
+
+
+	</body>
+</html>
