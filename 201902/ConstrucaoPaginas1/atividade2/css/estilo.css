@@ -1,0 +1,88 @@
+
+/* link nao visitado*/
+a:link {
+  color: #FFFFFF;
+}
+
+/* link visitado*/
+a:visited {
+  color: #FFFFFF;
+}
+
+/* mouse sobre o link */
+a:hover {
+  color: #FFFFFF;
+}
+
+/* link selecionado*/
+a:active {
+  color: #FFFFFF;
+}
+
+body {
+    position: relative;
+    line-height: 1.5;
+    font-size: 15px;
+    line-height: 1.0;
+    width:100%;
+    background-color: #F44336;
+    font: 20px Open Sans, sans-serif;
+ 	color:#FFFFFF;
+
+  	}
+#foot{
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+ p {
+ 	text-align: justify;
+ 	vertical-align: middle;
+ }
+
+ h1,h2,h3 {
+ 	font: 35px Roboto, sans-serif;
+ 	font-weight: bold;
+ 	text-align: right;
+ 	vertical-align: middle;
+ 	padding-right: 10px;
+ }
+
+ table, th, td {
+  text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+
+img[src="img/banner.png"] {
+     height: 350px;
+     width: 1300px;
+}
+
+#topo {
+    background-color: #536DFE;
+  	text-align: center;
+ 	vertical-align: center;
+}
+
+img[src="img/return.png"] {
+    height: 45px;
+    width: 45px;
+	padding-left: 1300px
+}
+
+img[src="img/produtoA.png"],
+img[src="img/produtoB.png"],
+img[src="img/produtoC.png"],
+img[src="img/produtoD.png"],
+img[src="img/produtoE.png"],
+img[src="img/produtoF.png"],
+img[src="img/produtoG.png"],
+img[src="img/produtoH.png"] {
+    height: 300px;
+    width: 300px;
+}
