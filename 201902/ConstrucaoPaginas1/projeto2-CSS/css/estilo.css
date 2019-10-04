@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap');
+
+
+* {margin : 0; padding: 0}
+
+body{
+}
+
+header, img {
+	width: 100%;
+	height: 400px;
+	background-color: #795548;
+}
+
+nav {
+	background-color: #F44336;
+	text-align: center;
+	/*margin: 20px;*/
+	padding: 20px;
+}
+
+a 	{
+	color: #FFC107;
+	/*font-family: 'Itim', cursive;*/
+	/*font: 1.2em 'Itim', cursive, Sans Serif;*/
+	font: 2em 'Lobster', Sans Serif;
+	font-weight: lighter;
+	text-decoration: none; /*apaga o underline*/
+	padding-right: 20px;
+}
+
+article{
+	background-color: #EEEEEE;
+	padding: 20px;
+}
+
+h1, h2	{
+	font: 4em 'Lobster', Sans Serif;
+	color: #3F5185;
+	text-align: center;
+	margin-bottom: 1%;
+}
+
+h2 {
+	text-align: left;
+}
+
+p {
+	font: 1.3em 'Roboto', Sans Serif;
+	color: #3F5185;
+	text-align: justify;	
+	text-indent: 50px; /*recuo primeira linha do paragrafo*/
+}
+
+section{
+}
+
+#pag_rank{
+	background-color: #00BCD4;
+	padding: 20px;
+	font: 1.3em 'Roboto', Sans Serif;
+}
+
+ol {
+	padding-left: 100px;
+	margin-bottom: 50px;
+}
+
+li{
+	padding-top: 10px;  
+	font: 1.3em 'Roboto', Sans Serif;
+	color: #FFF;
+}
+
+video {
+	height: 320px;
+}

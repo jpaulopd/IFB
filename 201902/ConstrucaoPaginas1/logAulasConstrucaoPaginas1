@@ -31,6 +31,30 @@
 	www.material.io - oficial do google
 	#212121 é a tendência de uso de cor de fundo
 	
+##Dia 18/09/2019
+	www.html5test.com : testa compatibilidade do navegador com html5test
 	
+##Dia 03/10/2019
+	Introdução ao CSS
+	sempre colocar na folha de estilo o código "* {margin : 0; padding: 0}" para que  possam ser zeradas todas as margens externas e internas.
+	Conceito tableless : elimar tabela do layout
+		Em substitução as tabelas surgiram as <div> e box model.
+	A partir do HTML 5 surgiram divs semanticas:
+		<div header> - cabeçalho
+		<div nav> - opcoes
+		<div article> - conteudo : maior importancia
+		<div section> - conteudo : menor importancia
+		<div aside> - conteudo : nao relacionado diretamente com o conteudo do site
+		<footer> - rodapé
+	Margin são as margens externas ao objeto.
+	Paddin são as margens internas do objeto.
+	https://fonts.google.com para busca de fontes.
+	"em" é uma medida de percentual para fontes, a diferença é que ele considera o tamanho do dispositivo.
+	As margens podem ser descritas em unica linha, a ordem é no sentido horário e iniciando nas 00h.
+		Também é possível utilizar apenas dois valores, sendo que o primeiro valor será aplicado para 00h e 06h e o segundo para 3h e 9h.
+		margin: 10px 9px 8px 7px
+		margin: 10px 8px
+		
+		
 	
 	
