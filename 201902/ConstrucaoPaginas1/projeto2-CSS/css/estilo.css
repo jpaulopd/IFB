@@ -75,3 +75,23 @@ li{
 video {
 	height: 320px;
 }
+
+#pag_noti{
+	padding: 20px;
+}
+
+footer{
+	padding: 15px;
+	background-color: #000;
+
+}
+
+footer p {
+	text-align: center;
+	font: 1.2em;
+}
+
+footer a {
+		font: 1em;
+
+}
