@@ -149,4 +149,19 @@ form p, legend, label{
 
 input, select, textarea {
 	font: 1.1em 'Roboto', Sans Serif;
+	margin-bottom: 10px;
 }
+
+input[type="radio"], input[type="checkbox"]{
+	margin-left: 50px;
+}
+
+input[type="submit"], input[type="reset"]{
+	background-color: green;
+	color: #FFFFFF;
+	padding: 10px;
+}
+
+ input [type="reset"]{
+ 	background-color: red;
+ }
