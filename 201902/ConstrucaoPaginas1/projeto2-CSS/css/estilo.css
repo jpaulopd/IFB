@@ -68,14 +68,15 @@ h2 {
 	text-align: left;
 }
 
-p {
+p, legend, label {
 	font: 1.3em 'Roboto', Sans Serif;
 	color: #3F5185;
 	text-align: justify;	
 	text-indent: 50px; /*recuo primeira linha do paragrafo*/
 }
 
-section{
+section {
+	padding: 20px;
 }
 
 #pag_rank{
@@ -130,4 +131,22 @@ footer a {
 
 footer a:active {
 	font-size: 1em;
+}
+
+/*FORMULARIO*/
+
+
+form{
+	width: 70%;
+	margin: auto;
+	border: 1px solid #CCC;
+	padding: 20px;
+}
+
+form p, legend, label{
+	text-indent: 0;
+}
+
+input, select, textarea {
+	font: 1.1em 'Roboto', Sans Serif;
 }
