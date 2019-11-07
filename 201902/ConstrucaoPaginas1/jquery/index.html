@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"> </script>
+	<script type="text/javascript">
+			$(document).ready(function()
+			{
+				// alert("Ola Mundo!");
+				$("a").click(function(){
+				prompt("Entre com sua senha para continuar: ");
+				});
+
+				$("#aestilo").click(function(){
+					$("#pestilo").addClass('estilo')
+				});
+
+			});
+	</script>
+
+	<style type="text/css">
+		.estilo{
+			color: pink;
+			font-weight: bold;
+			font: 3em 'Comics Sans';
+			border: 2px dotted purple;
+		}
+	</style>
+
+</head>
+<body>
+	<a href="#">Autenticar</a>
+	<a id="aestilo" href="#">Estilizar</a>
+	<p id="pestilo">JOAO PAULO</p>
+	<p>Outro texto</p>
+
+</body>
+</html>

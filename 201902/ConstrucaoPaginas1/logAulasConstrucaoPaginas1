@@ -60,5 +60,15 @@ https://www.toptal.com/designers/subtlepatterns/ padrões de imagem de fundo par
 	
 #Dia 07/11/2019
 Ajax - utilização de requisiçõse assíncronas
+Jquery - versão SLIM remove versões de funções mais complexas.
+	a versão utilizada pelo professor é a uncompressed de desenvolvimento.
+
+	$(document).ready(function(){
+		//implementacao;
+	});
+
+	as chamadas do jquery é feita no HTML ou no Javascript.
+	document = seletor do objeto, tal como o seletor do CSS
+	ready = página carregada.
 
 	
