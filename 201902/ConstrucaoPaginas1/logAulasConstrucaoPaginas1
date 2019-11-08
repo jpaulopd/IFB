@@ -70,5 +70,12 @@ Jquery - versão SLIM remove versões de funções mais complexas.
 	as chamadas do jquery é feita no HTML ou no Javascript.
 	document = seletor do objeto, tal como o seletor do CSS
 	ready = página carregada.
-
+	GRUPO (ISA, RODRIGO, JP) - APRESENTAR 14/11 - TEMA 
+		O QUE É?
+		PARA QUE SERVE?
+		CARACTERISTICAS?
+		VANTAGENS E DESVANTAGENS?
+		QUEM USA?
+		PASSO A PASSO UTILIZAÇÃO?
+		EXEMPLO PRÁTICO.
 	
