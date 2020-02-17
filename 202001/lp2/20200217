@@ -1,0 +1,19 @@
+Solucao desafio 1:
+
+
+int horaSaida, tempoViagem, fusoHorario;
+int somaTempo;
+
+escreval("horario saida:");
+leia(horaSaida);
+
+escreval("tempo viagem:");
+leia(tempoViagem);
+
+escreval("fuso horario:");
+leia(fusoHorario);
+
+somaTempo = horaSaida + tempoViagem + fusoHorario;
+
+escreval ("Horario de chegada será :" , somaTempo);
+
