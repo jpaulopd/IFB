@@ -17,3 +17,67 @@ somaTempo = horaSaida + tempoViagem + fusoHorario;
 
 escreval ("Horario de chegada será :" , somaTempo);
 
+
+
+package testes;
+
+import java.util.Scanner;
+
+public class calculadora 
+{
+	public static void main(String[] args) 
+	{
+		Scanner 	sc 			= new Scanner(System.in);
+		Integer		valor 		= null;
+		Long		resultado 	= 1L;
+		String		operador 	= "/";
+		
+		System.out.println("Valor inicial na calculadora: " + resultado + "\n");
+		System.out.println("Digite um operador...");
+		System.out.println("Divisao / ou Multiplicação * \n");
+		operador = sc.nextLine();
+		
+		while( !operador.equals(".") )
+		{
+			
+			if	(operador.equals("/") || operador.equals("*") ) 
+			{
+				System.out.println("Digite um valor entre 1 e 100 mil ");
+				valor = sc.nextInt();
+				if (valor >= 1 || valor <= 100000) 
+				{
+					switch (operador) 
+					{
+					case "/": 
+						resultado = valor / resultado;
+						System.out.println("Resultado = " + resultado + "\n");
+						break;
+					case "*":
+						resultado = valor * resultado;
+						System.out.println("Resultado = " + resultado + "\n");
+						break;
+					}
+				}
+				else
+				{
+					System.out.println("Valor digitado não é válido! Atenção para o intervalo entre 1 e 100mil!");
+				}
+
+			}
+			else 
+			{
+				System.out.println("Operador não é válido! Somente divisão / ou multiplicação * !");
+			}
+			
+			System.out.println("Digite um operador...");
+			operador = sc.nextLine();
+
+			
+		}
+		System.out.println("Fim da aplicação...");
+	}
+}
+
+
+
+
