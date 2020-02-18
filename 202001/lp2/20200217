@@ -33,12 +33,13 @@ public class calculadora
 		String		operador 	= "/";
 		
 		System.out.println("Valor inicial na calculadora: " + resultado + "\n");
-		System.out.println("Digite um operador...");
-		System.out.println("Divisao / ou Multiplicação * \n");
-		operador = sc.nextLine();
+	
 		
 		while( !operador.equals(".") )
 		{
+			System.out.println("Digite um operador...");
+			System.out.println("Divisao / ou Multiplicação * \n");
+			operador = sc.next();
 			
 			if	(operador.equals("/") || operador.equals("*") ) 
 			{
@@ -64,20 +65,14 @@ public class calculadora
 				}
 
 			}
-			else 
-			{
-				System.out.println("Operador não é válido! Somente divisão / ou multiplicação * !");
-			}
-			
-			System.out.println("Digite um operador...");
-			operador = sc.nextLine();
 
 			
+		
 		}
+		System.out.println("Operador não é válido! Somente divisão / ou multiplicação * !");
 		System.out.println("Fim da aplicação...");
 	}
 }
-
 
 
 
