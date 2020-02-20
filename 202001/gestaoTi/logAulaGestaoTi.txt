@@ -7,3 +7,24 @@ DIA 20/02/2020
         ITIL V2:
         ITIL V3: refinamento nos processos, migra de OGC para Alexos
         ITIL V4: incorpora elementos de feedback
+                nova forma de contextualizar e fornecer servicos
+                serviço como todo
+                fluxo de valor flexível
+                elementos-chave: demanda, engajamento, produtos e serviços, valor
+                Sistema de valor de serviço: 
+                                            descreve todos os componentes e atividades de uma organização. 
+                                            Planejar - melhorar - engajar - desenho e transição - obter/construir - entregar - suportar
+                dimensões:
+                            organização e pessoas; 
+                            informação e tecnologia;  
+                            parceiros e fornecedores;
+                            fluxo e processos de valor;
+                princípios orientadores: devem ser avaliados em todas as etapas dos serviços
+                                            concentre-se no valor;
+                                            comece por onde você está;
+                                            progrida interativamente com feedback;
+                                            colabore e promova a visibilidade;
+                                            pense e trabalhe de forma holística;
+                                            mantenha simples e prático;
+                                            otimize e automatize.
+                
