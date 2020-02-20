@@ -1,0 +1,9 @@
+DIA 20/02/2020
+    COBIT E ITIL = DIRETORIA
+    ITIL é uma biblioteca de gerenciamento de serviços de TI
+        Primeira versão no Reino Unido (OGC): 1980
+        Assistir Piratas do Vale do Silício
+        ITIL V1:
+        ITIL V2:
+        ITIL V3: refinamento nos processos, migra de OGC para Alexos
+        ITIL V4: incorpora elementos de feedback
