@@ -1,0 +1,13 @@
+Log de aulas
+
+##2020/02/28
+Elemento DOCTYPE = 
+    Hoje em dia, todos os navegadores suportam a versão mais atual do (HTML). Porém ainda existem documentos de páginas baseadas em versões anteriores do HTML.
+    Uma página HTML é um arquivo simples que contém texto formato com tags HTML tradicionalmente o arquivo abre uma extensão onde uma página web pode ser criada
+        por editores de texto básicos ou de versões WYSIWYG, que são editores de interface gráfica para desenvolver novos produtos web.
+    Com esses editores é possível adicionar TAG com um clique e também manipular com os códigos.
+    Apesar da sintaxe, o DOCTYPE não é uma TAG do HTML e sim uma declaração para informar ao navegador qual é a versão atual do HTML.
+        Portanto, geralmente é apresentada a primeira linha deu m código.
+        Até a versão 4, o HTML era baseado no SGML, portanto a declaração do DOCTYPe era feita através do módulo DTD (DOcument Type Declaration)
+            A partir da versão 5, o HTML deixou de ser baseado em SGML e, dessa forma, simplificou até mesmo a declaração do DOCTYPE.
+            <!DOCTYPE HTML>

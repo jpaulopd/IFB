@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 15 Trial Version - http://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.parallax.min.js"></script>
+<script src="wb.carousel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $('#wb_LayoutGrid5').parallax();
+   var Carousel1Opts =
+   {
+      delay: 3000,
+      duration: 500,
+      easing: 'linear',
+      mode: 'forward',
+      direction: '',
+      pagination: true,
+      pagination_img_default: 'images/Carousel1-default.png',
+      pagination_img_active: 'images/Carousel1-active.png',
+      pause: null,
+      start: 0
+   };
+   $("#Carousel1").carousel(Carousel1Opts);
+   $("#Carousel1_back a").click(function()
+   {
+      $('#Carousel1').carousel('prev');
+   });
+   $("#Carousel1_next a").click(function()
+   {
+      $('#Carousel1').carousel('next');
+   });
+});
+</script>
+</head>
+<body>
+<a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb15.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250"></a>
+<div id="wb_LayoutGrid5">
+<div id="LayoutGrid5-overlay"></div>
+<div id="LayoutGrid5">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading5" style="display:inline-block;width:100%;z-index:0;">
+<h1 id="Heading5">ARTICLE HEADER</h1>
+</div>
+<div id="wb_Heading6" style="display:inline-block;width:100%;z-index:1;">
+<h2 id="Heading6">Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor.</h2>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="NavigationBar1" style="position:absolute;left:232px;top:287px;width:416px;height:30px;z-index:6;">
+<ul class="navbar">
+<li><a href=""><img alt="" src="images/img0001_over.png" class="hover"><span><img alt="" src="images/img0001.png"></span></a></li>
+<li><a href=""><img alt="" src="images/img0002_over.png" class="hover"><span><img alt="" src="images/img0002.png"></span></a></li>
+<li><a href=""><img alt="" src="images/img0003_over.png" class="hover"><span><img alt="" src="images/img0003.png"></span></a></li>
+<li><a href=""><img alt="" src="images/img0004_over.png" class="hover"><span><img alt="" src="images/img0004.png"></span></a></li>
+</ul>
+</div>
+<div id="wb_Carousel1" style="position:absolute;left:92px;top:328px;width:505px;height:263px;z-index:7;overflow:hidden;">
+<div id="Carousel1" style="position:absolute;">
+<div class="frame">
+</div>
+<div class="frame">
+<div id="wb_Image1" style="position:absolute;left:561px;top:9px;width:435px;height:244px;z-index:2;">
+<img src="images/99686.jpg" id="Image1" alt=""></div>
+</div>
+<div class="frame">
+<div id="wb_Image2" style="position:absolute;left:1057px;top:0px;width:435px;height:244px;z-index:3;">
+<img src="images/desktop-wide (1).jpg" id="Image2" alt=""></div>
+</div>
+<div class="frame">
+</div>
+</div>
+<div id="Carousel1_back"><a><img alt="Back" src="images/carousel_back.png"></a></div>
+<div id="Carousel1_next"><a><img alt="Next" src="images/carousel_next.png"></a></div>
+</div>
+</body>
+</html>
