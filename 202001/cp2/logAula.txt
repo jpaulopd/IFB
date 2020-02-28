@@ -11,3 +11,21 @@ Elemento DOCTYPE =
         Até a versão 4, o HTML era baseado no SGML, portanto a declaração do DOCTYPe era feita através do módulo DTD (DOcument Type Declaration)
             A partir da versão 5, o HTML deixou de ser baseado em SGML e, dessa forma, simplificou até mesmo a declaração do DOCTYPE.
             <!DOCTYPE HTML>
+
+Comentário HTML
+    atributo "HREF"         = link para páginas internas ou externas
+    <script>                = para adicionar JAVASCRIPT a uma página
+    <var>                   = referente as variáveis da aplicação
+    div                     = elemento de divisão da página
+    <meta charset = "UTF8"> = faz parte de um padrão chamado UNICODE. A ideia é representar qualquer caracter e idioma
+    <img>                   = imagem colocada na página
+
+Comentário CSS
+    body            =   retoma o elemento ou  o <frameset> do documento atual ou null
+    background      =   fundo da página
+    list-style      =   propriedade usada para configurar list-style-type, list-style-imagem
+    nav             =   elemento HTML de navegação. Representa uma seção de uma página ou outras páginas
+    navigation bar  =   barra de navegação
+    width           =   largura
+    height          =   altura
+    visibility      =   propriedade do CSS mostrar ou ocultar   
