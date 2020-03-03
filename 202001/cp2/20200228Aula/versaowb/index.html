@@ -1,23 +1,111 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title></title>
-<link href="20200228.css" rel="stylesheet">
-<link href="index.css" rel="stylesheet">
-</head>
-<body>
-<img src="images/img0001.jpg" id="Banner1" alt="" style="border-width:0;position:absolute;left:4px;top:7px;width:1615px;height:77px;z-index:1;">
-<div id="wb_Marquee1" style="position:absolute;left:312px;top:25px;width:908px;height:40px;text-align:center;z-index:2;overflow:hidden">
-<div id="Marquee1">
-<span style="color:#000000;font-family:Arial;font-size:13px;">INSTITUTO FEDERAL DE BRASÍLIA</span></div></div>
-<div id="NavigationBar1" style="position:absolute;left:489px;top:84px;width:582px;height:30px;z-index:3;">
-<ul class="navbar">
-<li><a href="./index.html"><img alt="" src="images/img0002_over.png" class="hover"><span><img alt="" src="images/img0002.png"></span></a></li>
-<li><a href="./busca.html"><img alt="" src="images/img0003_over.png" class="hover"><span><img alt="" src="images/img0003.png"></span></a></li>
-<li><a href="./estude.html"><img alt="" src="images/img0004_over.png" class="hover"><span><img alt="" src="images/img0004.png"></span></a></li>
-<li><a href="./concurso.html"><img alt="" src="images/img0005_over.png" class="hover"><span><img alt="" src="images/img0005.png"></span></a></li>
-</ul>
-</div>
+<!doctype html> <!-- instrução para o web browser sobre a versão do HTML a ser lido-->
+<html><!--instrução para o web browser de que trata de documento HTML-->
+
+<head>   <!--tag que contem todos os elementos title, scripts, styles, meta, information-->
+   <meta charset="utf-8">   <!--padrão de caracteres a ser utilizado na página do tipo UTF-8-->
+   <title>Atividade 01 - Construção Páginas para Internet 2</title>   <!--define o título da página que aparecerá no cabeçalho do web browser, sistemas de buscar e favoritos-->
+   <meta name="author" content="João Paulo Pires Dantas"> <!--tag para inserir o author da página-->
+   <meta name="description" content="Pagina contendo um banner com marquee, navbar com 4 botões, carosel, música e video youtube"> <!--tag que descreve o conteúodo da página-->
+   <link href="20200228.css" rel="stylesheet">   <!--link é usado para conectar a paginas externas, nesse caso a folha de estilos-->
+   <link href="index.css" rel="stylesheet">   <!--usado para importar a folha de estilos-->
+   <script src="jquery-1.12.4.min.js"></script>   <!--o script é usado para execução de um arquivo interno ou externo contendo um script(programa)-->
+   <script src="wb.carousel.min.js"></script>   <!--script para o carosel-->
+   <script>
+      $(document).ready(function () {
+         var Carousel1Opts =
+         {
+            delay: 3000,
+            duration: 500,
+            easing: 'linear',
+            mode: 'forward',
+            direction: '',
+            pagination: true,
+            pagination_img_default: 'images/Carousel1-default.png',
+            pagination_img_active: 'images/Carousel1-active.png',
+            pause: null,
+            start: 0
+         };
+         $("#Carousel1").carousel(Carousel1Opts);
+         $("#Carousel1_back a").click(function () {
+            $('#Carousel1').carousel('prev');
+         });
+         $("#Carousel1_next a").click(function () {
+            $('#Carousel1').carousel('next');
+         });
+      });
+   </script>   <!--fechamento do script do carosel-->
+</head> <!--fechamento do head-->
+
+<body>   <!--tag utilizada para apresentação do conteudo HTML, textos, links, imagem, tabelas, listas, etc-->
+   <img src="images/img0001.jpg" id="Banner1" alt=""
+      style="border-width:0;position:absolute;left:4px;top:7px;width:1615px;height:77px;z-index:4;">   <!--tag que cria espaço no html e referencia a uma imagem que pode ser dentro do proprio projeto ou a um site externo-->
+   <div id="wb_Marquee1"
+      style="position:absolute;left:312px;top:25px;width:908px;height:40px;text-align:center;z-index:5;overflow:hidden">       <!--Divisor de HTML usado para criar um seção em que outros elementos HTML estarão contidos-->
+      <div id="Marquee1">          <!--tag div é usada também para aplicar estilo de maneira pontual, nesse caso para criar um banner em movimento-->
+         <span style="color:#a3a2a2;font-family:Arial;font-size:13px;">INSTITUTO FEDERAL DE BRASÍLIA</span>
+      </div>
+   </div>   <!--cria um agrupamento de elementos em uma mesma linha, no caso o texto do marquee-->
+   <div id="NavigationBar1" style="position:absolute;left:489px;top:84px;width:582px;height:30px;z-index:6;">      <!--div para criar os botões de navegação-->
+      <ul class="navbar">         <!--tag ul é usada para criar uma lista não ordenada de elementos que podem ser textos, imagens, etc-->
+         <li> <!--tag li cria os elementos de uma lista-->
+            <a href="./index.html">
+               <img alt="" src="images/img0002_over.png" class="hover">
+               <span><img alt="" src="images/img0002.png"></span>
+            </a>
+         </li> <!--fechamento do elemento da lista-->
+         <li>  <!--tag li cria os elementos de uma lista-->
+            <a href="./busca.html">
+               <img alt="" src="images/img0003_over.png" class="hover">
+               <span><img alt="" src="images/img0003.png"></span>
+            </a>
+         </li> <!--fechamento do elemento da lista-->
+         <li> <!--tag li cria os elementos de uma lista-->
+            <a href="./estude.html">
+               <img alt="" src="images/img0004_over.png" class="hover">
+               <span><img alt="" src="images/img0004.png"></span>
+            </a>
+         </li> <!--fechamento do elemento da lista-->
+         <li> <!--tag li cria os elementos de uma lista-->
+            <a href="./concurso.html">
+               <img alt="" src="images/img0005_over.png" class="hover">
+               <span><img alt="" src="images/img0005.png"></span>
+            </a>
+         </li> <!--fechamento do elemento da lista-->
+      </ul> <!--fechamento da lista-->
+   </div> <!--fechamento da barra de navegação-->
+   <div id="wb_Carousel1"
+      style="position:absolute;left:208px;top:170px;width:1207px;height:292px;z-index:7;overflow:hidden;">  <!--div para criação do carosel-->
+      <div id="Carousel1" style="position:absolute;">
+         <div class="frame"> <!--div utilizada para inserir cada imagem do carosel-->
+            <div id="wb_Image1" style="position:absolute;left:0px;top:0px;width:1207px;height:292px;z-index:0;">
+               <img src="images/99736.jpg" id="Image1" alt="">
+            </div>
+         </div>
+         <div class="frame"> <!--div utilizada para inserir cada imagem do carosel-->
+            <div id="wb_Image2" style="position:absolute;left:1207px;top:0px;width:1207px;height:291px;z-index:1;">
+               <img src="images/99699.jpg" id="Image2" alt="">
+            </div>
+         </div>
+         <div class="frame"> <!--div utilizada para inserir cada imagem do carosel-->
+            <div id="wb_Image3" style="position:absolute;left:2414px;top:0px;width:1207px;height:292px;z-index:2;">
+               <img src="images/99686.jpg" id="Image3" alt="">
+            </div>
+         </div>
+      </div>
+      <div id="Carousel1_back"><a><img alt="Back" src="images/carousel_back.png"></a></div> <!--div para os botões do carosel-->
+      <div id="Carousel1_next"><a><img alt="Next" src="images/carousel_next.png"></a></div>
+   </div>
+   <div id="wb_MediaPlayer1" style="position:absolute;left:208px;top:488px;width:1207px;height:70px;z-index:8;"> <!--div utilizada para inserir para definir o espaço do player de aúdio-->
+      <audio src="Halo_TotalAudio.mp3" id="MediaPlayer1" autoplay controls loop preload="auto"> <!--tag do HTML 5 para criar link para audio a ser disponibilizado no documento HTML-->
+      </audio>
+   </div>
+   <div id="wb_YouTube1" style="position:absolute;left:208px;top:586px;width:1207px;height:678px;z-index:9;"> <!--div para criar o espaço do vídeo do youtube-->
+      <!--tag que cria um envoltório para que elementos de outras páginas possam incorporados ao documento, no caso um vídeo do youtube-->
+      <iframe id="YouTube1" 
+         src="https://www.youtube.com/embed/9w3o9NHXqu0?rel=1&amp;autoplay=1&amp;modestbranding=1&amp;autohide=0&amp;fs=1" 
+         allowfullscreen>
+      </iframe>
+   </div>
 </body>
+
 </html>

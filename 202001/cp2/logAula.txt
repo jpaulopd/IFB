@@ -28,4 +28,15 @@ Comentário CSS
     navigation bar  =   barra de navegação
     width           =   largura
     height          =   altura
-    visibility      =   propriedade do CSS mostrar ou ocultar   
+    visibility      =   propriedade do CSS mostrar ou ocultar  
+
+    Entregar para próxima aulas
+    1) Criar página comentada e identada com os seguintes componentes
+        banner
+        4 botões
+        mp4
+        carosel
+        video do youtube
+    Entregar impresso
+
+    jlRVnIqjXhZ 
