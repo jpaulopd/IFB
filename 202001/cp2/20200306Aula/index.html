@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Pagina Testes</title>
+<meta name="generator" content="WYSIWYG Web Builder 14 Trial Version - http://www.wysiwygwebbuilder.com">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link href="base/jquery-ui.min.css" rel="stylesheet">
+<link href="jquery.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.slideshow.min.js"></script>
+<link rel="stylesheet" href="prettyPhoto/css/prettyPhoto.css">
+<script src="prettyPhoto/js/jquery.prettyPhoto.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#SlideShow1").slideshow(
+   {
+      interval: 3000,
+      type: 'sequence',
+      effect: 'none',
+      direction: '',
+      pagination: false,
+      effectlength: 2000
+   });
+   $("#Accordion1").accordion(
+   {
+      event: 'click',
+      animate: 'linear',
+      header: 'h3',
+      heightStyle: 'fill'
+   });
+   $("a[data-rel='prettyPhoto_PhotoGallery1[PhotoGallery1]']").attr('rel', 'prettyPhoto_PhotoGallery1[PhotoGallery1]');
+   $("a[rel^='prettyPhoto_PhotoGallery1']").prettyPhoto({theme:'facebook',social_tools:false});
+});
+</script>
+</head>
+<body>
+<div id="space"><br></div>
+<div id="container">
+<a href="http://www.wysiwygwebbuilder.com" target="_blank"><img src="images/builtwithwwb14.png" alt="WYSIWYG Web Builder" style="position:absolute;left:441px;top:967px;margin: 0;border-width:0;z-index:250"></a>
+<div id="wb_Accordion1" style="position:absolute;left:97px;top:123px;width:800px;height:379px;z-index:5;">
+<div id="Accordion1">
+<h3>INFORMAÇÃO</h3>
+<div>
+<div id="wb_Text1" style="position:absolute;left:17px;top:37px;width:766px;height:144px;z-index:0;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id neque. Felis imperdiet proin fermentum leo. Sed vulputate odio ut enim blandit volutpat. Nunc lobortis mattis aliquam faucibus purus in massa tempor nec. Massa placerat duis ultricies lacus. Justo laoreet sit amet cursus sit amet. Montes nascetur ridiculus mus mauris. Pretium viverra suspendisse potenti nullam ac. Augue lacus viverra vitae congue eu consequat. Amet consectetur adipiscing elit pellentesque habitant morbi. Nulla facilisi cras fermentum odio eu feugiat. Aliquam purus sit amet luctus venenatis lectus magna fringilla urna. Vitae semper quis lectus nulla at volutpat diam. Volutpat ac tincidunt vitae semper quis lectus nulla at.<br><br></span></div>
+</div>
+<h3>CRONOGRAMA</h3>
+<div>
+<div id="wb_Text2" style="position:absolute;left:13px;top:8px;width:769px;height:96px;z-index:1;">
+<span style="color:#000000;font-family:Arial;font-size:13px;">Lobortis scelerisque fermentum dui faucibus in ornare quam viverra. At auctor urna nunc id cursus metus. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Sed felis eget velit aliquet sagittis id consectetur purus ut. Amet cursus sit amet dictum. Enim praesent elementum facilisis leo vel fringilla est ullamcorper. Duis ultricies lacus sed turpis tincidunt id. Mauris sit amet massa vitae tortor. Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Magna eget est lorem ipsum dolor sit amet consectetur adipiscing. Quis ipsum suspendisse ultrices gravida dictum fusce. Ut lectus arcu bibendum at. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl.</span></div>
+</div>
+<h3>DATAS</h3>
+<div>
+<div id="wb_PhotoGallery1" style="position:absolute;left:20px;top:13px;width:282px;height:148px;z-index:2;">
+<div id="PhotoGallery1">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/EScRP-jXkAEncAr.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]"><img alt="" src="images/EScRP-jXkAEncAr.jpg"></a>
+      </div>
+      <div class="thumbnail">
+         <a href="images/EScRP-mXkAIjx8I.jpg" data-rel="prettyPhoto_PhotoGallery1[PhotoGallery1]"><img alt="" src="images/EScRP-mXkAIjx8I.jpg"></a>
+      </div>
+      <div class="clearfix visible-col2"></div>
+   </div>
+</div></div>
+</div>
+<h3>RESULTADOS</h3>
+<div>
+<div id="SlideShow1" style="position:absolute;left:27px;top:4px;width:191px;height:191px;z-index:3;">
+<img class="image" src="images/EScRP-jXkAEncAr.jpg" alt="" title="">
+<img class="image" src="images/EScRP-mXkAIjx8I.jpg" style="display:none;" alt="" title="">
+</div>
+</div>
+</div>
+</div>
+<img src="images/img0001.jpg" id="Banner1" alt="INSTITUTO FEDERAL DE BRASILIA" style="border-width:0;position:absolute;left:97px;top:0px;width:800px;height:73px;z-index:6;">
+</div>
+</body>
+</html>
