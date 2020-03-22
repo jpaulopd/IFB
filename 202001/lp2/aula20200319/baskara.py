@@ -1,10 +1,11 @@
 import math
 
-a , b , c = input().split(" ")
+# a , b , c = input().split(" ")
+# a = float(a)
+# b = float(b)
+# c = float(c)
 
-a = float(a)
-b = float(b)
-c = float(c)
+a , b , c = map(float, input().split())
 
 delta = b**2 - 4 * a * c
 
@@ -14,4 +15,4 @@ else:
     r1 = (-b + math.sqrt(delta)) / (2 * a)
     r2 = (-b - math.sqrt(delta)) / (2 * a)
 
-print("R1 = {:.5f} R2 = {:.5f}".format(r1,r2) )
+print("R1 = {:.5f}\nR2 = {:.5f}".format(r1,r2) )
