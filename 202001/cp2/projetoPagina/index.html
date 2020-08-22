@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+
+<head>
+   <meta charset="utf-8"> <!-- metadado para incluir caracteres especiais-->
+   <title>João DEV</title> <!-- metadado para incluir na barra de título o nome da página-->
+   <meta name="author" content="João Paulo Pires Dantas"> <!-- metadado para incluir nos buscadores o nome do autor-->
+   <meta name="keywords" content="desenvolvimento, web, paginas, site" /> <!-- metadado para buscadores localizarem a página por palavras-chaves -->
+   <meta name="description"
+      content="Homepage para projeto da matéria de construção de páginas 2 do IFB - 2020/01"> <!-- metadado para buscadores localizarem a página por descrição -->
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- metadado para retirar margens e espaços padrão do navegador-->
+   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" /> <!-- importa materialize -->
+   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" /> <!-- importa estilo personalizado de css -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   <!-- importa fontawesome  -->
+   <link rel="stylesheet" href="materialize-social.css"> <!-- importa materialize css -->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- importa fontes do google -->
+   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png"> <!-- importa favico -->
+</head>  
+
+<div>
+<body>
+
+  <!-- INICIO NAV BAR -->
+    <div class="navbar-fixed "> <!-- barra de navegação do topo da página, classe css do materialize -->
+      <nav>
+        <div class="nav-wrapper teal darken-4"> <!-- classe css do materialize para colorir barra de navegação-->
+          <a href="#!" class="brand-logo">João Paulo Desenvolvedor</a> <!-- classe css do materialize para logo da página -->
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a> <!-- classe css do materialize para criar icone quando pagina abrir no mobile-->
+          <ul class="right hide-on-med-and-down"> <!-- classe css do materialize para lista -->
+            <li><a href="#home">Início</a></li> <!-- item da "lista" na barra de navegação-->
+            <li><a href="#servicos">Serviços</a></li> <!-- item da "lista" na barra de navegação-->
+            <li><a href="#sobre">Sobre</a></li> <!-- item da "lista" na barra de navegação-->
+            <li><a href="#parceiros">Parceiros</a></li> 
+            <li><a href="#contato">Contato</a></li> <!-- item da "lista" na barra de navegação-->
+          </ul>
+        </div>
+      </nav>
+    </div>
+      <ul class="sidenav" id="servicos">
+        <li><a href="#home">Início</a></li> <!-- item da "lista" na barra de navegação do mobile -->
+        <li><a href="#servicos">Serviços</a></li> <!-- item da "lista" na barra de navegação do mobile -->
+        <li><a href="#sobre">Sobre</a></li> <!-- item da "lista" na barra de navegação do mobile -->
+        <li><a href="#parceiros">Parceiros</a></li> <!-- item da "lista" na barra de navegação do mobile -->
+        <li><a href="#contato">Contato</a></li> <!-- item da "lista" na barra de navegação do mobile -->
+      </ul>
+  <!-- FIM NAV BAR -->
+
+  <!-- INICIO BANNER -->
+    <div class="parallax-container center valign-wrapper" id="home"> <!-- classe do materialize para criar o efeito "parallax" no banner -->
+      <div class="container"> <!-- classe do materialize para centralizar conteúdo, funciona como um embrulhador (wrapper) -->
+        <div class="row"> <!-- classe do materialize para alinhar conteúdo em uma linha no estilo grid, funciona como um embrulhador (wrapper) -->
+          <div class="col s12"> <!-- classe do materialize para alinhar conteúdo em uma linha no estilo grid, funciona como um embrulhador (wrapper) -->
+            <div class="row"><h1 >Desenvolvimento de páginas WEB</h1></div> <!-- a tag h1 é um sinalizador de que esse é o elemento de texto mais importante da página -->
+            <div class="row"><h3>Soluções para Internet para sua empresa</h3></div> <!-- a tag h1 é um sinalizador de que esse é o terceiro elemento de texto mais-->
+            <div class="row"><a class="btn waves-effect waves-yellow brown darken-1 btn-large text-bold white-text">Faça o orçamento agora</a></div> <!-- classe do materialize para criar botão com efeito de ondas -->
+          </div>
+        </div>
+      </div>
+      
+      <div class="parallax">  <!-- classe do materialize para criar o efeito "parallax" no banner -->
+          <img src="images/bannerTopo.png"> <!-- imagem do banner com efeito parallax -->
+      </div>
+    </div>
+  <!-- FIM BANNER -->
+
+    <div class="divider"></div> <!-- tag do html para criar um linha que divide conteúdos de uma página -->
+
+   
+  <!-- INICIO SLIDERSHOW -->
+  <div class="parallax-container center valign-wrapper" id="servicos"  > <!-- classe do materialize para criar o slidershow ou carousel-->
+    <div class="carousel"> <!-- classe do materialize para criar o slidershow ou carousel-->
+      <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/250/250/nature/1"></a> <!-- imagens clicáveis (links) do carousel ou slidershow-->
+      <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/250/250/nature/2"></a>
+      <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/250/250/nature/3"></a>
+      <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/250/250/nature/4"></a>
+      <a class="carousel-item" href="#five!"><img src="https://lorempixel.com/250/250/nature/5"></a>
+    </div>
+  </div>
+
+  <!-- FIM SLIDERSHOW -->  
+
+
+
+  
+  <!--INICIO FOOTER -->
+    <footer class="page-footer teal darken-4"> <!-- classe do materialize para criar um footer, funciona como um embrulhador (wrapper) -->
+        <div class="footer-copyright center"> <!-- classe do materialize para criar o C dos direitos reservados -->
+            <div class="container"> 
+            <h5> Desenvolvido por Joao Paulo Dantas © 2020 </h5> <!-- a tag h1 é um sinalizador de que esse é o quinto elemento de texto mais importante da página -->
+            </div>
+        </div>
+    </footer>
+  <!--FIM FOOTER -->
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> <!-- importa o jquery utilizado nos efeitos do materialize -->
+    <script src="js/materialize.js"></script> <!-- importa os efeitos visuais utilizados pelo materialize -->
+    <script src="js/init.js"></script> <!-- initcializa os componentes de JS do materialize -->
+   
+</body>

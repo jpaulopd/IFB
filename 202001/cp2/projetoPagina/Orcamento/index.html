@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Site CodaMais</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form name="form-servicos">
+            <div class="row valign-wrapper">
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="materialboxed responsive-img" width="650"
+                                src="https://source.unsplash.com/800x600/?website">
+                            <!-- <img class="responsive-img" src="https://source.unsplash.com/800x600/?webpage"> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 center-align">
+                    <div class="">
+                        <p>
+                            <label>
+                                <input name="servicos" value="site-estatico" type="radio" checked />
+                                <span>Selecionar</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="col s4"  id = "siteestatico" value = "1500">
+                    <div>
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <span class="black-text center-align">
+                                    <strong>Site Estático</strong>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, ullam
+                                        pariatur
+                                        aliquam fugiat minima natus suscipit impedit laudantium in, debitis
+                                        reprehenderit
+                                        corporis, quasi et cupiditate culpa. Aut est atque deleniti.
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row valign-wrapper">
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="materialboxed responsive-img" width="650"
+                                src="https://source.unsplash.com/800x600/?webpage">
+                            <!-- <img class="responsive-img" src="https://source.unsplash.com/800x600/?webpage"> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 center-align">
+                    <div class="">
+                        <!-- <form action="escoherComponente()"> -->
+                        <p>
+                            <label>
+                                <input name="servicos" value="site-dinamico" type="radio" checked />
+                                <span>Selecionar</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="col s4"  id = "sitedinamico" value = "1000">
+                    <div>
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <span class="black-text center-align">
+                                    <strong>Site Dinamico</strong>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, ullam pariatur
+                                        aliquam fugiat minima natus suscipit impedit laudantium in, debitis
+                                        reprehenderit
+                                        corporis, quasi et cupiditate culpa. Aut est atque deleniti.
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row valign-wrapper">
+                <div class="col s4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img class="materialboxed responsive-img" width="650"
+                                src="https://source.unsplash.com/800x600/?appmobile">
+                            <!-- <img class="responsive-img" src="https://source.unsplash.com/800x600/?webpage"> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col s4 center-align">
+                    <div class="">
+                        <!-- <form action="#"> -->
+                        <p>
+                            <label>
+                                <input name="servicos" value="app-mobile" type="radio" checked />
+                                <span>Selecionar</span>
+                            </label>
+                        </p>
+                    </div>
+                </div>
+                <div class="col s4"  id = "appmobile" value = "2000">
+                    <div>
+                        <div class="card-panel grey lighten-5 z-depth-1">
+                            <div class="row valign-wrapper">
+                                <span class="black-text center-align">
+                                    <strong>App Mobile</strong>
+                                    <p>
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga, ullam pariatur
+                                        aliquam fugiat minima natus suscipit impedit laudantium in, debitis
+                                        reprehenderit
+                                        corporis, quasi et cupiditate culpa. Aut est atque deleniti.
+                                    </p>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-align" style="margin: 45px 0;">
+                <a class="waves-effect waves-light btn" onclick="escolherServico()">Escolher Componentes</a>
+            </div>
+
+
+        </form>
+    </div>
+
+</body>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./index.js"></script>
+<script src="./orcamento.js"></script>
+
+</html>

@@ -1,0 +1,92 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap&family=Share+Tech&display=swap');
+
+.carousel-item img{
+  width: 450px !important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.section{
+  padding-top: 25px;
+}
+
+#sobre{
+  padding-top: 65px;
+}
+
+nav ul li:hover {
+  background-color: #0410b9;
+} 
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+.divider {
+  height: 1px;
+}
+
+h1{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 900;
+  color: cornsilk;
+}
+
+h2,h3,h4,h5{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 400;
+  color: cornsilk;
+}
+
+nav{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 900;
+}
+
+p,nav ul{
+  font-family: Share Tech;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+pre{
+    padding: 16px 20px 0px;
+    background: #eee;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.info{
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+div.carousel a.carousel-item{
+  width: auto;  
+}
+img{
+  height: 500px;
+  width: 500px;
+}
