@@ -1,0 +1,21 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;700&display=swap&family=Share+Tech&display=swap');
+ h1{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+  }
+  
+  h2,h3,h4,h5{
+    font-family: 'Prompt', sans-serif;
+    font-weight: 400;
+    color: cornsilk;
+  }
