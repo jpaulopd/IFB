@@ -47,7 +47,7 @@
     
     <div class="row"><h1>Faça seu cadastro e receba informações atualizadas!</h1></div>
     <div class="row">
-      <form class="col s12" method="POST" action="processa.php">
+      <form class="col s12" method="GET" action="processa.php">
         <div class="row">
           <div class="input-field col s12">
             <input placeholder="Digite seu nome" id="nome" name="nome" type="text" class="validate">
