@@ -94,6 +94,32 @@
       <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> <!-- importa o jquery utilizado nos efeitos do materialize -->
       <script src="js/materialize.js"></script> <!-- importa os efeitos visuais utilizados pelo materialize -->
       <script src="js/init.js"></script> <!-- initcializa os componentes de JS do materialize -->
+
+      <script>
+        function somaTudo(numeros){
+          var total = 0;
+          for (var num of numeros){
+            total = total + num;
+          }
+          return total
+        }
+
+        var arrayNumeros = [80,5,60,55,1,2];
+        var resultado = somaTudo(arrayNumeros);
+        console.log("Somatorio de 80+5+60+55+1+2 é " + resultado)
+        
+        function somaCallBack(a,b, fn){
+          return fn(a+b);
+        }
+        var resultado = somaCallBack(25,45,function(total)  {
+          return total * 2;
+        });
+
+        console.log('O resultado de (25 + 45) X 2 é ' + resultado)
+
+        
+
+    </script>
     
   </body>
 </html>
