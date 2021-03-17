@@ -1,0 +1,179 @@
+1) Aprendizado Semi-Supervisionado
+    Link ref: 
+        https://lamfo-unb.github.io/2017/05/09/Aprendizado-Semi-Supervisionado-para-Deteccao-de-Fraudes-Parte-1/
+        https://lamfo-unb.github.io/2017/05/11/Aprendizado-Semi-Supervisionado-para-Deteccao-de-Fraudes-Parte-2/
+        https://medium.com/@edmauryaishu/factor-analysis-researching-hidden-variables-pca-798783def458
+        https://lamfo-unb.github.io/2017/05/12/Aprendizado-Semi-Supervisionado-para-Deteccao-de-Fraudes-Parte-3/
+    Fichamento:
+        Principal Component Analysis(PCA) is a great to reduce dimensionality and get rid of high correlation among independent variables. However, PCA abstracts away original meaning of variables and makes it harder to attach business logic to the variables being analysed.
+        anomalias podem ser o resultado de atividade maliciosa, nesse caso, o adversário está sempre tentado se adaptar para fazer com que as observações anômalas pareçam noramis.
+        Aprendizado de máquina é uma ciência que utiliza métodos da ciência da computação e estatística para analisar dados.
+        As técnicas de aprendizado de máquina surgiram dentro do campo de inteligência artificial, como um meio de permitir que os computadores aprendessem uma forma de conhecimento própria.
+        Dentro dos regimes de aprendizado de máquina, destaca-se o de aprendizado de máquina supervisionado, que foca em problemas de previsão: tendo uma base de dados com “alvos” para cada observação (pares (x,y)), a meta é aprender quais “alvos” (y) estão associados a quais dados (x).
+        Alguns exemplos desse tipo de problema são: identificar a presença de uma doença (alvo), dado os sintomas do paciente (dados); prever se o preço da ação de uma empresa vai subir ou cair (alvo), dado o histórico do mercado financeiro (dados); identificar de que pessoa é a face (alvo) em uma imagem (dados) ou classificar um livro (dados) em uma escola literária (alvo).        
+        Em cenários de detecção de anomalias, muitas vezes nós só temos dados que representam o caso normal, sendo extremamente difícil conseguir dados que representam anomalias.
+        Uma possibilidade é utilizar aprendizado de máquina semi-supervisionado, em que consideramos apenas uma pequena parcela dos dados como estando nomeada e que os dados não nomeados só contêm exemplos do caso normal, que geralmente é abundante.
+        Assim, nós utilizamos técnicas de aprendizado não supervisionado (para aprender a estrutura dos dados) nos dados não nomeados para extrair alguma noção de normalidade.
+        Ao final dessa etapa não supervisionada, a máquina conseguirá associar cada observação com uma pontuação proporcional à probabilidade do dado ter vindo da região normal. 
+        Em problemas de previsão, a métrica de avaliação mais comum é a acurácia, que mede a proporção de acertos.
+        No entanto, nesse cenário, como mais de 99% dos dados pertencem a uma única categoria, um preditor ingênuo prevendo todas as observações como sendo normais já conseguiria mais de 99% de acerto.
+        Isso nos motiva a utilizar outras métricas: precisão e revocação.
+        Assim, um sistema ideal teria que ponderar precisão e revocação em algum ponto ótimo.
+        F2-score, que combina revocação e precisão, dando mais importância a primeira.
+
+        Técnicas de Detecção de Anomalias 
+            Modelo Gaussiano
+                Intuitivamente, se um fenômeno tem comportamento gaussiano, podemos dizer que 95% das realizações desse fenômeno aconteceram a no máximo 2 desvios padrões de distância da média.
+                Por exemplo, se a quantidade média transacionada por cartão de crédito for de R$ 50,00, com um desvio padrão de R$ 10,00, podemos dizer que 95% das transações serão de um valor entre 30 e 70 reais.
+                Quando encontramos a gaussiana multidimensional que melhor se encaixa nos dados, nós podemos extrair a probabilidade de cada observação, que seria a altura da gaussiana multidimensional.
+            Modelo Histograma
+                Nem todas as variáveis dos nossos dados seguem uma distribuição gaussiana.
+                A começar pela distribuição da variável que mede a quantidade transacionada, que tem uma distribuição bastante complicada, tanto para os dados normais quanto para os anormais. 
+                vscode://file/D:/IFB/ptcc/image/hist1.png
+                vscode://file/D:/IFB/ptcc/image/hist3.png
+                Quando vemos esses histogramas, notamos facilmente como algumas variáveis são ótimos indicadores de anomalias, uma vez que a distribuição (aproximada pelo histograma) dos dados anômalos e dos dados normais são bastante distinguíveis. Veja por exemplo a variável V10.
+            Modelo de Mistura de Gaussianas
+                Como vimos nos histogramas acima, nem todas as variáveis seguem um modelo gaussiano. Nós podemos utilizar um modelo que relaxa essa hipótese, assumindo que os dados vêm de uma distribuição que é uma mistura de gaussianas.
+                De fato, contanto que tenhamos gaussianas suficiente, qualquer distribuição poderá ser aproximada por uma mistura de gaussiana.
+            Modelo de Máquina de Suporte Vetorial
+                Máquinas de Suporte Vetoriais (MSV) são uma classe de modelos originalmente desenhadas para problemas supervisionados de categorização (ou classificação), em que o objetivo é separar dois tipos de observação.
+                Intuitivamente, o que os MSVs fazem é achar o melhor plano de separação entre os dois tipos de dados.
+                Para superar essa limitação, as MSV fazer uso do truque do kernel, que representa os dados originais em um espaço dimensional maior, de forma que seja possível separar os dois tipos nesse novo espaço.
+                vscode://file/D:/IFB/ptcc/image/kerneltrick.png
+                Na versão não supervisionada da MSV, não estamos interessados em separar dois tipos de dados, pois os dados sequer são nomeados com os tipos. Em vez disso, queremos achar a melhor esfera que encapsule todos os dados. 
+                vscode://file/D:/IFB/ptcc/image/oneclasssvm.png
+                Na verdade, nós podemos dizer que o modelo não supervisionado de MSV é um aproximador universal de funções densidade de probabilidade, isto é, ele é capaz de aproximar qualquer distribuição possível.
+                Uma severa desvantagem desse método é o fato dele ser extremamente ineficiente para treinar. 
+            Modelo de Floresta de Isolação
+                O modelo de floresta de isolação é outro modelo que podemos considerar como um aproximador universal de distribuições.
+                O modelo de floresta de isolação ajusta várias árvores de isolação aos dados.
+                Para construir cada árvore de isolação, primeiro selecionamos aleatoriamente uma das variáveis nos dados.
+                Em seguida, selecionamos um valor aleatório entre o máximo e o mínimo dessa variável, que será utilizado para separar os dados.
+                Nós continuamos fazendo essas segmentações aleatórias até que todas as observações estejam isoladas, isto é, separadas das demais. 
+                Nossa esperança é que as anomalias sejam distintas dos dados normais, sendo que esses se aglomeram em algum local do espaço, enquanto que aquelas ficam mais isoladas.                
+                Cabe ainda ressaltar que vantagens dessa metodologia frente às máquinas de suporte vetorial são a velocidade de treinamento e a capacidade de fácil paralelização.
+            Modelo Neural
+                Nos últimos anos, redes neurais se tornaram o canivete suíço de aprendizado de máquina, tanto pela sua flexibilidade e efetividade na maioria dos cenários que envolvem problemas estatísticos de alta complexidade e não linearidade. 
+                Para impedir que a rede neural simplesmente copie o que lhe foi passado como reconstrução perfeita, nós colocamos uma camada de neurônios estreita no meio da rede neural.
+                Essa cama terá apenas dois neurônios e como os nossos dados têm 30 variáveis, isso significa que a rede neural terá que aprender uma representação interna que condense 30 dimensões em apenas duas.
+        
+        Métodos semi-supervisionados de aprendizado de máquina são excelentes em cenários de detecção de anomalias, em que há pouquíssimos exemplos do caso anômalo. 
+
+
+
+    Anotações pessoais.
+        alvo é situação almejada que a máquina identifique.
+        alvo positivo é a situação desejada.
+        alvo negativo é a situação não desejada?
+        técnica PCA permite manter a informação integral dos dados ao mesmo tempo que retira sua interpretabilidade. 
+        existe um tradeoff entre precisão e revocação.
+        revocação = recall = revocabilidade = o quão completos os resultados estão = medida de completude ou quantidade
+        precisão = o quanto os resultados da pesquisa são úteis = medida de exatidão ou qualidade
+        
+2) PMML - PREDICTIVE MODEL MARKUP LANGUAGE
+    LINK REF:
+        https://repositorio.unb.br/bitstream/10482/16954/1/2014_JoseAbiliodePaivaRamos.pdf
+        https://www.ibm.com/developerworks/library/ba-ind-PMML1/index.html
+    Fichamento:
+        Uma vez que o sucesso de uma hipótese ou modelo induzido por um algoritmo de AMdepende dos dados disponíveis [40], são utilizadas técnicas para a melhoria da qualidadedos mesmos.
+        PREPARAÇÃO DOS DADOS
+            ELIMINAÇÃO MANUAL DE ATRIBUTOS
+                Outros atributos que não agregaminformação útil são números sequenciais de controle, como identificadores de registro.
+            INTEGRAÇÃO DE DADOS
+            AMOSTRAGEM DE DADOS
+                Algoritmos de AM podem ter dificuldades no trato de amostra de dados com muitosobjetos, em virtude das respectivas complexidades computacionais.  
+                Para resolver esteproblema, usa-se um subconjunto dos dados.
+            BALANCEAMENTO DE DADOS
+                Em vários conjuntos de dados reais, o número de objetos varia para as diferentes classese isto pode constituir um problema para vários algoritmos de AM, pois estes algoritmospodem ter dificuldades para aprender o conceito relacionado à classe minoritária.
+                Quando alimentados com dados desbalanceados, esses algoritmos tendem a gerar ummodelo que favorece a classificação de novos dados na classe majoritária
+            LIMPEZA DE DADOS
+                Os dados com ruídos podem levar a um superajuste do modelo, pois o algoritmoque induz o modelo pode se ater às especificidades relacionadas aos ruídos, em vez dadistribuição verdadeira que gerou os dados; por outro lado, a eliminação desses dadospode fazer com que algumas regiões do espaço de atributos não sejam consideradas noprocesso de indução de hipóteses.
+            REDUÇÃO DA DIMENSIONALIDADE
+                Para que objetos com um número elevado de atributos possam ser utilizados em mui-tos algoritmos de AM, a quantidade de atributos precisa ser reduzida.
+                As técnicas de redução de dimensionalidadepodem ser divididas em duas grandes abordagens: agregação e seleção de atributos.
+                Enquanto as técnicas de agregação substituem parte dos atributos originais por novos atributos formados pela combinação de grupos de atributos, as técnicas de seleção mantêmuma parte dos atributos originais e desconsideram os demais.
+                A Análise de Componentes Principais ou Principal Component Analysis (PCA)é um exemplo de técnica de agregação.
+                    Este método busca combinações lineares, chamada sde componentes principais, que capturam, de maneira resumida, a maior variabilidade possível dos dados.
+                    A principal vantagem da PCA como método de redução de dimensionalidade encontrase na construção de componentes não-correlacionados.
+                    O uso de atributos correlacionadosem alguns algoritmos de AM, como regressão logística ou redes neurais, pode introduzir erro e diminuir o desempenho do algoritmo.
+                    Uma vez que não há relacionamento entre os atributos e os rótulos dos objetos, os componentes principais não provêem um relacionamento apropriado com as categorias dos objetos em tarefas de aprendizado supervisionado.
+                Testeχ2
+                    Por sua vez, as técnicas de seleção avaliam a relevância do atributo antes da aplicaçãode algum modelo de AM. 
+                    Somente os atributos correlacionados com os rótulos dos objetos serão considerados na aplicação do modelo.
+                    O grau de associação entre duas variáveis analisadas pelo testeχ2pode ser representado pelocoeficiente de contingência de Pearson (CC).
+                    O coeficiente de contingência é nulo quando não há associação entre as variáveis equanto maior o valor de CC, maior será a associação entre as variáveis.
+            TRANSFORMAÇÃO DE DADOS
+                As técnicas de transformação de dados podem ser utilizadas para converter valores simbólicos em valores numéricos, ou vice-versa.
+                [POIS] Alguns algoritmos de AM estão limitados à manipulação de valores de determinados tipos, por exemplo, apenas valores numéricos (técnicas como redes neurais e máquinas de vetores de suporte) ou apenas valores simbólicos (árvores de decisão ID3, por exemplo).
+                Conversão Simbólico-Numérico
+                    Para um atributo simbólico com mais de dois valores, a técnica utilizada na conversão depende de o atributo ser nominal ou ordinal.
+                    Se não houver relação de ordem entre os atributos simbólicos, esta propriedade deve ser mantida para os valores numéricos gerados.
+                    distância de Hamming: a distância entre duas sequências binárias com mesmo númerode elementos é igual ao número de posições em que as sequências apresentam valores diferentes.
+                    Se existe uma relação de ordem entre os valores nominais, a codificação deve manter essa propriedade:  basta ordenar os valores categóricos ordinais e codificar cada valor de acordo com sua posição na ordem, utilizando-se números inteiros ou reais.
+                Conversão Numérico-Simbólico
+                    Se o atributo original for formado por sequências binárias sem uma relação de ordem entre si, cada sequência pode ser substituída por um nome ou categoria.
+                Transformação de Atributos Numéricos
+                    Algumas vezes, o valor numérico de um atributo precisa ser transformado em outro valor numérico; 
+                    Uma transformação que é muito utilizada é a normalização de dados: a cada valor do atributo a ser normalizado é adicionada (ou subtraída) uma medida de localização e o valor resultante é em seguida multiplicado (ou dividido) por uma medida de escala.
+        MODELOS PREDITIVOS
+            Um algoritmo de AM preditivo produz, dado um conjunto de objetos rotulados, um modelo capaz de produzir previsões a respeito dos objeto.
+            Os rótulos dos objetos assumem valores em um domínio conhecido.
+            Se o domínio for um conjunto infinito e ordenado de valores, tem-se um problema de regressão e o modelo gerado é um regressor; por outro lado, se esse domínio for um conjunto de valores nominais, tem-se um problema de classificação e o modelo gerado é um classificador.
+            Os classificadores podem ser gerados por diversos algoritmos de AM preditivos, por exemplo: k-NN, naive Bayes, máquinas de vetores de suporte, redes neurais artificiais (RNA), árvores de decisão. 
+            Por aderência ao problema deste trabalho, foramescolhidas árvores de decisão para a identificação de transações fraudulentas.
+        TRABALHOS CORRELATOS
+            A maioria dos trabalhos publicados sobre detecção de fraudes está relacionada ao do-mínio de cartão de crédito, concessão de crédito, intrusão de computadores e fraudes em serviços de telecomunicações.
+            Kovach propõe uma arquitetura de um sistema de detecção de fraudes bancárias, realizadas através daInternet, em tempo real baseada na teoria matemática de evidências de Dempster-Shafer. [NAO É POSSÍVEL COMPARAR COM A ATUAL ESTUDO]
+        ÁRVORES DE DECISÃO
+            Uma árvore de decisão usa a estratégia dividir para conquistar na solução de um problema de decisão: um problema complexo é dividido em problemas mais simples, aos quais recursivamente é aplicada a mesma estratégia; as soluções dos subproblemas podem ser combinadas, na forma de uma árvore, para gerar uma solução do problema complexo.
+            Formalmente, uma árvore de decisão é um grafo acíclico direcionado em que cada nó ou é um nó de divisão, com dois ou mais sucessores, ou um nó folha.
+            INDUÇÃO DE ÁRVORES DE DECISÃO
+                O processo de construção de uma árvore a partir de uma amostra de treinamento é conhecido como indução da árvore.
+            [...]                
+        MEDIDAS DE DESEMPENHO
+        PMML
+            utilizado para representar modelos de mineração de dados e permite a representação de diversos modelos como árvores de decisão, redes neurais ou classificador naive Bayes.
+            A estrutura geral de um documento PMML é composta por um cabeçalho, dicionário de dados, transformações de dados e modelo.
+        MATERIAL E MÉTODO
+            Cada objeto nesta base de dados possuem dois atributos com função de rótulo: um atributo para identificar as transações que foram apontadas como fraudulentas pelas regras ad-hoc elaboradas pelos especialistas da instituição fornecedora dos dados e outro para indicar quais estão rotuladas como fraudulentas.
+            METODO
+                [NESTE] trabalho será utilizada a metodologia de mineração de dados CRISP-DM (CrossIndustry Standard Process for Data Mining) para condução do projeto de construção do classificador para identificação de transferências bancárias fraudulentas, pois é uma metodologia madura para guiar projetos de mineração de dados.
+                O ciclo de vida do projeto de mineração, nesta metodologia, é composto de seis fases: entendimento do negócio, entendimento dos dados, preparação dos dados, modelagem, avaliação e implantação.
+        EXPERIMENTOS
+            ENTENDIMENTO DO NEGÓCIO
+                o custo financeiro de uma transação fraudulenta não alertada, falso-negativo, é superior ao custo de uma transação legítima apontada como fraudulenta, falso-positivo; pois quando uma transação legítima é apontada como fraudulenta, o tratamento deste alerta envolve o custo da mão-de-obra necessária para analisá-lo.
+                Por suavez, se a fraude não for detectada, além do prejuízo financeiro, a conta vitimada pode ser utilizada para recebimento de outros créditos fraudulentos.
+                Neste contexto, a identificação de transações fraudulentas baseada em métodos ad-hoc,nos quais as regras de detecção são exclusivamente escritas por especialistas do domínio,não é aceitável, pois, normalmente são muito laboriosas e requerem muito tempo para elaboração e implantação ficando desatualizadas rapidamente.
+                Cada objeto nesta base de dados é composto por 10 atributos de tipo numérico discreto, 7 atributos de tipo numérico contínuo e 5 atributos categóricos.
+                Para minimizar o problema das classes extremamente desbalanceadas foram aplicadas duas regras definidas pelos especialistas do domínio que excluem transações que rara-mente são fraudulentas, estas regras especialistas baseiam-se em perfis transacionais e naagregação de atributos para a extração de informação latente nos dados.
+            PRPARAÇÃO DOS DADOS
+                Estes atributos foram nomeados como v01,v02, ...,v041,v_regra,alvo; onde v_regra indica os alertas das regras ad-hoc e alvo corresponde ao rótulo das transações.
+                foi utilizado o teste χ2 para estimar o grau de associação entre os atributos nominais/numéricos discretos e o rótulo fraude o unão-fraude, representado pela variável alvo.
+                Com relação à representatividade das amostras, geralmente não é possível afirmar se uma amostra é representativa ou não, para mitigar este problema é utilizado o processo de estratificação: cada classe no conjunto de dados original deve ser representada na mesma proporção nas amostras de teste, validação e treinamento.
+            MODELAGEM
+                Para indução do classificador utilizou-se o algoritmo C5.0 um sistema inicialmente comercial da Rule Quest Research e agora também distribuído sob a licença GNU GPL.
+            ARVORES DE DECISÃO
+                O algoritmo 5.0 constrói a árvore através a divisão da amostra de treinamento com base no teste que resulta na maior razão de ganho.
+                Cada subconjunto obtido da primeira divisão é novamente divido pela aplicação de um novo teste e este processo é repetido até que nenhuma outra divisão seja possível.
+                Por fim, a simplificação da árvore com a poda dos nós que não contribuem para a tarefa de classificação é realizada através da poda pessimista embutida no C5.0.
+                BALANCEAMENTO
+                    Muitos algoritmos de classificação têm sua acurácia prejudicada quando as classes possuem quantidades de objetos muito diferentes.
+                    Nesta situação a classe majoritária pode ser reduzida, a classe minoritária pode ser inflada ou uma combinação de ambas as técnicas.
+                PODA
+                    A extensão da poda da árvore é determinada pelo parâmetro nível de confiança que possui valor padrão de 25%.
+                    A diminuição deste valor resulta em árvores menores e mais concisas, privilegiando a capacidade de generalização do modelo; por outro lado, o aumento do nível de confiança é usado para a obtenção de árvores de maior acurácia, devido ao maior ajustamento aos dados de treinamento.
+                CRITERIO DA PARADA
+                    A árvore gerada pelo algoritmo C5.0 cresce até que todos os objetos em um nó folha pertençam à mesma classe ou o número de objetos nos nós resultantes da aplicação de um dado teste condicional não sejam inferiores a um dado limiar.
+                APLICAÇÃO DE CUSTOS
+                    O algoritmo C5.0 permite a utilização de custos, quando da ocorrência de classificações incorretas, visando ao aumento da acurácia da árvore de decisão gerada.
+            REDES NEURAIS ARTIFICIAIS
+                Para comparação com o modelo gerado através do algoritmo C5.0, foram construídas redes neurais artificais perceptron multicamadas, pois este tipo de rede permite a representação de relacionamentos complexos entre os dados.
+            IMPLANTAÇÃO
+                Nesta etapa foi realizada a incorporação do classificador obtido, a árvore de decisão, no processo de negócio.
+                A árvore de decisão no formato PMML foi interpretada por uma aplicação construída com base na API Java JPMML-Evaluator, Java Evaluator API for Predictive Model Markup Language (PMML), após a inclusão de classes para comunicação com os bancos de dados utilizados.
+                A atualização é realizada sob demanda quando do surgimento de uma nova modalidade de ataque ou quando observa-se redução nas métricas precisão e sensibilidade.
+                A cada atualização é gerada uma nova árvore de decisão que é exportada no formato PMML para utilização na camada de avaliação de transações.
+                A integração destas duas camadas permitiu imprimir celeridade na atualização dos modelos de identificação de fraudes, pois cada nova árvore é gerada, em média, em 15 minutos.
+                
+3) 
+    LINK: http://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/27166/Dissertacao_Joao_Carlos_Pacheco_VFinal_2.pdf?sequence=3&isAllowed=y
