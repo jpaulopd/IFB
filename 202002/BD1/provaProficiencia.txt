@@ -1,0 +1,88 @@
+Descreva as fases de um projeto de banco de dados, identificando o tipo de produto gerado em cada etapa (1,5 ponto)
+
+As fases de um projeto de banco de dados podem ser resumidos em três etapas: projeto conceitual, projeto lógico e projeto físico. 
+No Projeto conceitual são estruturados os requisitos e desenhado essas estruturas no esquema conceitual. 
+A partir do esquema conceitual é iniciado o Projeto lógico em que são  implementados diagramas conforme tipo do SGBD a ser utilizado (hierárquico, relacional, OO, etc) e então é criado o esquema lógico.
+ Por fim, a partir do esquema lógico pode ser iniciado o Projeto físico que é o momento de implementação dos dados em um dispositivo de armazenamento persistente.
+
+
+As restrições de integridade garantem a consistência em um banco de dados relacional. Desse modo, conceitue duas restrições de integridade dessa abordagem (1,5 ponto). *
+No exemplo da concessionária usamos a restrição de domínio para atributos como número de matricula ou cpf em que são admitidos apenas dados numéricos.
+Ainda utilizando o exemplo da concessionária, podemos descrever a restrição referencial em que todo código de um modelo da tabela veículo deve estar contido na tabela de modelos.
+
+
+
+VEICULO
+	nu_chassi
+    cor
+    ano fabricacao
+    quilometragem
+    codigo marca
+    nome marca
+    codigo modelo
+    nome modelo
+
+-todo veiculo tem modelo
+-todo modelo pertence marca
+-tabela de modelo, tabela marca
+-tabela comprador, tabela corretor
+
+Pessoa
+    cpf
+    nome
+    estado civil
+    nome conjunge 
+    cpf conjuge
+
+Corretor
+    matricula
+    nome
+    data admissão
+
+Venda
+    data Venda
+    valor venda
+    valor comissao
+
+
+CREATE TABLE veiculo (
+    numero_chassi SERIAL PRIMARY KEY,
+    cor varchar(20),
+    quilometragem int4,
+    modelo REFERENCES modelo(nome_modelo),
+    marca REFERENCES modelo(nome_marca)
+)
+
+CREATE TABLE modelo(
+    codigo_modelo SERIAL PRIMARY KEY,
+    nome_modelo varchar(20),
+    ano_fabricao date
+)
+
+CREATE TABLE marca(
+    codigo_marca SERIAL PRIMARY KEY,
+    nome_marca varchar(20),
+    modelos REFERENCES modelo(nome_modelo)
+)
+
+CREATE TABLE vemda(
+    data_venda date,
+    valor_venda numeric,
+    valor_comissao numeric,
+    corretor varchar(20) REFERENCES corretor(nome),
+    cpf_comprador REFERENCES comprador(cpf)
+)
+
+CREATE TABLE comprador(
+    cpf SERIAL PRIMARY KEY,
+    nome varchar(20),
+    estado_civil varchar(10),
+    nome_conjuge varchar(20) CHECK (estado_civil = 'casado'),
+    cpf_conjuge varchar(20) CHECK (estado_civil = 'casado')
+)
+
+CREATE TABLE corretor(
+    matricula SERIAL PRIMARY KEY,
+    nome varchar(20),
+    data_admissao date
+)

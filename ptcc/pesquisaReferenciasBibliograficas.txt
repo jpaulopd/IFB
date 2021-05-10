@@ -176,4 +176,143 @@
                 A integração destas duas camadas permitiu imprimir celeridade na atualização dos modelos de identificação de fraudes, pois cada nova árvore é gerada, em média, em 15 minutos.
                 
 3) 
-    LINK: http://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/27166/Dissertacao_Joao_Carlos_Pacheco_VFinal_2.pdf?sequence=3&isAllowed=y
+    LINK REF: http://bibliotecadigital.fgv.br/dspace/bitstream/handle/10438/27166/Dissertacao_Joao_Carlos_Pacheco_VFinal_2.pdf?sequence=3&isAllowed=y
+    FICHAMENTO:
+        O ojetivo do trabalho é identificar transações de crédito fraudulentas após a primeira aprovação de crédito.
+        REVISAO TEORICA - Técnicas de amostragem de dados e medidas de avalição dos modelos preditivos:
+            regressão logística
+                funcao resposta
+                estimação dos parâmetros
+            aprendizado de máquina  
+                aprendizado supervisionado
+                    No  aprendizado  supervisionado  como  apresentado  por  Barber  (2012)  existe uma base de dados prévios com as características dos dados que denotaremos por 𝑥 e  sua  classificação  que  denotaremos  por 𝑦.
+                    Neste  processo  é  criada  uma  base de treinamento, com uma amostra dos dados, onde o algoritmo irá identificar quais características presentes em 𝑥 são suficientes para chegar à classificação de 𝑦.
+                aprendizado não supervisionado
+                    No aprendizado não-supervisionado não existe uma base de dados prévia que permite que os modelos sejam desenvolvidos com uma base de treinamento, portanto o  modelo  deverá  ser  executado  conforme  as  informações  são  geradas.
+                    Esta  abordagem visa identificar padrões em bases de dados, mas sem a existência de uma resposta prévia para a classificação que será identificada.
+                aprendizado semi-supervisionado
+                    No aprendizado de máquina, é comum possuir uma pequena quantidade de dados rotulados frente a uma grande quantidade de dados não rotulados.
+                    No aprendizado semi-supervisionado, utiliza-se os dados não rotulados para tentar  criar  um  classificador  melhor  do  que  o  criado  com  base  apenas  nos  dados rotulados.
+                maquina de vetores de suporte
+                    possui grande capacidade na detecção de padrões, sendo assim capazes de identificar operações fraudulentas de cartões de créditos, identificar dígitos escritos a mão, além de serem utilizados coms ucesso em várias aplicações biológicas
+                rede bayesianas
+                    Ao analisarmos um problema, muitas vezes podemos acreditar que um evento afeta outro e existem eventos que são independentes. 
+                    para que este tipo de informação seja utilizado de forma eficiente utilizamos estruturas de grafos que nos permitem descrever como os objetos são vinculados e fornecem uma imagem conveniente da relação dos objetos (eventos).
+                metodos de emsemble
+                    Os métodos Ensemble possuem como principal objetivo combinar o poder preditivo de vários estimadores por meio de um algoritmo de aprendizado, visando aperfeiçoar a generalização e robustez quando comparado a um estimador utilizado sozinho.
+                bootstrap aggregating - baggind
+                    Este procedimento possui a característica de melhorar o desempenho de pre-ditores instáveis que são basicamente os preditores com alta variância
+                boosting
+                    o método deBoostingse refere a família de algoritmos que consegue converter preditores fracos em fortes preditores.
+                bases de dados desbalanceadas
+                    Uma das características marcantes das bases de dados que possuem infor-mações de fraude é o desbalanceamento.
+                    os  principais  métodos  utilizados  para  modelagem  em  base  de  dados desbalanceadas, sendo que neste trabalho foi utilizada a técnica deRandom Under-sampling.
+                    O  procedimento  de oversampling aleatório  tem  como  mecanismo  criar  uma amostra da classe minoritária maior que a disponível, ou seja, é criado um conjuntode exemplos selecionados de forma aleatória da classe minoritária 𝑆𝑚𝑖𝑛, que são inseridos na amostra 𝐸, posteriormente esta subamostragem é inserida na base de testesoriginal 𝑆.
+                selecao de variaveis
+                    Portanto foi selecionado para os modelos lineares a técnica de Stepwise, já para os modelos que utilizam métodos de aprendizado de máquina utilizamos o procedimento de seleção sequencial usando o modelo de Random Forest.
+                métricas de avaliação de desempenho do modelo   
+                    A representação da performance da classificação também pode ser formulada por meio da matriz de confusão que descreve os custos de se fazer atribuição das classes às amostras, portanto cada uma das linhas da matriz contém cada classe passível de ser atribuída às instâncias pelo classificador, enquanto cada coluna possui a classe à qual as amostras efetivamente pertencem na realidade.
+                    A métrica de Precision fornece a informação de precisão. 
+                        Portanto podemos dizer que está métrica é intuitivamente a capacidade do classificador não rotular como positiva uma amostra que é negativa.
+                    A métrica de Recall fornece informação de recordação.
+                        Portanto podemos dizer que está métrica é intuitivamente a capacidade do classificado encontrar todas as amostras positivas.
+                    métrica de F-Mensure, que também é conhecida como F-score ou F1 score,é a combinação das métricas anteriores de recordação e precisão e pode ser interpretada como uma média ponderada destas métricas, assim a métrica F-Mersure alcançao seu melhor valor em 1 e o pior em 0.
+                    receiver operating characterisctics (ROC) curves
+                    teste kolmogorov-smirnov
+        METODOLOGIA
+            etapas: pre processamento, construção de amostras, seleção das variaveis e aplicacao dos modelos
+            utilizou python para todos exceto na avaliação de desempenho que utilizou o R
+            A base de treinamento foi a utilizada para treinar o classificador, visando construir um modelo, por sua vez a base de teste é utilizada para identificar o poder de generalização do modelo, sendo que esta base não foi utilizada no desenvolvimento do modelo.
+            foi realizada uma amostragem da base de treinamento, visando deixar o índice de desbalanceamento baixo, tornando a proporção de casos positivos iguais aos casos negativos.
+            utilizamos o procedimento de undersample que seleciona todos os casos  positivos,  logo  em  seguida  seleciona  de  forma  randômica  na  base  de  teste a mesma quantidade de casos negativos, tornando assim a base balanceada.
+            Assim aplicamos um método que identifica colinearidade acima de 98% entre as variáveis presentes na base de dados, de tal modo que dos pares de recursos com alta colinearidade apenas um é selecionado para remoção, sendo que apenas uma das variáveis precisa ser removida.
+            O procedimento adotado necessitadas variáveis que iremos prever neste trabalho, buscando identificar quais variáveis possuem importância zero utilizando o modelo de aprendizado Gradient Boosting.
+            visa identifica a existência de alguma variável que possua um valor único, pois este tipo de variável possui o comportamento semelhante ao de uma constante.
+            nesta etapa foi realizada uma avaliação que garanta que os modelos não incorram no erro de utilizar poucas variáveis, gerando assim um underfitting
+            Para os modelos lineares utilizamos a técnica de Stepwise, para selecionar asvariáveis para o modelo.
+            foi utilizada a linguagem de programaçãoPythoncom o projeto scikit-learn.
+            NumPy,SciPy,Matplotlib e Pandas.
+            O segundo passo do trabalho foi criar um modelo capaz de predizer todas as variáveis respostas ao mesmo tempo. De tal modo como técnica selecionada neste trabalho, foi utilizado o algoritmo Randon Forest que possui suporte para classificação multi-output, ou seja, com múltiplas saídas.
+            Para realizar um contraponto no método de multi-output nativo do classificador Ensenble Randon Forest foi utilizado o procedimento implantado pelo projeto scikit-learn MultiOutputClassifier, que fornece um meio de utilização de qualquer classificador para uma classificação de múltiplas variáveis respostas
+            Ao avaliar todos os resultados a resposta não pode ser direta pois existe um “perde-e-ganha”  quando  avaliamos  todos  os  resultados  conjuntamente,  sendo  que cada uma das metodologias possui as suas vantagens e desvantagens.
+            Nesta etapa do trabalho, serão avaliadas as variáveis selecionadas pelo método de seleção sequencial, com uso do classificador RF, para os modelos que utilizam técnicas de aprendizado de máquina.
+            A única variável que esteve presente no treinamento de todos os modelos, independente da variável resposta foi a que identifica a quantidade de responsáveis pelos domicílio particular.
+
+4)
+    LINK  REF: https://medium.com/ensina-ai/detectando-fraudes-financeiras-usando-aprendizado-de-m%C3%A1quina-ganhando-a-guerra-contra-dados-3280893d09cb
+    FICHAMENTO:
+        No Aprendizado de Máquina, problemas como a detecção de fraudes são geralmente considerados problemas de classificação — prever a classe correspondente a uma dada observação.
+        o problema de classificação requer a criação de modelos com inteligência suficiente para classificar adequadamente as transações como sendo legítima ou fraudulenta, a partir de detalhes tais como valor, estabelecimento, localização, data e hora, entre outros.
+        O principal desafio que enfrentamos, ao modelar a detecção de fraudes como um problema de classificação, reside no fato que a grande maioria das transações não é fraudulenta. 
+        E uma das principais missões de um Cientista de Dados é criar valor para o negócio a partir dos dados.
+        Esses dados correspondem a transações ocorridas em dois dias, onde observa-se 492 fraudes dentre 284.807 transações. 
+        Esses dados são altamente desbalanceados, sendo que a classe positiva (fraudes) representa apenas 0,172% de todas as transações.
+        Sempre é bom fazer uma EDA — Análise Exploratória de Dados antes de começar a trabalhar em modelos de previsão e análise. 
+        maneiras de tratar dados desbalanceados:
+            oversampling (super amostragem) - smote (synthetic minotiry over-sampling techinique)
+                realizar uma super-amostragem significa criar artificialmente novas observações em nosso conjunto de dados que pertençam à classe que está sub-representada.
+                realiza os seguintes passos:
+                    1) busca por k-nearest-neighbors (observações similares) da classe minoritária
+                    2) coleta um dos k-nearest-neighbors e o utiliza para criar novas obserções artificialmente.
+                existem várias implementações smote, tais como: imblearn
+                REF: https://jair.org/index.php/jair/issue/view/1100
+            undersampling (sub amostragem) - random under sampler
+                Na sub-amostragem, é a classe dominante que sofre amostragem, a fim de reduzir o seu número de observações.
+                Isso pode ser feito com a escolha aleatória de um conjunto reduzido de amostras.
+                A classe RandomUnderSampler da biblioteca imblearn é uma forma fácil e rápida de balancear os dados através da seleção aleatória de um subconjunto de dados das classes escolhidas.  
+            métodos de classes combinadas - smote + enn
+                A técnica SMOTE pode acabar gerando novas amostras indesejadas quando, ao fazer a interpolação entre dois pontos, um deles é marginalmente outlier.
+                utilizaremos a SMOTE em conjunto com o algoritmo de vizinhos-mais-próximos editados (edited nearest-neighbours — ENN, em inglês).
+                o ENN é utilizado como método de “limpeza” do espaço resultante após a super-amostragem via SMOTE.
+        Random Forest Classifier para fazer a previsão de transações fraudulentas.
+        adicionar uma nova dimensão à nossa análise e conferir a Área Sob a Característica de Operação do Receptor (Area Under the Receiver-Operating Characteristic — AUROC, em inglês). 
+        Intuitivamente, a AUROC indica o quão provável é que o seu modelo faça a distinção entre as duas classes.
+        Em outras palavras, se você selecionar aleatoriamente uma observação de cada classe, qual a probabilidade do seu modelo ser capaz de “ordená-las” corretamente?
+        SMOTE
+            é importante analisar o impacto financeiro dessa mudança (diminuição da precisão e aumento do recall ):
+                prejuízo financeiro decorrente de um aumento de falsos negativos, correspondendo a um decréscimo da precisão na detecção de fraudes.
+                poderíamos perder clientes ao classificar suas transações erroneamente como fraudes, além de resultar em maiores custos operacionais decorrentes do cancelamento, emissão e envio de novos cartões para os clientes.
+        RandomUnderSampler
+            A sub-amostragem se mostrou uma péssima abordagem para esse problema.
+            melhora recall e piora precisão
+        SMOTE + ENN
+            A SMOTE + ENN mostrou-se a melhor abordagem em nosso exemplo.
+            reduz precisão e aumenta recall
+
+5)
+    Machine Learning Introdução Alura
+            Treinar algoritmos;
+            Definir características (features) do que desejamos classificar;
+            Classificar em categorias;
+            Utilizar o módulo linearSVC e accuracy_score;
+            Utilizar o método fit;
+            Prever dados com a função predict;
+            Calcular a taxa de acerto do modelo;
+            Comparar testes e previsões;
+            Utilizar a função soma;
+            Padronizar variáveis;
+            Abrir arquivo CSV;
+            Imprimir as primeiras linhas com a função head;
+            Renomear as colunas;
+            Utilizar a função shape para ver a quantidade de elementos;
+            Separar dados para treino e teste;
+            Definir a ordem para os números aleatórios;
+            Utilizar a função value_counts.
+            Trocar valores;
+            Usar a biblioteca seaborn;
+            Gerar um gráfico com dados do CSV;
+            Definir cores no gráfico;
+            Gerar gráficos distintos;
+            Criação de um algoritmo base;
+            Capturar os valores mínimos e máximos.
+            Utilizar a função arange do numpy
+            Utilizar o módulo Support Vector Machine;
+            Gerar valores randômicos com o módulo SVC;
+            Utilizar o módulo Standard Scale.
+            Alterar dados em colunas;
+            Utilizar o módulo datetime;
+            Criar colunas;
+            Remover colunas e linhas;
+            Utilizar o módulo dummie para gerar colunas;
+            Utilizar o módulo graphviz para gerar gráficos;
+            Definir propriedades gráficas na árvore de decisão.
