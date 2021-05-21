@@ -1,0 +1,20 @@
+1) variaveis que possibilitam a análise (correlação) com a fraude
+2) identificar todas as variáveis necessárias
+3) limpeza dados
+4) tratamento dados, anonimizar dados, normalizar os valores
+5) levantamento referencial teorico, especialmente de boletos.
+6) usar o https://www.overleaf.com/ para escrever o artigo em LATEX
+7) https://github.com/juniorcl/transaction-fraud-detection
+
+
+
+18/05/2021
+-modelos SBC projeto e artigo
+-ver template-latex
+-plano de trabalho
+-revisão sistemática: 
+    levantar questão norteadora, 
+    descrever historico da pesquisa por periodo, 
+    inclui criterio para revisão (inclusao (IA e ML), exclusao (somente detecção fraude)),
+    mostrar criterios de buscas e resultados encontrados,
+    listar diferenças com trabalhos correlatos,

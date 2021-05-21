@@ -1,0 +1,57 @@
+Lista de Exercícios 02 - Funções
+
+1. Escreva uma função simples que apenas escreve uma frase na tela. Coloque a chamada dessa função dentro de uma estrutura de loop que execute 3 vezes.
+
+2. Modifique a função da questão anterior para que a função aceite um argumento e concatene o valor desse argumento à frase escrita na saída. Na chamada, passe o valor da variável de loop como argumento.
+
+Exemplo de saída:
+
+Teste da função 0
+Teste da função 1
+Teste da função 2
+
+3. Escreva a função media3 que recebe três argumentos numéricos e retorne a média aritmética entre eles. Faça uma chamada à função, para testá-la.
+
+4. Modifique a resposta anterior para que a chamada de função receba parâmetros passados na linha de comando.
+
+5. Escreva uma função que receba uma temperatura em Fahrenheit e retorne o valor em Celsius. Modifique a questão 9 da lista anterior para chamar essa função dentro do loop ao construir a tabela.
+
+6. Escreva uma função para calcular a área de um círculo, dado o raio. Se o raio for negativo, deve ser retornado o valor 0. Dica: Use Math.PI para obter o valor de π.
+
+7. Escreva uma função chamada ehPrimo que receba um número e retorne se esse número é primo ou não. Utilize a chamada dessa função em um loop para listar todos os números primos entre 2 e 30.
+
+8. Escreva uma função chamada saudacao com um argumento obrigatório, nome, e um opcional, frase. A função deve escrever uma saudação na tela, contendo o nome e a frase especificadas. Se a frase não for especificada, o valor padrão é "Olá".
+
+Por exemplo, o seguinte código:
+
+saudacao('Fulano');
+saudacao('Sicrano', 'Bom dia');
+saudacao('Beltrano', 'Boa noite');
+
+Deve retornar algo parecido com:
+
+Olá, Fulano!
+Bom dia, Sicrano!
+Boa noite, Beltrano!
+
+9. Escreva uma função chamada potencia, com um parâmetro obrigatório, nn, e outro opcional, xx. Caso xx não seja especificado na chamada, a função deve retornar n^2n2; caso seja, deve retornar n^xnx.
+
+Por exemplo, o código:
+
+console.log( potencia(2) );
+console.log( potencia(3) );
+console.log( potencia(3,4) );
+console.log( potencia(2,10) );
+
+Deve resultar em:
+
+4
+9
+81
+1024
+
+10. Escreva a função recursiva numprint(n), que, ao ser chamada, escreva todos os números entre n e 50. A função não deve conter nenhuma estrutura de loop.
+
+11. Escreva a função calc(op,a,b) em que o primeiro parâmetro define a operação a ser feita (0 → adição, 1 → subtração, 2 → multiplicação, 3 → divisão) e a e b são os operandos. Na implementação, defina uma função interna sem parâmetros para realizar cada operação (adiciona(), etc.).
+
+Ex.: calc(2, 15,10) deve retornar 150.

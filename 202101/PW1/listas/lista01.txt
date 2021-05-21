@@ -1,0 +1,63 @@
+Lista de Exercícios 01 - Introdução a JavaScript
+
+1. Crie duas variáveis, chamadas ifb e campus, com os valores 'Instituto Federal de Brasília' e 'Campus Brasília', respectivamente.
+
+Crie uma terceira variável que concatene as duas separando por vírgula e escreva o resultado na tela. Depois , faça a mesma coisa utilizando interpolação de strings.
+
+Saída esperada:
+
+Instituto Federal de Brasília, Campus Brasília
+Instituto Federal de Brasília, Campus Brasília
+
+2. Dado o seguinte código:
+
+let a = 5;
+let b = 6;
+let c = '6';
+let d = 'abc';
+
+Crie expressões com operadores utilizando as variáveis acima de modo a chegar aos seguintes resultados:
+
+11
+56
+5abc
+
+3. Escreva um script que calcule o custo total de uma refeição em uma lanchonete: dois hambúrgueres com preço de R$ 9,95 cada, mais um milk-shake que custa R$ 8,00 e um refrigerante por R$ 4,50. Calcule o preço total após a adição de uma taxa de 10%.
+
+4. Escreva um script que, a partir de uma variável que contém uma dada temperatura na escala Fahrenheit, exiba a equivalente em Celsius.
+
+[This is the rendered form of the equation. You can not edit this directly. Right click will give you the option to save the image, and in most browsers you can drag the image onto your desktop or another program.]
+
+5. Modifique a questão anterior para ler a temperatura em Fahrenheit a partir de um parâmetro da linha de comando.
+
+6. Escreva um script que leia 3 valores como parâmetros da linha de comando e escreva na tela o maior deles.
+
+Dica: Use parseInt(...) para converter as strings lidas nos parâmetros em números inteiros.
+
+7. Dado o seguinte código:
+
+let x = 3;
+
+let y;
+if(x == 3)
+    y = 'três';
+else
+    y = 'não três';
+
+console.log(y);
+
+Substitua todas as linhas (menos a primeira e a última) por uma única instrução contendo um operador ternário, mantendo a mesma lógica do algoritmo.
+
+8. Escreva um script que calcule e exiba na tela os números de 1 a 20, ao lado de seus respectivos quadrados e cubos.
+
+9. Escreva um script que gere uma tabela de temperaturas, em que a primeira coluna mostre temperaturas em Fahrenheit, e a segunda, as equivalentes em Celsius. Devem ser exibidas todas as temperaturas Fahrenheit entre -50F e 50F, com incrementos de 5F.
+
+10. Escreva um script que gere o seguinte padrão na tela, escrevendo apenas um caractere '*' por instrução e utilizando dois loops for, um dentro do outro:
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * *  
+
+(Use process.stdout.write(...) ao invés de console.log(...), para evitar a quebra de linha após cada caractere).

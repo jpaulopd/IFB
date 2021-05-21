@@ -1,0 +1,3 @@
+Objetivo da disciplina é construir uma aplicação web completa em javascript.
+Prazo para solucionar a lista é de uma semana, de segunda a domingo.
+primeiro projeto será entregue somente o frontend
