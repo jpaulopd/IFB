@@ -1,0 +1,75 @@
+Lista de Exercícios 03 - Objetos
+
+1. Crie um objeto representando um livro, com campos para título, autor e número de páginas. 
+Emita diretamente como saída no console a variável que representa o objeto.
+
+2. Modifique a questão anterior para emitir uma linha de saída separada para cada uma das três propriedades do objeto.
+
+3. Modifique a questão anterior para percorrer o objeto com uma estrutura de loop e escrever na saída automaticamente todas as propriedades e valores, uma por linha.
+
+4. Escreva uma função chamada obterDescricao que receba um objeto livro 
+    e retorne uma string com uma descrição do livro (ex.: "Dom Casmurro, autor: Machado de Assis, 256 páginas"). 
+Teste a função passando como parâmetros ao menos dois objetos diferentes.
+
+5. Escreva uma função chamada criaLivro que receba 3 parâmetros: título, autor e número de páginas 
+    e retorne um objeto livro com os respectivos valores.
+
+Teste o objeto criado, passando-o como parâmetro para a função da questão anterior.
+
+6. Dados objetos como os seguintes:
+
+let contaX = {
+    nome: 'José Fontes',
+    saldo: 1000
+};
+
+let contaY = {
+    nome: 'Felipe Silva',
+    saldo: 3000
+}
+
+Escreva 3 funções: deposita(conta, valor), que acrescenta o valor especificado a uma conta; 
+    retira(conta, valor), que subtrai o valor especificado; 
+    e transfere(conta1, conta2, valor) que transfere dinheiro de uma conta a outra. 
+Escreva código para testar as 3 funções usando os objetos acima.
+
+7. Partindo do código anterior, transforme as três funções em métodos de um dos objetos.
+
+De modo que o seguinte código:
+
+contaX.deposita(800);
+console.log(contaX.nome, contaX.saldo);
+
+contaX.retira(500);
+console.log(contaX.nome, contaX.saldo);
+
+contaX.transferePara(contaY, 1000);
+console.log(contaX.nome, contaX.saldo);
+console.log(contaY.nome, contaY.saldo);
+
+Resulte em:
+
+José Fontes 1800
+José Fontes 1300
+José Fontes 300
+Felipe Silva 4000
+
+8. Crie um objeto chamado pessoa com duas propriedades comuns, primeiroNome e ultimoNome, e uma propriedade get/set chamada nome. Ao se obter o valor de nome, deve ser retornada a concatenação de primeiro e último nomes. Ao se modificar o valor de nome, deve ser modificado o primeiro nome, e o último nome deve ser a string vazia.
+
+Por exemplo, o seguinte código:
+
+pessoa.primeiroNome = 'Lucas';
+pessoa.ultimoNome = 'Barbosa';
+console.log(pessoa.nome);
+
+pessoa.nome = 'Mariana'
+console.log(pessoa.nome);
+
+Deve resultar em:
+
+Lucas Barbosa
+Mariana 
+
+9. Recrie o objeto composto familias do slide 17 da aula, partindo apenas de objetos vazios (let xxx = {}) e acrescentando as propriedades uma a uma, de modo a obter exatamente o mesmo resultado final.
+
+10. Escreva um script que use 2 loops for ... in aninhados para percorrer o mesmo objeto anterior e exibir todas as informações contidas nele de alguma maneira organizada. Ao final, exiba uma contagem da quantidade total de famílias e pessoas encontradas.
