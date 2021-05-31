@@ -1,0 +1,64 @@
+Lista de exercícios 04 - Arrays
+
+1. Considerando o array definido da seguinte forma:
+
+let cores = ['ciano', 'verde', 'amarelo'];
+
+Escreva um script que exiba o seguinte texto:
+
+No sistema de cores CYMK, a cor verde é formada pela adição das cores amarelo e ciano.
+
+Em que as palavras verde, amarelo e ciano devem vir do array.
+
+2. Escreva um script que resulte na saída abaixo, construída a partir do array da questão anterior, usando a estrutura for(... ; ... ; ...). Depois refaça o mesmo loop de mais duas maneiras, usando for ... in e for ... of.
+
+- ciano
+- verde
+- amarelo
+
+3. Sem modificar a linha inicial que cria o array com 3 elementos, use uma instrução com o método splice e outra com o método push, de modo a resultar no array que gera a seguinte saída:
+
+- ciano
+- roxo
+- laranja
+- verde
+- amarelo
+- cinza
+
+4 Escreva uma função calcula que receba um array e retorne um objeto contendo a soma e a média aritmética de todos seus elementos. Por exemplo, calcula( [4, 8, 20, 6] ), deve retornar o objeto { soma: 38, media: 9.5 }. A função deve funcionar para arrays de qualquer tamanho.
+
+5 Modifique a função anterior para que ela seja chamada com um número variável de argumentos numéricos, ao invés de um array. Por exemplo, calcula(4, 8, 20, 6), deve retornar o objeto { soma: 38, media: 9.5 }.
+
+6. Escreva uma função somaArrays, a qual receba dois arrays de mesmo tamanho (qualquer) e retorne um array, também de mesmo tamanho, em que cada elemento é a soma dos valores correspondentes das entradas.
+
+Por exemplo, se:
+
+let a = [ 4, 5, 10 ];
+let b = [ 2, 3, 8 ];
+
+A chamada de somaArrays(a,b) deve retornar o array [ 6, 8, 18 ].
+
+7. Escreva uma função ehPalindromo que receba uma string e retorne um valor booleano (true ou false), dependendo se a string é ou não idêntica quando lida de trás para frente.
+
+8. Escreva uma função inverte que retorna o inverso de uma string dada. Utilize métodos de string e array, sem nenhuma estrutura de loop.
+
+Ex.: O resultado de inverte('Abacaxi') deve ser ixacabA.
+
+9. Escreva uma função que receba um array bidimensional e escreva-o na tela como uma tabela com linhas e colunas separadas por tabulação ("\t").
+
+Por exemplo, para o array do slide 19, o resultado deve ser:
+
+Fred    Barney
+George  Jane    Elroy
+Homer   Marge   Bart
+
+10. Escreva uma função que receba um array de objetos como o do slide 20 e escreva na tela de forma organizada todas as informações que ele contém.
+
+11. Escreva uma função somaMatrizes que receba dois arrays bidimensionais de mesmo tamanho contendo números e retorne outro array bidimensional contendo a soma dos anteriores.
+
+Por exemplo, se:
+
+let a = [ [4,5,6], [10,20,30] ];
+let b = [ [1,2,3], [5,8,20] ];
+
+A chamada de somaMatrizes(a,b) deve retornar [ [ 5, 7, 9 ], [ 15, 28, 50 ] ].

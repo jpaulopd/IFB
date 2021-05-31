@@ -1,5 +1,4 @@
 
-//QUESTAO 1
 console.log('\n*************************** RESPOSTA QUESTAO 1 **************************************')
 let livro = {
     titulo:'Alice no País das Maravilhas',
@@ -98,3 +97,96 @@ deposita(contaX,2000);
 retira(contaY,1500);
 transfere(contaX,contaY,1000)
 
+console.log('\n*************************** RESPOSTA QUESTAO 7 **************************************')
+
+let contaXX = {
+    nome: 'José Fontes',
+    saldo: 1000,
+    deposita: function(valor){
+        this.saldo = this.saldo + valor;
+    },
+    retira: function(valor){
+        this.saldo = this.saldo - valor;
+    },
+    transferePara: function(conta, valor){
+        this.saldo = this.saldo - valor;
+        conta.saldo = conta.saldo + valor;
+    }
+};
+
+let contaYY = {
+    nome: 'Felipe Silva',
+    saldo: 3000
+}
+
+
+contaXX.deposita(800);
+console.log(contaXX.nome, contaXX.saldo);
+
+contaXX.retira(500);
+console.log(contaXX.nome, contaXX.saldo);
+
+contaXX.transferePara(contaYY, 1000);
+console.log(contaXX.nome, contaXX.saldo);
+console.log(contaYY.nome, contaYY.saldo);
+
+console.log('\n*************************** RESPOSTA QUESTAO 8 **************************************')
+
+let pessoa = {
+    primeiroNome:{},
+    ultimoNome:{},
+    get nome(){
+        return `${this.primeiroNome} ${this.ultimoNome}`
+    },
+    set nome(nome){
+        this.primeiroNome = nome;
+        this.ultimoNome = ''
+    }
+}
+
+pessoa.primeiroNome = 'Lucas';
+pessoa.ultimoNome = 'Barbosa';
+console.log(pessoa.nome);
+
+pessoa.nome = 'Mariana'
+console.log(pessoa.nome);
+
+console.log('\n*************************** RESPOSTA QUESTAO 9 **************************************')
+
+let familias = {}
+
+familias.Flinstones = {
+    pai: 'Fred',
+    amigo: 'Barney'
+}
+
+familias.Jetsons = {
+    pai:'George',
+    mae:'Jane',
+    filho:'Elroy'
+}
+
+familias.Simpsons = {
+    pai:'Homer',
+    mae:'Marge',
+    filho:'Bart'
+}
+
+console.log(familias);
+
+console.log('\n*************************** RESPOSTA QUESTAO 10 **************************************')
+
+let contadorFamilias = 0;
+let contadorPessoas = 0;
+
+for (familia in familias){
+    console.log(familia);
+    
+    for(pessoas in familias[familia]){
+        console.log('',pessoas,'->',familias[familia][pessoas]);
+        contadorPessoas++;
+    }
+    contadorFamilias++;
+}
+
+console.log(`Total de familias ${contadorFamilias} \nTotal de pessoas ${contadorPessoas}`);

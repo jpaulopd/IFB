@@ -54,7 +54,11 @@ José Fontes 1300
 José Fontes 300
 Felipe Silva 4000
 
-8. Crie um objeto chamado pessoa com duas propriedades comuns, primeiroNome e ultimoNome, e uma propriedade get/set chamada nome. Ao se obter o valor de nome, deve ser retornada a concatenação de primeiro e último nomes. Ao se modificar o valor de nome, deve ser modificado o primeiro nome, e o último nome deve ser a string vazia.
+8. Crie um objeto chamado pessoa com duas propriedades comuns, primeiroNome e ultimoNome, 
+    e uma propriedade get/set chamada nome. 
+Ao se obter o valor de nome, deve ser retornada a concatenação de primeiro e último nomes. 
+Ao se modificar o valor de nome, deve ser modificado o primeiro nome, 
+    e o último nome deve ser a string vazia.
 
 Por exemplo, o seguinte código:
 
@@ -70,6 +74,11 @@ Deve resultar em:
 Lucas Barbosa
 Mariana 
 
-9. Recrie o objeto composto familias do slide 17 da aula, partindo apenas de objetos vazios (let xxx = {}) e acrescentando as propriedades uma a uma, de modo a obter exatamente o mesmo resultado final.
+9. Recrie o objeto composto familias do slide 17 da aula, 
+partindo apenas de objetos vazios (let xxx = {}) 
+e acrescentando as propriedades uma a uma, de modo a obter exatamente o mesmo resultado final.
 
-10. Escreva um script que use 2 loops for ... in aninhados para percorrer o mesmo objeto anterior e exibir todas as informações contidas nele de alguma maneira organizada. Ao final, exiba uma contagem da quantidade total de famílias e pessoas encontradas.
+10. Escreva um script que use 2 loops for ... in aninhados 
+para percorrer o mesmo objeto anterior 
+e exibir todas as informações contidas nele de alguma maneira organizada. 
+Ao final, exiba uma contagem da quantidade total de famílias e pessoas encontradas.
