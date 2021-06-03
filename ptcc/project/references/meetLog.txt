@@ -18,3 +18,23 @@
     inclui criterio para revisão (inclusao (IA e ML), exclusao (somente detecção fraude)),
     mostrar criterios de buscas e resultados encontrados,
     listar diferenças com trabalhos correlatos,
+
+
+01/06/2021
+
+
+-
+Critérios Exclusão artigos das bases de dados
+1) Fizeram comparação de técnicas
+2) Artigos mais recentes >= 2016
+
+Deep learning
+Arvores de decisão
+SVM
+Regressão 
+Rede Neural - Multilayer Perceptron
+Nayve Bayes
+
+Não usar tecnicas muito estatisticas
+    Apache Stark é framework
+    
