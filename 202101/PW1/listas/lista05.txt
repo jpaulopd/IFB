@@ -1,0 +1,110 @@
+Lista de Exercícios 05 - Programação Funcional
+
+1. Dada a função:
+
+function fazAlgo(oque, x){
+    return oque(x);
+}
+
+Complete o código de modo que a saída de:
+
+for(let n of [2,3,4,5]){
+    console.log( `${n}: ${fazAlgo(dobra, n)}, ${fazAlgo(quadrado, n)}` );    
+}
+
+Seja a seguinte:
+
+2: 4, 4
+3: 6, 9
+4: 8, 16
+5: 10, 25
+
+2. Aproveitando os mesmos objetos dobra e quadrado da questão anterior, crie um array de operações que começa assim:
+
+let operacoes = [ dobra, quadrado, ... ]
+
+Preencha os itens restantes do array com duas funções anônimas, uma que retorne a metade, e a outra, o negativo do valor passado. Percorra esse array com um loop for chamando todas as funções com um mesmo parâmetro e escrevendo o resultado na tela. Por exemplo, para o parâmetro 8, a saída deve ser:
+
+16
+64
+4
+-8
+
+3. Ainda aproveitando dobra e quadrado, escreva a função fazEmTodos(oque, array), de modo que a saída de:
+
+let lista = [2,3,4,5];
+console.log( fazEmTodos(dobra, lista) );
+console.log( fazEmTodos(quadrado, lista) );
+
+Seja a seguinte:
+
+[ 4, 6, 8, 10 ]
+[ 4, 9, 16, 25 ]
+
+4. Baseado no seguinte código:
+
+let geraFuncao = function(x){
+    if(x)
+        return () => "V1";
+    else
+        return () => "V2";
+}
+
+let func1 = geraFuncao(true);
+let func2 = geraFuncao(false);
+
+Utilize os objetos func1 e func2 para escrever na tela as strings "V1" e "V2", respectivamente. 
+Depois, escreva os mesmos valores a partir de chamadas diretas de geraFuncao, sem a criação de objetos intermediários.
+
+5. Usando forEach, escreva um código que percorre um array de strings e escreve cada um dos elementos na tela, assim como o número de caracteres que ele contém.
+
+Por exemplo, para o array ['Java', 'Javascript', 'CSS', 'C#'], a saída pode ser algo como:
+
+Java: 4 caracteres
+Javascript: 10 caracteres
+CSS: 3 caracteres
+C#: 2 caracteres
+
+6. Replique a mesma saída do exercício 3 usando map no lugar da função fazEmTodos.
+
+7. Use map para transformar um array de objetos contendo o campo nome em uma lista de strings com esses nomes.
+
+Por exemplo, para o código:
+
+let lista = [ 
+    {nome: 'Bruna', idade: 28},
+    {nome: 'Lucas', idade: 22},
+    {nome: 'Martim', idade: 24},
+    {nome: 'Júlia', idade: 31},
+];
+
+// let lista2 = ...
+console.log(lista2);
+
+A saída deve ser:
+
+[ 'Bruna', 'Lucas', 'Martim', 'Júlia' ]
+
+8. Use filter para filtrar da lista anterior apenas os elementos com idade maior que 25. 
+O resultado deve ser o seguinte:
+
+[ { nome: 'Lucas', idade: 28 }, { nome: 'Júlia', idade: 31 } ]
+
+Depois, use o mesmo map da questão anterior para recuperar apenas os nomes. O resultado final deve ser:
+
+[ 'Lucas', 'Júlia' ]
+
+(Você pode fazer o filter e o map em um comando só, sem exibir o resultado intermediário)
+
+9. Utilize sort para ordenar os elementos da lista das questões anteriores por idade.
+
+10. Escreva a função geraMultiplicador, de modo o resultado de:
+
+let mult3 = geraMultiplicador(3);
+let mult5 = geraMultiplicador(5);
+
+console.log(mult3(10), mult5(5), geraMultiplicador(8)(10));
+
+Seja:
+
+30 25 80

@@ -25,7 +25,8 @@
 
 -
 Critérios Exclusão artigos das bases de dados
-1) Fizeram comparação de técnicas
+1) machine learning detecção fraude cartão de crédito
+1) Comparação de técnicas de ML
 2) Artigos mais recentes >= 2016
 
 Deep learning
@@ -35,6 +36,10 @@ Regressão
 Rede Neural - Multilayer Perceptron
 Nayve Bayes
 
-Não usar tecnicas muito estatisticas
+Não usar tecnicas muito estatisticas ou frameworks
     Apache Stark é framework
+
+08/06/2021
+-identificar trabalhos correlatos e trabalhos para conceituação.
+-colocar diagram prisma nos resultados 
     
