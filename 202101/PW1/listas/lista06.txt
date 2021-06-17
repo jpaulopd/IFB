@@ -1,0 +1,89 @@
+Lista de Exercícios 06 - Orientação a Objetos
+
+1. Usando a sintaxe tradicional de construtor e protótipo, 
+crie um construtor chamado Usuario(nome), com um método associado obtemNome(), que retorne uma string com o nome informado, de modo que o código:
+
+let user = new Usuario('Fulano');
+console.log(`Meu nome é ${user.obtemNome()}.`);
+
+Resulte na saída:
+
+Meu nome é Fulano.
+
+2. Reescreva o código anterior usando a nova sintaxe de classe do ES2015, 
+de modo que o código de exemplo dado continue funcionando igualmente.
+
+3. Crie uma classe chamada Ponto que represente um ponto no espaço, 
+com um construtor que receba os parâmetros x e y desse ponto 
+e um método distancia que calcule a distância cartesiana deste até outro ponto 
+(outro objeto da mesma classe).
+
+    Distância entre os pontos e :
+    Use Math.sqrt para calcular a raiz quadrada.
+
+Exemplo:
+
+let p1 = new Ponto(3, 4);
+let p2 = new Ponto(5, 6);
+console.log(p1.distancia(p2));
+
+Saída esperada:
+
+2.8284271247461903
+
+4. Crie a classe Livro e 
+uma subclasse EBook de modo que o exemplo abaixo produza o resultado demonstrado.
+
+(O método obterDescricao deve ser definido apenas em Livro e o construtor de EBook deve usar super para chamar o construtor de sua superclasse.
+
+Exemplo:
+
+let dom = new Livro('Dom Casmurro', 'Machado de Assis', 256);
+let hp = new EBook('Harry Potter e a Pedra Filosofal', 'J. K. Rowling', 309, 420);
+console.log(dom.obterDescricao());
+console.log(hp.obterDescricao());
+console.log(hp.obterTamanho());
+
+Saída esperada:
+
+"Dom Casmurro", autor: Machado de Assis, 256 páginas
+"Harry Potter e a Pedra Filosofal", autor: J. K. Rowling, 309 páginas
+420.kb
+
+5. Escreva classes chamadas TrianguloEq (equilátero) e 
+Quadrado que recebam no construtor um parâmetro para o tamanho do lado e 
+tenham métodos chamadas area e 
+perimetro que retornem os valores corretos.
+
+    Área do triângulo equilátero:
+
+Exemplo:
+
+let t = new TrianguloEq(10);
+console.log(t.perimetro(), t.area());
+
+let q = new Quadrado(10);
+console.log(q.perimetro(), q.area());
+
+Saída esperada:
+
+30 43.30127018922193
+40 100
+
+6. Crie uma classe Forma e 
+transforme Quadrado e 
+TrianguloEq em suas subclasses. 
+Acrescente o método toString a Forma de modo que o seguinte código:
+
+let formas = [ new Quadrado(5), new Quadrado(10),
+               new TrianguloEq(5), new TrianguloEq(10) ];
+for(forma of formas){
+    console.log(`${forma.constructor.name}: ${forma.toString()}`);
+}
+
+Resulte em:
+
+Quadrado: p=20, a=25
+Quadrado: p=40, a=100
+TrianguloEq: p=15, a=10.825317547305483
+TrianguloEq: p=30, a=43.30127018922193
