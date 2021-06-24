@@ -1,0 +1,361 @@
+TY  - JOUR
+TI  - Internet Financial Fraud Detection Based on a Distributed Big Data Approach With Node2vec
+T2  - IEEE Access
+SP  - 43378
+EP  - 43386
+AU  - H. Zhou
+AU  - G. Sun
+AU  - S. Fu
+AU  - L. Wang
+AU  - J. Hu
+AU  - Y. Gao
+PY  - 2021
+KW  - Credit cards
+KW  - Finance
+KW  - Data models
+KW  - Internet of Things
+KW  - Expert systems
+KW  - Clustering algorithms
+KW  - Big Data
+KW  - Internet of Things (IoT)
+KW  - Internet finance
+KW  - fraud detection
+KW  - graph embedding algorithm
+KW  - Node2Vec
+DO  - 10.1109/ACCESS.2021.3062467
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 9
+VL  - 9
+JA  - IEEE Access
+Y1  - 2021
+AB  - The rapid development of information technologies like Internet of Things, Big Data, Artificial Intelligence, Blockchain, etc., has profoundly affected people’s consumption behaviors and changed the development model of the financial industry. The financial services on Internet and IoT with new technologies has provided convenience and efficiency for consumers, but new hidden fraud risks are generated also. Fraud, arbitrage, vicious collection, etc., have caused bad effects and huge losses to the development of finance on Internet and IoT. However, as the scale of financial data continues to increase dramatically, it is more and more difficult for existing rule-based expert systems and traditional machine learning model systems to detect financial frauds from large-scale historical data. In the meantime, as the degree of specialization of financial fraud continues to increase, fraudsters can evade fraud detection by frequently changing their fraud methods. In this article, an intelligent and distributed Big Data approach for Internet financial fraud detections is proposed to implement graph embedding algorithm Node2Vec to learn and represent the topological features in the financial network graph into low-dimensional dense vectors, so as to intelligently and efficiently classify and predict the data samples of the large-scale dataset with the deep neural network. The approach is distributedly performed on the clusters of Apache Spark GraphX and Hadoop to process the large dataset in parallel. The groups of experimental results demonstrate that the proposed approach can improve the efficiency of Internet financial fraud detections with better precision rate, recall rate, F1-Score and F2-Score.
+ER  - 
+
+TY  - JOUR
+TI  - Minimizing the Overlapping Degree to Improve Class-Imbalanced Learning Under Sparse Feature Selection: Application to Fraud Detection
+T2  - IEEE Access
+SP  - 28101
+EP  - 28110
+AU  - E. B. Fatima
+AU  - B. Omar
+AU  - E. M. Abdelmajid
+AU  - F. Rustam
+AU  - A. Mehmood
+AU  - G. S. Choi
+PY  - 2021
+KW  - Feature extraction
+KW  - Measurement
+KW  - Training
+KW  - Support vector machines
+KW  - Predictive models
+KW  - Prediction algorithms
+KW  - Data models
+KW  - Augmented R-value
+KW  - class-imbalance
+KW  - feature selection
+KW  - fraud detection
+KW  - overlapping
+DO  - 10.1109/ACCESS.2021.3056285
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 9
+VL  - 9
+JA  - IEEE Access
+Y1  - 2021
+AB  - In recent years, the classification of class-imbalanced data has obtained increasing attention across different scientific areas such as fraud detection, metabolomics, Cancer diagnosis, etc. This interest comes after proving the negative effect of overlapping on the performance of class-imbalanced learning. Based on augmented R-value, our proposed strategy aims to select features that make data achieve the minimal overlap degree, so improving the performance of classification as well. In this context, we present three feature selection algorithms RONS (Reduce Overlapping with No-sampling), ROS (Reduce Overlapping with SMOTE), and ROA (Reduce Overlapping with ADASYN), which are built through sparse feature selection to minimize the overlapping and perform binary classification. Also, a re-sampling process has been included in both ROS and ROA. Simulation results show that our proposed algorithms as feature selection methods manage the variation of false discovery rate during the selection of main features for the process modeling. For the experiment, four credit card datasets have been selected to test the performance of our algorithms. Using F-measure and Gmean evaluation metrics, the results reveal that our proposed algorithms are considerably recommended compared with classical feature selection methods. Besides, this effective feature selection strategy can be extended as an alternative to deal with class-imbalanced learning problems that involve overlapping.
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of Deep Neural Networks for Reduction of Credit Card Fraud Alerts
+T2  - IEEE Access
+SP  - 186421
+EP  - 186432
+AU  - R. San Miguel Carrasco
+AU  - M. -Á. Sicilia-Urbán
+PY  - 2020
+KW  - Neural networks
+KW  - Machine learning
+KW  - Credit cards
+KW  - Support vector machines
+KW  - Decision trees
+KW  - Forestry
+KW  - Feature extraction
+KW  - Neural networks
+KW  - deep learning
+KW  - fraud detection
+KW  - alert reduction
+DO  - 10.1109/ACCESS.2020.3026222
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Fraud detection systems support advanced detection techniques based on complex rules, statistical modelling and machine learning. However, alerts triggered by these systems still require expert judgement to either confirm a fraud case or discard a false positive. Reducing the number of false positives that fraud analysts investigate, by automating their detection with computer-assisted techniques, can lead to significant cost efficiencies. Alert reduction has been achieved with different techniques in related fields like intrusion detection. Furthermore, deep learning has been used to accomplish this task in other fields. In our paper, a set of deep neural networks have been tested to measure their ability to detect false positives, by processing alerts triggered by a fraud detection system. The performance achieved by each neural network setting is presented and discussed. The optimal setting allowed to capture 91.79% of total fraud cases with 35.16% less alerts. Obtained alert reduction rate would entail a significant reduction in cost of human labor, because alerts classified as false positives by the neural network wouldn't require human inspection.
+ER  - 
+
+TY  - JOUR
+TI  - A Closer Look Into the Characteristics of Fraudulent Card Transactions
+T2  - IEEE Access
+SP  - 166095
+EP  - 166109
+AU  - B. Can
+AU  - A. G. Yavuz
+AU  - E. M. Karsligil
+AU  - M. A. Guvensan
+PY  - 2020
+KW  - Credit cards
+KW  - Machine learning
+KW  - Banking
+KW  - Data models
+KW  - Training
+KW  - Forestry
+KW  - Insurance
+KW  - Fraud detection
+KW  - profiling
+KW  - amount range
+KW  - card-type
+KW  - transaction characteristics
+KW  - zero-day attack
+KW  - amount-based success rate
+DO  - 10.1109/ACCESS.2020.3022315
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Widespread use of Internet also had the substantial impact on the increase of the online card transactions especially with the beginning of the last decade. Along with the increase of online transactions, the worldwide banking sector was forced to deal with or to encounter an unforeseen number of fraudulent activities, yet. Hence, rule-based systems were designed to mark the high-risk transactions and let the experts to confirm the fraudulent nature of such transactions. As a countermeasure, static nature of rule-based systems were exploited by the latest attacks to go undetected. Thus, researchers aimed at designing adaptive fraud detection systems utilizing mainly machine learning techniques with the very recent application of deep learning. However, they were focused on detecting fraudulent activities but, to the best of our knowledge, none of them delved into the better understanding the characteristics of fraudulent card transactions in order to produce more resilient models. Therefore, in this study, we built the biggest data set ever used in a research, consisting of 4B non-fraud and 245K fraud transactions contributed to by the 35 banks in Turkey. Consequently, we introduce and examine the performance of profile-based fraud detection models, namely card-type based model, transaction characteristics based model, and amount-based model. Also, we made temporal and spatial analysis on our data set to show the robustness of the proposed models against aging and zero-day attacks.
+ER  - 
+
+TY  - JOUR
+TI  - Using Variational Auto Encoding in Credit Card Fraud Detection
+T2  - IEEE Access
+SP  - 149841
+EP  - 149853
+AU  - H. Tingfei
+AU  - C. Guangquan
+AU  - H. Kuihua
+PY  - 2020
+KW  - Credit cards
+KW  - Machine learning
+KW  - Training
+KW  - Neural networks
+KW  - Gallium nitride
+KW  - Generative adversarial networks
+KW  - Encoding
+KW  - Credit card fraud
+KW  - variational automatic coding
+KW  - oversampling
+KW  - generative adversarial network
+KW  - deep learning
+DO  - 10.1109/ACCESS.2020.3015600
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Machine learning approaches are widely used to analyze and detect the increasingly serious problem of credit card fraud. However, typical credit card datasets present imbalanced classification situations because of severely skewed class distributions. Although researchers have proposed some strategies to deal with these imbalances, disadvantages remain. We propose an oversampling method based on variational automatic coding (VAE), combined with classic deep learning techniques, to solve this problem. The VAE method is used to generate a large amount of diverse cases from minority groups in an imbalanced dataset, which are then used to train the classification network. The proposed method is tested on an open credit card fraud dataset, which contains transactions conducted by European cardholders over two days in September 2013. Experimental results show that the VAE method performs better than synthetic minority oversampling techniques and traditional deep neural network methods. In addition, it outperforms recent oversampling methods based on generative adversarial network (GAN) models. After submitting the extended dataset to the baseline for training, the test of the VAE model performs well on indicators including precision, F-measure, accuracy and specificity. These experimental results suggest that the VAE-based oversampling method can be effectively applied to imbalanced classification problems.
+ER  - 
+
+TY  - JOUR
+TI  - Comprehensive Review of Cybercrime Detection Techniques
+T2  - IEEE Access
+SP  - 137293
+EP  - 137311
+AU  - W. A. Al-Khater
+AU  - S. Al-Maadeed
+AU  - A. A. Ahmed
+AU  - A. S. Sadiq
+AU  - M. K. Khan
+PY  - 2020
+KW  - Phishing
+KW  - Cyber terrorism
+KW  - Government
+KW  - Tools
+KW  - Companies
+KW  - Security
+KW  - cybercrime detection techniques
+KW  - neural network
+KW  - fuzzy logic
+KW  - machine learning
+KW  - data mining
+DO  - 10.1109/ACCESS.2020.3011259
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Cybercrimes are cases of indictable offences and misdemeanors that involve computers or communication tools as targets and commission instruments or are associated with the prevalence of computer technology. Common forms of cybercrimes are child pornography, cyberstalking, identity theft, cyber laundering, credit card theft, cyber terrorism, drug sale, data leakage, sexually explicit content, phishing, and other forms of cyber hacking. They mostly lead to a privacy breach, security violation, business loss, financial fraud, or damage in public and government properties. Thus, this study intensively reviews cybercrime detection and prevention techniques. It first explores the different types of cybercrimes and discusses their threats against privacy and security in computer systems. Then, it describes the strategies that cybercriminals may utilize in committing these crimes against individuals, organizations, and societies. It also reviews the existing techniques of cybercrime detection and prevention. It objectively discusses the strengths and critically analyzes the vulnerabilities of each technique. Finally, it provides recommendations for the development of a cybercrime detection model that can detect cybercrimes effectively compared with the existing techniques.
+ER  - 
+
+TY  - JOUR
+TI  - A Multiple Classifiers System for Anomaly Detection in Credit Card Data With Unbalanced and Overlapped Classes
+T2  - IEEE Access
+SP  - 28210
+EP  - 28221
+AU  - S. N. Kalid
+AU  - K. Ng
+AU  - G. Tong
+AU  - K. Khor
+PY  - 2020
+KW  - Credit cards
+KW  - Support vector machines
+KW  - Anomaly detection
+KW  - Classification algorithms
+KW  - Probability
+KW  - Banking
+KW  - Anomaly detection
+KW  - credit card
+KW  - multiple classifiers
+DO  - 10.1109/ACCESS.2020.2972009
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - Frauds and default payments are two major anomalies in credit card transactions. Researchers have been vigorously finding solutions to tackle them and one of the solutions is to use data mining approaches. However, the collected credit card data can be quite a challenge for researchers. This is because of the data characteristics that contain: (i) unbalanced class distribution, and (ii) overlapping of class samples. Both characteristics generally cause low detection rates for the anomalies that are minorities in the data. On top of that, the weakness of general learning algorithms contributes to the difficulties of classifying the anomalies as the algorithms generally bias towards the majority class samples. In this study, we used a Multiple Classifiers System (MCS) on these two data sets: (i) credit card frauds (CCF), and (ii) credit card default payments (CCDP). The MCS employs a sequential decision combination strategy to produce accurate anomaly detection. Our empirical studies show that the MCS outperforms the existing research, particularly in detecting the anomalies that are minorities in these two credit card data sets.
+ER  - 
+
+TY  - JOUR
+TI  - An Intelligent Approach to Credit Card Fraud Detection Using an Optimized Light Gradient Boosting Machine
+T2  - IEEE Access
+SP  - 25579
+EP  - 25587
+AU  - A. A. Taha
+AU  - S. J. Malebary
+PY  - 2020
+KW  - Credit cards
+KW  - Machine learning algorithms
+KW  - Feature extraction
+KW  - Boosting
+KW  - Bayes methods
+KW  - Credit card fraud
+KW  - electronic commerce
+KW  - machine learning
+KW  - optimization methods
+DO  - 10.1109/ACCESS.2020.2971354
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 8
+VL  - 8
+JA  - IEEE Access
+Y1  - 2020
+AB  - New advances in electronic commerce systems and communication technologies have made the credit card the potentially most popular method of payment for both regular and online purchases; thus, there is significantly increased fraud associated with such transactions. Fraudulent credit card transactions cost firms and consumers large financial losses every year, and fraudsters continuously attempt to find new technologies and methods for committing fraudulent transactions. The detection of fraudulent transactions has become a significant factor affecting the greater utilization of electronic payment. Thus, there is a need for efficient and effective approaches for detecting fraud in credit card transactions. This paper proposes an intelligent approach for detecting fraud in credit card transactions using an optimized light gradient boosting machine (OLightGBM). In the proposed approach, a Bayesian-based hyperparameter optimization algorithm is intelligently integrated to tune the parameters of a light gradient boosting machine (LightGBM). To demonstrate the effectiveness of our proposed OLightGBM for detecting fraud in credit card transactions, experiments were performed using two real-world public credit card transaction data sets consisting of fraudulent transactions and legitimate ones. Based on a comparison with other approaches using the two data sets, the proposed approach outperformed the other approaches and achieved the highest performance in terms of accuracy (98.40%), Area under receiver operating characteristic curve (AUC) (92.88%), Precision (97.34%) and F1-score (56.95%).
+ER  - 
+
+TY  - JOUR
+TI  - The OCS-SVM: An Objective-Cost-Sensitive SVM With Sample-Based Misclassification Cost Invariance
+T2  - IEEE Access
+SP  - 118931
+EP  - 118942
+AU  - S. Yu
+AU  - X. Li
+AU  - X. Zhang
+AU  - H. Wang
+PY  - 2019
+KW  - Support vector machines
+KW  - Error analysis
+KW  - Reliability
+KW  - Tsunami
+KW  - Cancer
+KW  - Intrusion detection
+KW  - Training
+KW  - Cost-sensitive learning
+KW  - objective cost
+KW  - reliability
+KW  - SVM
+KW  - total cost
+DO  - 10.1109/ACCESS.2019.2933437
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 7
+VL  - 7
+JA  - IEEE Access
+Y1  - 2019
+AB  - Studies on the traditional support vector machine (SVM) implicitly assume that the costs of different types of mistakes are the same and minimize the error rate. On the one hand, it is not enough for many practical applications to rely solely on the error rate, which reflects only the average classification ability of a classifier. It is also of great significance to consider the performance of classifiers from the perspective of each sample. On the other hand, many real-world problems, such as credit card fraud detection, intrusion detection, oil-spill detection and cancer diagnosis, usually involve substantially unequal misclassification costs. To solve this problem, many works on the cost-sensitive SVM (CS-SVM) have emerged. The misclassification costs for this model are generally provided by domain experts. Inspired by the concept of the CS-SVM, we propose a new SVM with sample-based misclassification cost invariance with the aim of constructing a relatively reliable classifier. The relatively reliable classifier is defined as the one with low probabilities of finding a classifier that correctly classifies each misclassified sample. Note that the cost is determined by the inherent characteristics of each sample rather than being subjectively assigned, so we denote the proposed classifier as the objective-cost-sensitive SVM (OCS-SVM). The experimental results demonstrate the superiority of the proposed method compared with nine other commonly used classifiers.
+ER  - 
+
+TY  - JOUR
+TI  - An Experimental Study With Imbalanced Classification Approaches for Credit Card Fraud Detection
+T2  - IEEE Access
+SP  - 93010
+EP  - 93022
+AU  - S. Makki
+AU  - Z. Assaghir
+AU  - Y. Taher
+AU  - R. Haque
+AU  - M. Hacid
+AU  - H. Zeineddine
+PY  - 2019
+KW  - Credit cards
+KW  - Neural networks
+KW  - Hidden Markov models
+KW  - Support vector machines
+KW  - Classification algorithms
+KW  - Decision trees
+KW  - Machine learning algorithms
+KW  - Fraud analysis and detection
+KW  - fraud cybercrimes
+KW  - imbalanced classification
+KW  - secure society
+DO  - 10.1109/ACCESS.2019.2927266
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 7
+VL  - 7
+JA  - IEEE Access
+Y1  - 2019
+AB  - Credit card fraud is a criminal offense. It causes severe damage to financial institutions and individuals. Therefore, the detection and prevention of fraudulent activities are critically important to financial institutions. Fraud detection and prevention are costly, time-consuming, and labor-intensive tasks. A number of significant research works have been dedicated to developing innovative solutions to detect different types of fraud. However, these solutions have been proved ineffective. According to Cifa, 33 305 cases of credit card identity fraud were reported between January and June in 2018.1 Various weaknesses of existing solutions have been reported in the literature. Among them all, the imbalance classification is the most critical and well-known problem. Imbalance classification consists of having a small number of observations of the minority class compared with the majority in the data set. In this problem, the ratio fraud: legitimate is very small, which makes it extremely difficult for the classification algorithm to detect fraud cases. In this paper, we will conduct a rigorous experimental study with the solutions that tackle the imbalance classification problem. We explored these solutions along with the machine learning algorithms used for fraud detection. We identified their weaknesses and summarized the results that we obtained using a credit card fraud labeled dataset. According to this paper, imbalanced classification approaches are ineffective, especially when the data are highly imbalanced. This paper reveals that the existing approaches result in a large number of false alarms, which are costly to financial institutions. This may lead to inaccurate detection as well as increasing the occurrence of fraud cases.
+ER  - 
+
+TY  - JOUR
+TI  - Credit Card Fraud Detection Using AdaBoost and Majority Voting
+T2  - IEEE Access
+SP  - 14277
+EP  - 14284
+AU  - K. Randhawa
+AU  - C. K. Loo
+AU  - M. Seera
+AU  - C. P. Lim
+AU  - A. K. Nandi
+PY  - 2018
+KW  - Credit cards
+KW  - Machine learning algorithms
+KW  - Support vector machines
+KW  - Radio frequency
+KW  - Vegetation
+KW  - Classification algorithms
+KW  - Self-organizing feature maps
+KW  - AdaBoost
+KW  - classification
+KW  - credit card
+KW  - fraud detection
+KW  - predictive modelling
+KW  - voting
+DO  - 10.1109/ACCESS.2018.2806420
+JO  - IEEE Access
+IS  - 
+SN  - 2169-3536
+VO  - 6
+VL  - 6
+JA  - IEEE Access
+Y1  - 2018
+AB  - Credit card fraud is a serious problem in financial services. Billions of dollars are lost due to credit card fraud every year. There is a lack of research studies on analyzing real-world credit card data owing to confidentiality issues. In this paper, machine learning algorithms are used to detect credit card fraud. Standard models are first used. Then, hybrid methods which use AdaBoost and majority voting methods are applied. To evaluate the model efficacy, a publicly available credit card data set is used. Then, a real-world credit card data set from a financial institution is analyzed. In addition, noise is added to the data samples to further assess the robustness of the algorithms. The experimental results positively indicate that the majority voting method achieves good accuracy rates in detecting fraud cases in credit cards.
+ER  - 
+
+

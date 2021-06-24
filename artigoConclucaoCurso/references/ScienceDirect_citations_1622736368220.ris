@@ -1,0 +1,1716 @@
+TY  - JOUR
+T1  - A framework for detecting credit card fraud with cost-sensitive meta-learning ensemble approach
+AU  - Olowookere, Toluwase Ayobami
+AU  - Adewale, Olumide Sunday
+JO  - Scientific African
+VL  - 8
+SP  - e00464
+PY  - 2020
+DA  - 2020/07/01/
+SN  - 2468-2276
+DO  - https://doi.org/10.1016/j.sciaf.2020.e00464
+UR  - https://www.sciencedirect.com/science/article/pii/S2468227620302027
+KW  - Ensemble
+KW  - Cost-sensitive
+KW  - Credit card
+KW  - Fraud detection
+KW  - Meta-learning
+KW  - Receiver operating characteristic
+AB  - Electronic payment systems continue to seamlessly aid business transactions across the world, and credit cards have emerged as a means of making payments in E-payment systems. Fraud due to credit card usage has, however, remained a major global threat to financial institutions with several reports and statistics laying bare the extent of this challenge. Several machine learning techniques and approaches have been established to mitigate this prevailing menace in payment systems, effective amongst which are ensemble methods and cost-sensitive learning techniques. This paper proposes a framework that combines the potentials of meta-learning ensemble techniques and cost-sensitive learning paradigm for fraud detection. The approach of the proposed framework is to allow base-classifiers to fit traditionally while the cost-sensitive learning is incorporated in the ensemble learning process to fit the cost-sensitive meta-classifier without having to enforce cost-sensitive learning on each of the base-classifiers. The predictive accuracy of the trained cost-sensitive meta-classifier and base classifiers were evaluated using Area Under the Receiver Operating Characteristic curve (AUC). Results obtained from classifying unseen data show that the cost-sensitive ensemble classifier maintains an excellent AUC value indicating consistent performance across different fraud rates in the dataset. These results indicate that the cost-sensitive ensemble framework is efficient in producing cost-sensitive ensemble classifiers that are capable of effectively detecting fraudulent transactions in different databases of payment systems irrespective of the proportion of fraud cases as compared to the performances of ordinary ensemble classifiers.
+ER  - 
+
+TY  - JOUR
+T1  - Enabling Precision Cardiology Through Multiscale Biology and Systems Medicine
+AU  - Johnson, Kipp W.
+AU  - Shameer, Khader
+AU  - Glicksberg, Benjamin S.
+AU  - Readhead, Ben
+AU  - Sengupta, Partho P.
+AU  - Björkegren, Johan L.M.
+AU  - Kovacic, Jason C.
+AU  - Dudley, Joel T.
+JO  - JACC: Basic to Translational Science
+VL  - 2
+IS  - 3
+SP  - 311
+EP  - 327
+PY  - 2017
+DA  - 2017/06/01/
+SN  - 2452-302X
+DO  - https://doi.org/10.1016/j.jacbts.2016.11.010
+UR  - https://www.sciencedirect.com/science/article/pii/S2452302X17300876
+KW  - cardiology
+KW  - clinical informatics
+KW  - multi-omics
+KW  - precision medicine
+KW  - translational bioinformatics
+AB  - Summary
+The traditional paradigm of cardiovascular disease research derives insight from large-scale, broadly inclusive clinical studies of well-characterized pathologies. These insights are then put into practice according to standardized clinical guidelines. However, stagnation in the development of new cardiovascular therapies and variability in therapeutic response implies that this paradigm is insufficient for reducing the cardiovascular disease burden. In this state-of-the-art review, we examine 3 interconnected ideas we put forth as key concepts for enabling a transition to precision cardiology: 1) precision characterization of cardiovascular disease with machine learning methods; 2) the application of network models of disease to embrace disease complexity; and 3) using insights from the previous 2 ideas to enable pharmacology and polypharmacology systems for more precise drug-to-patient matching and patient-disease stratification. We conclude by exploring the challenges of applying a precision approach to cardiology, which arise from a deficit of the required resources and infrastructure, and emerging evidence for the clinical effectiveness of this nascent approach.
+ER  - 
+
+TY  - JOUR
+T1  - Big data based fraud risk management at Alibaba
+AU  - Chen, Jidong
+AU  - Tao, Ye
+AU  - Wang, Haoran
+AU  - Chen, Tao
+JO  - The Journal of Finance and Data Science
+VL  - 1
+IS  - 1
+SP  - 1
+EP  - 10
+PY  - 2015
+DA  - 2015/12/01/
+SN  - 2405-9188
+DO  - https://doi.org/10.1016/j.jfds.2015.03.001
+UR  - https://www.sciencedirect.com/science/article/pii/S2405918815000021
+KW  - Fraud detection and prevention
+KW  - Risk model
+KW  - Malicious behavior
+KW  - Risk score
+KW  - Big data analysis
+AB  - With development of mobile internet and finance, fraud risk comes in all shapes and sizes. This paper is to introduce the Fraud Risk Management at Alibaba under big data. Alibaba has built a fraud risk monitoring and management system based on real-time big data processing and intelligent risk models. It captures fraud signals directly from huge amount data of user behaviors and network, analyzes them in real-time using machine learning, and accurately predicts the bad users and transactions. To extend the fraud risk prevention ability to external customers, Alibaba also built up a big data based fraud prevention product called AntBuckler. AntBuckler aims to identify and prevent all flavors of malicious behaviors with flexibility and intelligence for online merchants and banks. By combining large amount data of Alibaba and customers', AntBuckler uses the RAIN score engine to quantify risk levels of users or transactions for fraud prevention. It also has a user-friendly visualization UI with risk scores, top reasons and fraud connections.
+ER  - 
+
+TY  - JOUR
+T1  - On the influence of categorical features in ranking anomalies using mixed data
+AU  - Garchery, Mathieu
+AU  - Granitzer, Michael
+JO  - Procedia Computer Science
+VL  - 126
+SP  - 77
+EP  - 86
+PY  - 2018
+DA  - 2018/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 22nd International Conference, KES-2018, Belgrade, Serbia
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2018.07.211
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918311852
+KW  - anomaly detection
+KW  - anomaly ranking
+KW  - unsupervised
+KW  - categorical
+KW  - nominal
+KW  - mixed data
+KW  - entropy
+AB  - Most unsupervised anomaly ranking approaches are compatible with numeric data only, leading to categorical features often being ignored in practice. Even though some methods address this issue, few support mixed data and the influence of excluding or including categorical attributes has not been studied well yet. In this paper, we take a first step towards considering categorical and numeric attributes jointly for unsupervised anomaly ranking by benchmarking selected methods. We introduce three new approaches: two entropy-based methods based on individual and collective entropy contribution, as well as an extension of Isolation Forest supporting mixed data, and benchmark them against SPAD, a state-of-the-art probabilistic anomaly ranker. We observe that our entropy methods detect very similar anomalies in practice, and these anomalies are mostly globally isolated observations. Both entropy methods are also closely related to SPAD. Our empirical study additionally shows that categorical features can have high impact on anomaly ranking performance and thus should not be blindly ignored.
+ER  - 
+
+TY  - JOUR
+T1  - PWIDB: A framework for learning to classify imbalanced data streams with incremental data re-balancing technique
+AU  - Mohammed, Rafiq Ahmed
+AU  - Wong, Kok-Wai
+AU  - Shiratuddin, Mohd Fairuz
+AU  - Wang, Xuequn
+JO  - Procedia Computer Science
+VL  - 176
+SP  - 818
+EP  - 827
+PY  - 2020
+DA  - 2020/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.09.077
+UR  - https://www.sciencedirect.com/science/article/pii/S187705092031975X
+KW  - automated balancing strategy
+KW  - ensemble learner
+KW  - imbalanced
+KW  - incremental learning
+KW  - racing algorithm
+KW  - random forest
+AB  - The performance of classification algorithms with highly imbalanced streaming data depends upon efficient balancing strategy. Some techniques of balancing strategy have been applied using static batch data to resolve the class imbalance problem, which is difficult if applied for massive data streams. In this paper, a new Piece-Wise Incremental Data re-Balancing (PWIDB) framework is proposed. The PWIDB framework combines automated balancing techniques using Racing Algorithm (RA) and incremental rebalancing technique. RA is an active learning approach capable of classifying imbalanced data and can provide a way to select an appropriate re-balancing technique with imbalanced data. In this paper, we have extended the capability of RA for handling imbalanced data streams in the proposed PWIDB framework. The PWIDB accumulates previous knowledge with increments of re-balanced data and captures the concept of the imbalanced instances. The PWIDB is an incremental streaming batch framework, which is suitable for learning with streaming imbalanced data. We compared the performance of PWIDB with a well-known FLORA technique. Experimental results show that the PWIDB framework exhibits an improved and stable performance compared to FLORA and accumulative re-balancing techniques.
+ER  - 
+
+TY  - JOUR
+T1  - An Unsupervised Approach for Combining Scores of Outlier Detection Techniques, Based on Similarity Measures
+AU  - Pasillas-Díaz, José Ramón
+AU  - Ratté, Sylvie
+JO  - Electronic Notes in Theoretical Computer Science
+VL  - 329
+SP  - 61
+EP  - 77
+PY  - 2016
+DA  - 2016/12/09/
+T2  - CLEI 2016 - The Latin American Computing Conference
+SN  - 1571-0661
+DO  - https://doi.org/10.1016/j.entcs.2016.12.005
+UR  - https://www.sciencedirect.com/science/article/pii/S1571066116301128
+KW  - outlier detection
+KW  - ensembles
+AB  - Outlier detection, the discovery of observations that deviates from normal behavior, has become crucial in many application domains. Numerous and diverse algorithms have been proposed to detect them. These algorithms identify outliers using precise definitions of the concept of outliers, thus their performance depends largely on the context of application. The construction of ensembles has been proposed as a solution to increase the individual capacity of each algorithm. However, the unsupervised scenario (absence of class labels) in the domains where outlier detection operates restricts the use of approaches relying on the existence of labels. In this paper, two novel unsupervised approaches using ensembles of heterogeneous types of detectors are proposed. Both approaches construct the ensemble using solely the results produced by each algorithm, identifying and giving more weight to the most suitable techniques depending on the particular dataset under examination. Through experimental evaluation in real world datasets, we demonstrate that our proposed algorithm provides a significant improvement over the base algorithms and even over existing approaches for ensemble outlier detection.
+ER  - 
+
+TY  - JOUR
+T1  - Credit Card Fraud Detection using Pipeling and Ensemble Learning
+AU  - Bagga, Siddhant
+AU  - Goyal, Anish
+AU  - Gupta, Namita
+AU  - Goyal, Arvind
+JO  - Procedia Computer Science
+VL  - 173
+SP  - 104
+EP  - 112
+PY  - 2020
+DA  - 2020/01/01/
+T2  - International Conference on Smart Sustainable Intelligent Computing and Applications under ICITETM2020
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.06.014
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920315167
+KW  - Credit card fraud detection
+KW  - classification
+KW  - en-semble learning
+AB  - Financial fraud is a problem that has proved to be a menace and has a huge impact on the financial industry. Data mining is one of the techniques which has played an important role in credit card fraud detection in transactions which are online. Credit card fraud detection has proved to be a challenge mainly due to the 2 problems that it poses - both the profiles of fraudulent and normal behaviours change and data sets used are highly skewed. The performance of fraud detection is affected by the variables used and the technique used to detect fraud. This paper compares the performance of logistic regression, K-nearest neighbors, random forest, naive bayes, multilayer perceptron, ada boost, quadrant discriminative analysis, pipelining and ensemble learning on the credit card fraud data.
+ER  - 
+
+TY  - JOUR
+T1  - Selection Features and Support Vector Machine for Credit Card Risk Identification
+AU  - Rtayli, Naoufal
+AU  - Enneya, Nourddine
+JO  - Procedia Manufacturing
+VL  - 46
+SP  - 941
+EP  - 948
+PY  - 2020
+DA  - 2020/01/01/
+T2  - 13th International Conference Interdisciplinarity in Engineering, INTER-ENG 2019, 3–4 October 2019, Targu Mures, Romania
+SN  - 2351-9789
+DO  - https://doi.org/10.1016/j.promfg.2020.05.012
+UR  - https://www.sciencedirect.com/science/article/pii/S2351978920314608
+KW  - Credit card risk
+KW  - Fraud identification;Imbalanced data
+KW  - Support Vector Machine
+KW  - Machine learning
+AB  - For identifying credit card risk in massive and high dimensionality data, feature selection is considered very important to improve classification performance and fraud identification process. One of the commonly used feature selection methods is Random Forest Classifier (RFC), which is very suitable for large dataset. RFC has a good performance; it tends to identify the most predictive features, which may provide a significant improvement in classification performance of credit card risk identification model. In this paper, we propose an enhanced Credit Card Risk Identification (CCRI) method based on the features selection algorithm as Random Forest Classifier and Support Vector Machine to detecting fraud risk. Our experimental results show that the proposed algorithm outperforms the Local Outlier Factor, Isolation Forest and Decision Tree in term of classification performance on a larger dataset.
+ER  - 
+
+TY  - JOUR
+T1  - A Resampling Method for Imbalanced Datasets Considering Noise and Overlap
+AU  - Sasada, Taisho
+AU  - Liu, Zhaoyu
+AU  - Baba, Tokiya
+AU  - Hatano, Kenji
+AU  - Kimura, Yusuke
+JO  - Procedia Computer Science
+VL  - 176
+SP  - 420
+EP  - 429
+PY  - 2020
+DA  - 2020/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.08.043
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920318676
+KW  - Imbalanced Data
+KW  - Resampling
+KW  - Data Complexity
+AB  - If there is a bias in the number of instances that make up the class in a dataset, the predicted results will be affected when applied to machine learning as training data. A method called resampling, which adjusts the number of majority and minority instances, is usually used to solve the imbalance in training data. Although resampling can eliminate imbalances, it may cause data complexity that deteriorates classification accuracy. Noise and overlap are well-known factors of data complexity. Noise is mixture of instances with features that can be classified into other classes at the time of training, and overlap represents the state in which classes cannot be linearly separated because they partially overlap each other. However, conventional methods could not consider these factors at a time, so that their classification accuracy would be not praiseworthy. In order to deal with both noise and overlap, we just need to integrate each of the methods that can deal with them. We know that there have already been established the methods to deal with each problem; however a simple integration of them may remove instances from the dataset that do not need to be removed, or may leave ones that should be removed. Therefore, we have to quantify these factors to take into account for data complexity, and have to consider more effective ways of their integration. In this paper, we propose a method for integrating well-known two resampling methods, which are called SMOTE-ENN and SMOTE-Tomek. In four out of ten datasets, our experimental result showed that our method is effective compared with the latest conventional methods.
+ER  - 
+
+TY  - JOUR
+T1  - The Entropy and PCA Based Anomaly Prediction in Data Streams
+AU  - Hong, Daocheng
+AU  - Zhao, Deshan
+AU  - Zhang, Yanchun
+JO  - Procedia Computer Science
+VL  - 96
+SP  - 139
+EP  - 146
+PY  - 2016
+DA  - 2016/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 20th International Conference KES-2016
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2016.08.115
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050916319160
+KW  - data streams analysis
+KW  - anomaly prediction
+KW  - data management
+AB  - With the increase of data and information, anomaly management has been attracting much more attention and become an important research topic gradually. Previous literatures have advocated anomaly discovery and identification ignoring the fact that practice needs anomaly detection in advance (anomaly prediction) but anomaly detection with post-hoc analysis. Given this apparent gap, this research proposes a new approach for anomaly prediction based on PCA (principle component analysis) and information entropy theory, and support vector regression. The main idea of anomaly prediction is to train the historical data and to identify and recognize outlier data according to previous streams patterns and trends. The explorative results of SO2 concentration of exhaust gas in WFGD (Wet Flue Gas Desulfurization) demonstrate a good performance (efficient and accurate) of the target data prediction approach. This robust and novel method can be used to detect and predict the anomaly in data streams, and applied to fault prediction, credit card fraud prediction, intrusion prediction in cyber-security, malignant diagnosis, etc.
+ER  - 
+
+TY  - JOUR
+T1  - Credit Card Fraud Detection using Machine Learning Algorithms
+AU  - Dornadula, Vaishnavi Nath
+AU  - Geetha, S
+JO  - Procedia Computer Science
+VL  - 165
+SP  - 631
+EP  - 641
+PY  - 2019
+DA  - 2019/01/01/
+T2  - 2nd International Conference on Recent Trends in Advanced Computing ICRTAC -DISRUP - TIV INNOVATION , 2019 November 11-12, 2019
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.01.057
+UR  - https://www.sciencedirect.com/science/article/pii/S187705092030065X
+KW  - Card-Not-Present frauds
+KW  - Card-Present-Frauds
+KW  - Concept Drift
+AB  - Credit card frauds are easy and friendly targets. E-commerce and many other online sites have increased the online payment modes, increasing the risk for online frauds. Increase in fraud rates, researchers started using different machine learning methods to detect and analyse frauds in online transactions. The main aim of the paper is to design and develop a novel fraud detection method for Streaming Transaction Data, with an objective, to analyse the past transaction details of the customers and extract the behavioural patterns. Where cardholders are clustered into different groups based on their transaction amount. Then using sliding window strategy [1], to aggregate the transaction made by the cardholders from different groups so that the behavioural pattern of the groups can be extracted respectively. Later different classifiers [3],[5],[6],[8] are trained over the groups separately. And then the classifier with better rating score can be chosen to be one of the best methods to predict frauds. Thus, followed by a feedback mechanism to solve the problem of concept drift [1]. In this paper, we worked with European credit card fraud dataset.
+ER  - 
+
+TY  - JOUR
+T1  - The Proposal of Undersampling Method for Learning from Imbalanced Datasets
+AU  - Bach, Małgorzata
+AU  - Werner, Aleksandra
+AU  - Palt, Mateusz
+JO  - Procedia Computer Science
+VL  - 159
+SP  - 125
+EP  - 134
+PY  - 2019
+DA  - 2019/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 23rd International Conference KES2019
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2019.09.167
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050919313456
+KW  - classification
+KW  - imbalanced dataset
+KW  - sampling methods
+AB  - Highly imbalanced data, which occurs in many real-world applications, often makes machine-based processing difficult or even impossible. The over- and under-sampling methods help to tackle this issue, however they often have serious shortcomings. In this paper different methods of class balancing, especially those obtained by undersampling, are analyzed. Besides, a new solution is presented. The method is oriented toward finding and thinning clusters of majority class examples. Removing observations from high-density areas can lead to a less loss of information than in the case of removing individual examples or these from less-density areas. Such approach makes the distribution of examples more even. The effectiveness of the method is demonstrated through extensive comparisons to other undersampling methods with the use of eighteen public datasets. The results of experiments show that in many cases the proposed solution allows to achieve better performance than other tested techniques.
+ER  - 
+
+TY  - JOUR
+T1  - Rogue behavior detection in NoSQL graph databases
+AU  - Castelltort, Arnaud
+AU  - Laurent, Anne
+JO  - Journal of Innovation in Digital Ecosystems
+VL  - 3
+IS  - 2
+SP  - 70
+EP  - 82
+PY  - 2016
+DA  - 2016/12/01/
+SN  - 2352-6645
+DO  - https://doi.org/10.1016/j.jides.2016.10.004
+UR  - https://www.sciencedirect.com/science/article/pii/S2352664516300177
+KW  - Rogue behavior
+KW  - Fraud rings
+KW  - NoSQL graph databases
+KW  - Fuzzy DSL
+KW  - Approximate cypher queries
+AB  - Rogue behaviors refer to behavioral anomalies that can occur in human activities and that can thus be retrieved from human generated data. In this paper, we aim at showing that NoSQL graph databases are a useful tool for this purpose. Indeed these database engines exploit property graphs that can easily represent human and object interactions whatever the volume and complexity of the data. These interactions lead to fraud rings in the graphs in the form of sophisticated chains of indirect links between fraudsters representing successive transactions (money, communications, etc.) from which rogue behaviours are detected. Our work is based on two extensions of such NoSQL graph databases. The first extension allows the handling of time-variant data while the second one is devoted to the management of imprecise queries with a DSL (to define flexible operators and operations with Scala) and the Cypherf declarative flexible query language over NoSQL graph databases. These extensions allow to better address and describe sophisticated frauds. Feasibility have been studied to assess our proposition.
+ER  - 
+
+TY  - JOUR
+T1  - Pattern recognition of financial institutions’ payment behavior
+AU  - León, Carlos
+AU  - Barucca, Paolo
+AU  - Acero, Oscar
+AU  - Gage, Gerardo
+AU  - Ortega, Fabio
+JO  - Latin American Journal of Central Banking
+VL  - 1
+IS  - 1
+SP  - 100011
+PY  - 2020
+DA  - 2020/01/01/
+SN  - 2666-1438
+DO  - https://doi.org/10.1016/j.latcb.2020.100011
+UR  - https://www.sciencedirect.com/science/article/pii/S2666143820300119
+KW  - Payments
+KW  - Neural networks
+KW  - Feature selection
+KW  - Machine learning
+KW  - Pattern recognition
+AB  - We present a general supervised machine-learning methodology to represent the payment behavior of financial institutions starting from a database of transactions in the Colombian large-value payment system. The methodology learns a feedforward artificial neural network parameterization to represent the payment patterns through 113 features corresponding to financial institutions’ contribution to payments, funding habits, payment timing, payment concentration, centrality in the payment network, and systemic effects due to failure to pay. We then use the representation to compare the coherence of out-of-sample payment patterns of the same institution to its characteristic patterns. The performance is remarkable, with an out-of-sample classification error around three percent. The performance is robust to reductions in the number of features by unsupervised feature selection. In addition, we confirm that network centrality and systemic effect features definitively contribute to enhancing the performance of the methodology. For financial authorities, this is a major step towards the automated detection of individual financial institutions’ anomalous behaviors in payment systems.
+ER  - 
+
+TY  - JOUR
+T1  - A Study on Validity Detection for Shipping Decision in the Mail-order Industry
+AU  - Takahashi, Masakazu
+AU  - Azuma, Hiroaki
+AU  - Tsuda, Kazuhiko
+JO  - Procedia Computer Science
+VL  - 112
+SP  - 1318
+EP  - 1325
+PY  - 2017
+DA  - 2017/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 21st International Conference, KES-20176-8 September 2017, Marseille, France
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2017.08.007
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050917313467
+KW  - Risk Management
+KW  - Mail Order
+KW  - Customer Analyses
+KW  - Fraud Detection
+KW  - Machine Learning
+KW  - Weak Learner
+KW  - Random Forest
+KW  - Service Science
+KW  - Management Engineering
+AB  - This paper presents investigating fraud transaction detection in the mail order industry. These kinds of detection have done intensively, but the outcome of the research has not shared among the mail-order industry. As the B2C market such as the Amazon type business expands their market volume exponentially, the fraud transactions increase in number. As a matter of course, this phenomenon is not only continuing but clever. One of the conclusive factor for this phenomenon is the payment method. That is, the deferred payment method. The conventional primary indicator for the fraud detection is the ordered time based information. They are shipping address, recipient name, and the payment method. This kind of information makes use of the prediction in common. Conventional detecting method for the fraud depends on the human working experiences so far. From such kind of information, the mail-order company predicts the potential fraud customer with their working experience parameters. As the number of order transaction becomes large, fraud detection becomes difficult. The mail order industry needs something clever detection method. From these backgrounds, we observe the transaction data with the customer attribute information gathered from a mail order company in Japan and characterized the customer with a machine learning method. From the results of the intensive research, potential fraudulent transactions are identified. Intensive research revealed that the classification of the deliberate customer and the careless customer with machine learning.
+ER  - 
+
+TY  - JOUR
+T1  - Credit Fraud Detection Based on Hybrid Credit Scoring Model
+AU  - Chen, Keqin
+AU  - Yadav, Amit
+AU  - Khan, Asif
+AU  - Zhu, Kun
+JO  - Procedia Computer Science
+VL  - 167
+SP  - 2
+EP  - 8
+PY  - 2020
+DA  - 2020/01/01/
+T2  - International Conference on Computational Intelligence and Data Science
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.03.176
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920306402
+KW  - Logistic Regression
+KW  - Weight of Evidence
+KW  - Credit Fraud Detection
+KW  - Credit Evaluation
+AB  - Credit risk rating can be described by several economic activity indicators. Utilizing these financial movement markers to build a tenable credit scoring model will enormously improve the precision of the model. This method can be used in a series of credit evaluations and specific economic conditions. A reasonable scenario in which the uncertainty is consistent. In this paper, the logistic regression algorithm is joined with weighted evidence to fabricate another credit score model. Through the relationship existing in economic activities, the connection of each economic movement is additionally dissected by utilizing the correlation orthogonal transformation in the weight of proof to improve the exactness of the model. In practice, due to numerous weaknesses in the records, there is significant error in the logistic regression. Hence, building of hybrid scoring model can increase the accurateness of credit score. Thus improved the prediction rate of user credit scores and reducing the occurrence of credit fraud.
+ER  - 
+
+TY  - JOUR
+T1  - An Embedded Backward Feature Selection Method for MCLP Classification Algorithm
+AU  - Zhu, Meihong
+AU  - Song, Jie
+JO  - Procedia Computer Science
+VL  - 17
+SP  - 1047
+EP  - 1054
+PY  - 2013
+DA  - 2013/01/01/
+T2  - First International Conference on Information Technology and Quantitative Management
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2013.05.133
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050913002664
+KW  - Multiple Criteria Linear Programming
+KW  - Feature Selection
+KW  - Embedded
+KW  - Backward
+AB  - Feature selection is very crucial for improving classification performance, especially in the case of high-dimensional data classification.Different classification algorithms tend to select different optimal feature subsets. Based on detailed analysis of the characteristics of Multiple Criteria Linear Programming (MCLP) classification algorithm, a feature selection criterion is presented and an embedded backward feature selection procedure is designed for MCLP in this paper. Experiments on four datasets (artificial and real-world) are carried out, and the effectiveness of the presented method is assessed. Results show that it achieves good performance as expected.
+ER  - 
+
+TY  - JOUR
+T1  - Contents
+JO  - Procedia Computer Science
+VL  - 167
+SP  - iii
+EP  - xvi
+PY  - 2020
+DA  - 2020/01/01/
+T2  - International Conference on Computational Intelligence and Data Science
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/S1877-0509(20)30921-2
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920309212
+ER  - 
+
+TY  - JOUR
+T1  - An Autoencoder Based Model for Detecting Fraudulent Credit Card Transaction
+AU  - Misra, Sumit
+AU  - Thakur, Soumyadeep
+AU  - Ghosh, Manosij
+AU  - Saha, Sanjoy Kumar
+JO  - Procedia Computer Science
+VL  - 167
+SP  - 254
+EP  - 262
+PY  - 2020
+DA  - 2020/01/01/
+T2  - International Conference on Computational Intelligence and Data Science
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.03.219
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920306840
+KW  - Fraud Detection
+KW  - Financial Transaction
+KW  - Autoencoder
+AB  - With the rapid growth in credit card based financial transactions, it has become important to identify the fraudulent ones. In this work, a two stage model is proposed to identify such fraudulent transactions. To make a fraud detection system trustworthy, both miss in fraud detection and false alarms are to minimized. Understanding and learning the complex associations among the transaction attributes is a major problem. To address this issue, at the first stage of the proposed model an autoencoder is used to transform the transaction attributes to a feature vector of lower dimension. The feature vector thus obtained is used as the input to a classifier at the second stage. Experiment is done on a benchmarked dataset. It is observed that in terms of F1-measure, proposed two stage model performs better than the systems relying on only classifier and other autoencoder based systems.
+ER  - 
+
+TY  - JOUR
+T1  - Modeling Approach for Situational Event-handling within Production Planning and Control Based on Complex Event Processing
+AU  - Pielmeier, Julia
+AU  - Braunreuther, Stefan
+AU  - Reinhart, Gunther
+JO  - Procedia CIRP
+VL  - 63
+SP  - 271
+EP  - 276
+PY  - 2017
+DA  - 2017/01/01/
+T2  - Manufacturing Systems 4.0 – Proceedings of the 50th CIRP Conference on Manufacturing Systems
+SN  - 2212-8271
+DO  - https://doi.org/10.1016/j.procir.2017.03.158
+UR  - https://www.sciencedirect.com/science/article/pii/S2212827117303402
+KW  - Modeling
+KW  - Production
+KW  - Process control
+AB  - Nowadays industrial production environments are complex, volatile, and driven by uncertainties. Manufacturing companies are striving for flexibility and adaptability to cope with these challenges and remain competitive. Market requirements such as shortened product life cycles, increasing number of variants, and customized products lead to complexity in manufacturing systems. Possible approaches to cope with such challenges can be found in the field of ‘Industrie 4.0’. In particular, decision-making and real-time reaction systems are one way to handle the complexity. To cope with this complexity, digitalization like the vision of ‘Industrie 4.0’ can offer different solutions. However, digitalization leads to an increase of the amount of data describing the status of products and resources within an industrial production environment. In order to achieve a near real time monitoring and control of production and logistics processes, intelligent processing and analyzing of the acquired data is necessary. As a result of this development, so called “complex event processing” (CEP) is essential for analyzing extensive data streams in real-time. In order to derive the rules for a CEP engine, an event model has to be described to visualize the relations, constraints and abstraction levels of production processes. The main focus within this paper is a modeling approach for the situational handling of events within production planning and control. The requirements of the modeling method are focused on the use case of a mass production for carbon-fiber-reinforced plastic CFRP components.
+ER  - 
+
+TY  - JOUR
+T1  - Machine learning for internet of things data analysis: a survey
+AU  - Mahdavinejad, Mohammad Saeid
+AU  - Rezvan, Mohammadreza
+AU  - Barekatain, Mohammadamin
+AU  - Adibi, Peyman
+AU  - Barnaghi, Payam
+AU  - Sheth, Amit P.
+JO  - Digital Communications and Networks
+VL  - 4
+IS  - 3
+SP  - 161
+EP  - 175
+PY  - 2018
+DA  - 2018/08/01/
+SN  - 2352-8648
+DO  - https://doi.org/10.1016/j.dcan.2017.10.002
+UR  - https://www.sciencedirect.com/science/article/pii/S235286481730247X
+KW  - Machine learning
+KW  - Internet of Things
+KW  - Smart data
+KW  - Smart City
+AB  - Rapid developments in hardware, software, and communication technologies have facilitated the emergence of Internet-connected sensory devices that provide observations and data measurements from the physical world. By 2020, it is estimated that the total number of Internet-connected devices being used will be between 25 and 50 billion. As these numbers grow and technologies become more mature, the volume of data being published will increase. The technology of Internet-connected devices, referred to as Internet of Things (IoT), continues to extend the current Internet by providing connectivity and interactions between the physical and cyber worlds. In addition to an increased volume, the IoT generates big data characterized by its velocity in terms of time and location dependency, with a variety of multiple modalities and varying data quality. Intelligent processing and analysis of this big data are the key to developing smart IoT applications. This article assesses the various machine learning methods that deal with the challenges presented by IoT data by considering smart cities as the main use case. The key contribution of this study is the presentation of a taxonomy of machine learning algorithms explaining how different techniques are applied to the data in order to extract higher level information. The potential and challenges of machine learning for IoT data analytics will also be discussed. A use case of applying a Support Vector Machine (SVM) to Aarhus smart city traffic data is presented for a more detailed exploration.
+ER  - 
+
+TY  - JOUR
+T1  - Structural neuroimaging as clinical predictor: A review of machine learning applications
+AU  - Mateos-Pérez, José María
+AU  - Dadar, Mahsa
+AU  - Lacalle-Aurioles, María
+AU  - Iturria-Medina, Yasser
+AU  - Zeighami, Yashar
+AU  - Evans, Alan C.
+JO  - NeuroImage: Clinical
+VL  - 20
+SP  - 506
+EP  - 522
+PY  - 2018
+DA  - 2018/01/01/
+SN  - 2213-1582
+DO  - https://doi.org/10.1016/j.nicl.2018.08.019
+UR  - https://www.sciencedirect.com/science/article/pii/S2213158218302602
+KW  - Neuroimaging
+KW  - Structural magnetic resonance imaging
+KW  - Machine learning
+KW  - Predictive modeling
+KW  - Alzheimer
+KW  - Autism
+KW  - Multiple sclerosis
+KW  - Parkinson
+KW  - SVMs
+KW  - Ensembling
+KW  - Cross-validation
+AB  - In this paper, we provide an extensive overview of machine learning techniques applied to structural magnetic resonance imaging (MRI) data to obtain clinical classifiers. We specifically address practical problems commonly encountered in the literature, with the aim of helping researchers improve the application of these techniques in future works. Additionally, we survey how these algorithms are applied to a wide range of diseases and disorders (e.g. Alzheimer's disease (AD), Parkinson's disease (PD), autism, multiple sclerosis, traumatic brain injury, etc.) in order to provide a comprehensive view of the state of the art in different fields.
+ER  - 
+
+TY  - JOUR
+T1  - A Comparative Assessment of Credit Risk Model Based on Machine Learning ——a case study of bank loan data
+AU  - Wang, Yuelin
+AU  - Zhang, Yihan
+AU  - Lu, Yan
+AU  - Yu, Xinran
+JO  - Procedia Computer Science
+VL  - 174
+SP  - 141
+EP  - 149
+PY  - 2020
+DA  - 2020/01/01/
+T2  - 2019 International Conference on Identification, Information and Knowledge in the Internet of Things
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.06.069
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920315830
+KW  - Credit Risk
+KW  - Random Forest
+KW  - K-Nearest Neighbor
+KW  - Decision Tree
+KW  - Naive Bayes
+KW  - Logistic Regression
+AB  - Recently some techniques (such as statistical techniques and machine learning techniques) have been developed for evaluating individual credit information to decide whether the person meets the criteria of credit financing, and the process is known as credit scoring. This paper mainly focuses on the comparative assessment of the performances of five popular classifiers involved in machine learning used for credit scoring: Naive Bayesian Model, Logistic Regression Analysis, Random Forest, Decision Tree, and K-Nearest Neighbor Classifier. Each classifier has its own strength and weakness, it is assertive to say which one is the best. However, the results of this experiment pinpoint that Random Forest performs better than others in terms of precision, recall, AUC (area under curve) and accuracy.
+ER  - 
+
+TY  - JOUR
+T1  - Contents
+JO  - Procedia Computer Science
+VL  - 173
+SP  - iii
+EP  - v
+PY  - 2020
+DA  - 2020/01/01/
+T2  - International Conference on Smart Sustainable Intelligent Computing and Applications under ICITETM2020
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/S1877-0509(20)31676-8
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920316768
+ER  - 
+
+TY  - JOUR
+T1  - Wasserstein GAN-Based Small-Sample Augmentation for New-Generation Artificial Intelligence: A Case Study of Cancer-Staging Data in Biology
+AU  - Liu, Yufei
+AU  - Zhou, Yuan
+AU  - Liu, Xin
+AU  - Dong, Fang
+AU  - Wang, Chang
+AU  - Wang, Zihong
+JO  - Engineering
+VL  - 5
+IS  - 1
+SP  - 156
+EP  - 163
+PY  - 2019
+DA  - 2019/02/01/
+SN  - 2095-8099
+DO  - https://doi.org/10.1016/j.eng.2018.11.018
+UR  - https://www.sciencedirect.com/science/article/pii/S2095809918301127
+KW  - Artificial intelligence
+KW  - Generative adversarial network
+KW  - Deep neural network
+KW  - Small sample size
+KW  - Cancer
+AB  - It is essential to utilize deep-learning algorithms based on big data for the implementation of the new generation of artificial intelligence. Effective utilization of deep learning relies considerably on the number of labeled samples, which restricts the application of deep learning in an environment with a small sample size. In this paper, we propose an approach based on a generative adversarial network (GAN) combined with a deep neural network (DNN). First, the original samples were divided into a training set and a test set. The GAN was trained with the training set to generate synthetic sample data, which enlarged the training set. Next, the DNN classifier was trained with the synthetic samples. Finally, the classifier was tested with the test set, and the effectiveness of the approach for multi-classification with a small sample size was validated by the indicators. As an empirical case, the approach was then applied to identify the stages of cancers with a small labeled sample size. The experimental results verified that the proposed approach achieved a greater accuracy than traditional methods. This research was an attempt to transform the classical statistical machine-learning classification method based on original samples into a deep-learning classification method based on data augmentation. The use of this approach will contribute to an expansion of application scenarios for the new generation of artificial intelligence based on deep learning, and to an increase in application effectiveness. This research is also expected to contribute to the comprehensive promotion of new-generation artificial intelligence.
+ER  - 
+
+TY  - JOUR
+T1  - Knowledge Base Ontology Building For Fraud Detection Using Topic Modeling
+AU  - Attigeri, Girija
+AU  - M M, Manohara Pai
+AU  - Pai, Radhika M
+AU  - Kulkarni, Rahul
+JO  - Procedia Computer Science
+VL  - 135
+SP  - 369
+EP  - 376
+PY  - 2018
+DA  - 2018/01/01/
+T2  - The 3rd International Conference on Computer Science and Computational Intelligence (ICCSCI 2018) : Empowering Smart Technology in Digital Era for a Better Life
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2018.08.186
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918314753
+KW  - TF-IDF
+KW  - Topic modeling
+KW  - Fraud detection
+KW  - Ontology
+AB  - Moving towards the digitization and cashless economy tests the existing IT infrastructure for security and fraud controls substantially. Transition from traditional to cashless economy requires to banks to have more secure system to fight fraud. To understand and transform the needs for more secure banking system it is necessary to understand the domain of fraud and create knowledge base for fraud. It helps bridge the gap between business level and IT levels of banking. So that anti-fraud regulations could be automatically imbibed in the system. Hence the paper focuses on analyzing existing fraud case documentations and understand the significant terms involved in the fraud. For this TF-IDF weighting, topic modeling with LDA is used for identifying the group of words (topic) representing particular type of fraud. Using these knowledge base ontology is extracted which can be used for building fraud detection system. Experiment is performed on extracted fraud documents and ontology is built using the latent topics identified.
+ER  - 
+
+TY  - JOUR
+T1  - Artificial intelligence based anomaly detection of energy consumption in buildings: A review, current trends and new perspectives
+AU  - Himeur, Yassine
+AU  - Ghanem, Khalida
+AU  - Alsalemi, Abdullah
+AU  - Bensaali, Faycal
+AU  - Amira, Abbes
+JO  - Applied Energy
+VL  - 287
+SP  - 116601
+PY  - 2021
+DA  - 2021/04/01/
+SN  - 0306-2619
+DO  - https://doi.org/10.1016/j.apenergy.2021.116601
+UR  - https://www.sciencedirect.com/science/article/pii/S0306261921001409
+KW  - Energy consumption in buildings
+KW  - Anomaly detection
+KW  - Machine learning
+KW  - Deep abnormality detection
+KW  - Energy saving
+AB  - Enormous amounts of data are being produced everyday by sub-meters and smart sensors installed in residential buildings. If leveraged properly, that data could assist end-users, energy producers and utility companies in detecting anomalous power consumption and understanding the causes of each anomaly. Therefore, anomaly detection could stop a minor problem becoming overwhelming. Moreover, it will aid in better decision-making to reduce wasted energy and promote sustainable and energy efficient behavior. In this regard, this paper is an in-depth review of existing anomaly detection frameworks for building energy consumption based on artificial intelligence. Specifically, an extensive survey is presented, in which a comprehensive taxonomy is introduced to classify existing algorithms based on different modules and parameters adopted, such as machine learning algorithms, feature extraction approaches, anomaly detection levels, computing platforms and application scenarios. To the best of the authors’ knowledge, this is the first review article that discusses anomaly detection in building energy consumption. Moving forward, important findings along with domain-specific problems, difficulties and challenges that remain unresolved are thoroughly discussed, including the absence of: (i) precise definitions of anomalous power consumption, (ii) annotated datasets, (iii) unified metrics to assess the performance of existing solutions, (iv) platforms for reproducibility and (v) privacy-preservation. Following, insights about current research trends are discussed to widen the applications and effectiveness of the anomaly detection technology before deriving future directions attracting significant attention. This article serves as a comprehensive reference to understand the current technological progress in anomaly detection of energy consumption based on artificial intelligence.
+ER  - 
+
+TY  - JOUR
+T1  - A Comparison of Prediction Methods for Credit Default on Peer to Peer Lending using Machine Learning
+AU  - Setiawan, Netty
+AU  - Suharjito, 
+AU  - Diana, 
+JO  - Procedia Computer Science
+VL  - 157
+SP  - 38
+EP  - 45
+PY  - 2019
+DA  - 2019/01/01/
+T2  - The 4th International Conference on Computer Science and Computational Intelligence (ICCSCI 2019) : Enabling Collaboration to Escalate Impact of Research Results for Society
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2019.08.139
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050919310579
+KW  - P2P lending
+KW  - Random forest
+KW  - Extremely randomized tree
+KW  - PSO
+KW  - BPSO
+AB  - Social lending or peer to peer lending (p2p lending) has emerged as a viable digital platform where lenders and borrowers can do business without the involvement of financial institutions. P2p lending has gained significant momentum recently, with some platform has reached billion-dollar loan circulation. However, p2p lending platforms are not free from any form of risks. A higher return on investment for investor comes with a risk of the loan and interest not being repaid. For this purpose, this research proposes a tree-based classification method for predicting whether a loan will go bad or default before the loan is approved. The high dimensionality of the dataset needs to be processed and chosen carefully. This paper proposes a Binary PSO with SVM to perform feature selection for the dataset and Extremely Randomized Tree (ERT) and Random Forest (RF) as the classifiers. In this research, BPSOSVM-ERT and BPSOSVM-RF are compared with several performance metrics. The experimental results show BPSOSVM can produce subset of features without decreasing the performance from the original features and ERT can outperform RF in several performance metrics.
+ER  - 
+
+TY  - JOUR
+T1  - Contents
+JO  - Procedia Computer Science
+VL  - 165
+SP  - iii
+EP  - viii
+PY  - 2019
+DA  - 2019/01/01/
+T2  - 2nd International Conference on Recent Trends in Advanced Computing ICRTAC -DISRUP - TIV INNOVATION , 2019 November 11-12, 2019
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/S1877-0509(20)30120-4
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920301204
+ER  - 
+
+TY  - JOUR
+T1  - Network Anomaly Detection by Cascading K-Means Clustering and C4.5 Decision Tree algorithm
+AU  - Muniyandi, Amuthan Prabakar
+AU  - Rajeswari, R.
+AU  - Rajaram, R.
+JO  - Procedia Engineering
+VL  - 30
+SP  - 174
+EP  - 182
+PY  - 2012
+DA  - 2012/01/01/
+T2  - International Conference on Communication Technology and System Design 2011
+SN  - 1877-7058
+DO  - https://doi.org/10.1016/j.proeng.2012.01.849
+UR  - https://www.sciencedirect.com/science/article/pii/S1877705812008594
+KW  - Anomaly detection
+KW  - C4.5 decision tree
+KW  - k - Means clustering
+AB  - Intrusions pose a serious securing risk in a network environment. Network intrusion detection system aims to identify attacks or malicious activity in a network with a high detection rate while maintaining a low false alarm rate. Anomaly detection systems (ADS) monitor the behaviour of a system and flag significant deviations from the normal activity as anomalies. In this paper, we propose an anomaly detection method using “K-Means + C4.5”, a method to cascade k-Means clustering and the C4.5 decision tree methods for classifying anomalous and normal activities in a computer network. The k-Means clustering method is first used to partition the training instances into k clusters using Euclidean distance similarity. On each cluster, representing a density region of normal or anomaly instances, we build decision trees using C4.5 decision tree algorithm. The decision tree on each cluster refines the decision boundaries by learning the subgroups within the cluster. To obtain a final conclusion we exploit the results derived from the decision tree on each cluster.
+ER  - 
+
+TY  - JOUR
+T1  - Machine Learning and Deep Learning Applications-A Vision
+AU  - Sharma, Neha
+AU  - Sharma, Reecha
+AU  - Jindal, Neeru
+JO  - Global Transitions Proceedings
+VL  - 2
+IS  - 1
+SP  - 24
+EP  - 28
+PY  - 2021
+DA  - 2021/06/01/
+T2  - 1st International Conference on Advances in Information, Computing and Trends in Data Engineering (AICDE - 2020)
+SN  - 2666-285X
+DO  - https://doi.org/10.1016/j.gltp.2021.01.004
+UR  - https://www.sciencedirect.com/science/article/pii/S2666285X21000042
+KW  - Deep neural learning (DL)
+KW  - Machine Learning (ML)
+KW  - Machine intelligence (artificial intelligence-AL)
+AB  - The application of artificial intelligence is machine learning which is one of the current topics in the computer field as well as for the new COVID-19 pandemic. Researchers have given a lot of input to enhance the precision of machine learning algorithms and lot of work is carried out rapidly to enhance the intelligence of machines. Learning, a natural process in human behaviour that also becomes a vital part of machines as well. Besides this, another concept of deep learning comes to play its major role. Deep neural network (deep learning) is a subgroup of machine learning. Deep learning had been analysed and implemented in various applications and had shown remarkable results thus this field needs wider exploration which can be helpful for further real-world applications. The main objective of this paper is to provide insight survey for machine learning along with deep learning applications in various domains. Also, some applications with new normal COVID-19 blues. A review on already present applications and currently going on applications in several domains, for machine learning along with deep neural learning are exemplified.
+ER  - 
+
+TY  - JOUR
+T1  - Auto insurance fraud detection using unsupervised spectral ranking for anomaly
+AU  - Nian, Ke
+AU  - Zhang, Haofan
+AU  - Tayal, Aditya
+AU  - Coleman, Thomas
+AU  - Li, Yuying
+JO  - The Journal of Finance and Data Science
+VL  - 2
+IS  - 1
+SP  - 58
+EP  - 75
+PY  - 2016
+DA  - 2016/03/01/
+SN  - 2405-9188
+DO  - https://doi.org/10.1016/j.jfds.2016.03.001
+UR  - https://www.sciencedirect.com/science/article/pii/S2405918816300058
+KW  - Unsupervised learning
+KW  - Fraud detection
+KW  - Rare class ranking
+KW  - Similarity measure
+KW  - Kernels
+KW  - Spectral clustering
+KW  - One-class svm
+AB  - For many data mining problems, obtaining labels is costly and time consuming, if not practically infeasible. In addition, unlabeled data often includes categorical or ordinal features which, compared with numerical features, can present additional challenges. We propose a new unsupervised spectral ranking method for anomaly (SRA). We illustrate that the spectral optimization in SRA can be viewed as a relaxation of an unsupervised SVM problem. We demonstrate that the first non-principal eigenvector of a Laplacian matrix is linked to a bi-class classification strength measure which can be used to rank anomalies. Using the first non-principal eigenvector of the Laplacian matrix directly, the proposed SRA generates an anomaly ranking either with respect to the majority class or with respect to two main patterns. The choice of the ranking reference can be made based on whether the cardinality of the smaller class (positive or negative) is sufficiently large. Using an auto insurance claim data set but ignoring labels when generating ranking, we show that our proposed SRA significantly surpasses existing outlier-based fraud detection methods. Finally we demonstrate that, while proposed SRA yields good performance for a few similarity measures for the auto insurance claim data, notably ones based on the Hamming distance, choosing appropriate similarity measures for a fraud detection problem remains crucial.
+ER  - 
+
+TY  - JOUR
+T1  - Contents
+JO  - Procedia Computer Science
+VL  - 48
+SP  - iii
+EP  - vi
+PY  - 2015
+DA  - 2015/01/01/
+T2  - International Conference on Computer, Communication and Convergence (ICCC 2015)
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/S1877-0509(15)00778-4
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050915007784
+ER  - 
+
+TY  - JOUR
+T1  - Table of Contents
+JO  - Procedia Computer Science
+VL  - 132
+SP  - iii
+EP  - xiii
+PY  - 2018
+DA  - 2018/01/01/
+T2  - International Conference on Computational Intelligence and Data Science
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/S1877-0509(18)30940-2
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918309402
+ER  - 
+
+TY  - JOUR
+T1  - Dendritic Cell Algorithm for Mobile Phone Spam Filtering
+AU  - Al-Hasan, Ali A.
+AU  - El-Alfy, El-Sayed M.
+JO  - Procedia Computer Science
+VL  - 52
+SP  - 244
+EP  - 251
+PY  - 2015
+DA  - 2015/01/01/
+T2  - The 6th International Conference on Ambient Systems, Networks and Technologies (ANT-2015), the 5th International Conference on Sustainable Energy Information Technology (SEIT-2015)
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2015.05.067
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050915008674
+KW  - Mobile Technology
+KW  - Smartphones
+KW  - Short Message Service (SMS)
+KW  - Dendritic Cell Algorithm (DCA)
+KW  - Spam Detection and Filtering
+KW  - Application Security.
+AB  - With the revolution of mobile devices and their applications, significant improvements have been witnessed over years to support new features in addition to normal phone communication including web browsing, social networking and entertainment, mobile payment, medical and personal records, e-learning, and rich connectivity to multiple networks. As mobile devices continue to evolve, the volume of hacking activities targeting them also increases drastically. Receiving short message spam is one of the common vectors for security breaches. Besides wasting resources and being annoying to end-users, it can be used for phishing attacks and as a vehicle for other malware types such as worms, backdoors, and key loggers. The next generation of mobile technologies has more emphasis on security-related issues to protect confidentiality, integrity and availability. This paper explores a number of content-based feature sets to enhance the mobile phone text messaging services in filtering unwanted messages (a.k.a. spam). Moreover, it develops a more effective spam filtering model using a combination of most relevant features and by fusing decisions of two machine learning algorithms with the Dendritic Cell Algorithm (DCA). The performance has been evaluated empirically on two SMS spam datasets. The results showed that significant improvements can be achieved in the overall accuracy, recall and precision of spam and legitimate messages due to the application of the proposed DCA-based model.
+ER  - 
+
+TY  - JOUR
+T1  - Using the Triangle Inequality to Accelerate Density based Outlier Detection Method
+AU  - Patra, Bidyut Kr.
+JO  - Procedia Technology
+VL  - 6
+SP  - 469
+EP  - 474
+PY  - 2012
+DA  - 2012/01/01/
+T2  - 2nd International Conference on Communication, Computing &amp; Security [ICCCS-2012]
+SN  - 2212-0173
+DO  - https://doi.org/10.1016/j.protcy.2012.10.056
+UR  - https://www.sciencedirect.com/science/article/pii/S2212017312006019
+KW  - Outlier detection
+KW  - LOF
+KW  - triangle inequality
+KW  - Large datasets
+AB  - Discovering outliers in a collection of patterns is a very well known problem that has been studied in various application domains. Density based technique is a popular one for finding outliers in a dataset. This technique calculates outlierness of each pattern using statistics of neighborhood of the pattern. However, density based approaches do not work well with large datasets as these approaches need to compute a large number of distance computations inorder to find neighborhood statistics. In this paper, we propose to utilize triangle inequality based indexing approach to speed up the classical density based outlier detection method LOF. Proposed approach computes less number of distance computations compared to the LOF method. Experimental results demonstrate that our proposed method reduces a significant number of distance computations compared to the LOF method.
+ER  - 
+
+TY  - JOUR
+T1  - Scalable real-time classification of data streams with concept drift
+AU  - Tennant, Mark
+AU  - Stahl, Frederic
+AU  - Rana, Omer
+AU  - Gomes, João Bártolo
+JO  - Future Generation Computer Systems
+VL  - 75
+SP  - 187
+EP  - 199
+PY  - 2017
+DA  - 2017/10/01/
+SN  - 0167-739X
+DO  - https://doi.org/10.1016/j.future.2017.03.026
+UR  - https://www.sciencedirect.com/science/article/pii/S0167739X17304685
+KW  - Parallel data stream classification
+KW  - Adaptation to concept drift
+KW  - High velocity data streams
+AB  - Inducing adaptive predictive models in real-time from high throughput data streams is one of the most challenging areas of Big Data Analytics. The fact that data streams may contain concept drifts (changes of the pattern encoded in the stream over time) and are unbounded, imposes unique challenges in comparison with predictive data mining from batch data. Several real-time predictive data stream algorithms exist, however, most approaches are not naturally parallel and thus limited in their scalability. This paper highlights the Micro-Cluster Nearest Neighbour (MC-NN) data stream classifier. MC-NN is based on statistical summaries of the data stream and a nearest neighbour approach, which makes MC-NN naturally parallel. In its serial version MC-NN is able to handle data streams, the data does not need to reside in memory and is processed incrementally. MC-NN is also able to adapt to concept drifts. This paper provides an empirical study on the serial algorithm’s speed, adaptivity and accuracy. Furthermore, this paper discusses the new parallel implementation of MC-NN, its parallel properties and provides an empirical scalability study.
+ER  - 
+
+TY  - JOUR
+T1  - HRNeuro-fuzzy: Adapting neuro-fuzzy classifier for recurring concept drift of evolving data streams using rough set theory and holoentropy
+AU  - Nalavade, Jagannath E.
+AU  - Senthil Murugan, T.
+JO  - Journal of King Saud University - Computer and Information Sciences
+VL  - 30
+IS  - 4
+SP  - 498
+EP  - 509
+PY  - 2018
+DA  - 2018/10/01/
+SN  - 1319-1578
+DO  - https://doi.org/10.1016/j.jksuci.2016.11.005
+UR  - https://www.sciencedirect.com/science/article/pii/S1319157816301136
+KW  - Data stream
+KW  - Neuro fuzzy
+KW  - Change of detection
+KW  - Rough set theory
+KW  - Holoentropy function
+AB  - Data stream classification plays a vital role in data mining techniques which extracts the most important patterns from the real world database. Nowadays, many applications like sensor network, video surveillance and network traffic generate a huge amount of data streams. Due to the ambiguity in input data, imprecise input information and concept drift, some problems arise in classifying the data stream. To resolve these problems, we propose a HRNeuro fuzzy system in this paper based on rough set theory and holoentropy function. At first, the input database is given to the PCA algorithm to reduce the dimension of the data. An adaptive neuro fuzzy classifier is utilized where the designing of membership function and rule base are the two important aspects. Then, neuro-fuzzy system undergoes updating when the change of detection occurs between the data streams. Here, the updating behaviour of membership function and rules are performed using rough set theory and holoentropy function. The experimental results are evaluated for the datasets and the performance is analysed by some metrics and compared with the existing systems such as JIT adaptive K-NN and HRFuzzy system. From the result, it is concluded that our proposed fuzzy classifier attains the higher accuracy of 96% which proves the efficient performance of data stream classification algorithm.
+ER  - 
+
+TY  - JOUR
+T1  - Clustering-based label estimation for network anomaly detection
+AU  - Baek, Sunhee
+AU  - Kwon, Donghwoon
+AU  - Suh, Sang C.
+AU  - Kim, Hyunjoo
+AU  - Kim, Ikkyun
+AU  - Kim, Jinoh
+JO  - Digital Communications and Networks
+VL  - 7
+IS  - 1
+SP  - 37
+EP  - 44
+PY  - 2021
+DA  - 2021/02/01/
+SN  - 2352-8648
+DO  - https://doi.org/10.1016/j.dcan.2020.06.001
+UR  - https://www.sciencedirect.com/science/article/pii/S2352864818301779
+KW  - Label estimation
+KW  - Network anomaly detection
+KW  - Clustering randomness
+AB  - A substantial body of work has been done to identify network anomalies using supervised and unsupervised learning techniques with their unique strengths and weaknesses. In this work, we propose a new approach that takes advantage of both worlds of unsupervised and supervised learnings. The main objective of the proposed approach is to enable supervised anomaly detection without the provision of the associated labels by users. To this end, we estimate the labels of each connection in the training phase using clustering. The “estimated” labels are then utilized to establish a supervised learning model for the subsequent classification of connections in the testing stage. We set up a new property that defines anomalies in the context of network anomaly detection to improve the quality of estimated labels. Through our extensive experiments with a public dataset (NSL-KDD), we will prove that the proposed method can achieve performance comparable to one with the “original” labels provided in the dataset. We also introduce two heuristic functions that minimize the impact of the randomness of clustering to improve the overall quality of the estimated labels.
+ER  - 
+
+TY  - JOUR
+T1  - The Role of Marketing in Digital Business Platforms
+AU  - Rangaswamy, Arvind
+AU  - Moch, Nicole
+AU  - Felten, Claudio
+AU  - van Bruggen, Gerrit
+AU  - Wieringa, Jaap E.
+AU  - Wirtz, Jochen
+JO  - Journal of Interactive Marketing
+VL  - 51
+SP  - 72
+EP  - 90
+PY  - 2020
+DA  - 2020/08/01/
+SN  - 1094-9968
+DO  - https://doi.org/10.1016/j.intmar.2020.04.006
+UR  - https://www.sciencedirect.com/science/article/pii/S1094996820300876
+KW  - Digital platforms
+KW  - Digital marketing
+KW  - Business model
+AB  - Digital business platforms (DBPs) such as eBay, Google, and Uber Technologies have seen enormous growth; this paper explores their salient characteristics, the role of marketing in helping DBPs succeed, and important research topics for theory and practice. A new conceptual framework based on insights from transaction cost analysis outlines the role and impact of marketing in DBPs. A key role for marketing is to increase the number and quality of interactions on a DBP while reducing transaction costs for users and production costs for the DPB. The DBPs' interactions and the data thus generated are key enablers of value creation and value appropriation on these platforms. However, there are several challenges to resolve in value creation and value appropriation because DBPs cater to the needs of many different types of users. Therefore, DBPs should carefully coordinate and manage interactions among users on different sides of a platform. For researchers, there are many opportunities to reconceptualize some of the traditional roles of marketing in the context of DBPs.
+ER  - 
+
+TY  - JOUR
+T1  - Semi-supervised Multi-kernel Extreme Learning Machine
+AU  - Abuassba, Adnan OM
+AU  - Dezheng, Zhang
+AU  - Mahmood, Zahid
+JO  - Procedia Computer Science
+VL  - 129
+SP  - 305
+EP  - 311
+PY  - 2018
+DA  - 2018/01/01/
+T2  - 2017 INTERNATIONAL CONFERENCE ON IDENTIFICATION,INFORMATION AND KNOWLEDGEIN THE INTERNET OF THINGS
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2018.03.080
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918303053
+KW  - Classification
+KW  - Kernel Learning
+KW  - Semi-supervised Learning
+KW  - Multi-Kernel Learning
+KW  - Extreme Learning Machine
+AB  - Extreme learning machine (ELM) is a single hidden layer feed forward neural network (SLFN). It expanded to semi-supervised ELM (SSELM) to deal with unlabeled data problem. In such a problem, labeled data is either rare or not cheap. Although SSELM has a good generalization performance, it might be influenced by heterogeneous data from different sources. It is discernible that unbalanced data issue inflicts obstacles in real-world applications including medical diagnostics and credit card fraud detection. To deal with this issue in this paper, we introduce a multi-kernel semi-supervised ELM (MKSSELM). It is more flexible to deal with discrete data from various sources. It matches diverse information from disparate sources and it shows distinction among the data. Instead of using one kernel, we optimize both ELM structural parameters and kernel combination weights. The optimization process accomplished by commanding an L1-norm as a regulation term. Meanwhile, a non-negative constraint on the kernel combination weights is used. The validity of MKSSELM algorithm is confirmed through classification results on real-world benchmark datasets. The proposed algorithm achieved better or comparable results with respect to previous approaches.
+ER  - 
+
+TY  - JOUR
+T1  - A Study on Delivery Evaluation under Asymmetric Information in the Mail-order Industry
+AU  - Takahashi, Masakazu
+AU  - Azuma, Hiroaki
+AU  - Tsuda, Kazuhiko
+JO  - Procedia Computer Science
+VL  - 126
+SP  - 1298
+EP  - 1305
+PY  - 2018
+DA  - 2018/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 22nd International Conference, KES-2018, Belgrade, Serbia
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2018.08.079
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918313577
+KW  - Risk Management
+KW  - Mail Order
+KW  - Customer Analyses
+KW  - Fraud Detection
+KW  - Machine Learning
+KW  - Weak Learner
+KW  - XGBoost
+KW  - Service Science
+KW  - Management Engineering
+AB  - This paper presents investigating the fraud transaction detection in the mail order industry. These kinds of detection made intensively but the outcome of the research was not shared among the industry. As the B2C industry expands their market size, the fraud transactions increase in number. As a matter of course, this phenomenon is not only continuing but cleverly. One of the conclusive factors for this phenomenon is payment method. That is, the deferred payment method is primarily employed in Japan. The conventional primary indicator for the fraud detection is the ordered time-based information. They are the shipping address, the recipient name, and the payment method. Since conventional detecting method for the fraud depends on some heuristic knowledge, their market size enlargement makes hard to detect fraud transaction. For this background, this paper is presented investigating for comparing algorithms with the actual transaction data gathered from the mail-order industry in Japan. The comparison of weaker learner algorithms is made. The analytical results suggest Random forest is more accurate than XGBoost not only AUC score but parameter tuning costs. This result will make it use for the decision support knowledge for screening customer at the order received phase in the mail order industry.
+ER  - 
+
+TY  - JOUR
+T1  - Prediction of Enterprise Purchases Using Markov Models in Procurement Analytics Applications
+AU  - Westerski, Adam
+AU  - Kanagasabai, Rajaraman
+AU  - Wong, Jiayu
+AU  - Chang, Henry
+JO  - Procedia Computer Science
+VL  - 60
+SP  - 1357
+EP  - 1366
+PY  - 2015
+DA  - 2015/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems 19th Annual Conference, KES-2015, Singapore, September 2015 Proceedings
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2015.08.209
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050915023364
+KW  - prediction
+KW  - procurement
+KW  - analytics
+KW  - purchase orders
+KW  - clustering
+AB  - Procurement is a set of activities and processes related to acquisition of goods and services through purchase orders placed by organization employees,from external contractors. Thisarticle describes practical experiments with procurement dataset of a major governmental organization in Singapore. In particular, we highlight the problems that emerge when trying to implement analytics for prediction of future purchases. The goal of such analytics is to deliver beneficial information to procurement office that plans and manages relationships with external sellers. In the article we describe the characteristics of the procurement dataset specifics and its implications on the future purchase problem that we attempt to solve using Markov chains model. Our analysis showshigh diversity of purchase descriptionsresulting in low ability to detect sequential patterns of purchasing officers. The solution presented in the article is additional dataset preprocessing involving use of hierarchical clustering. Our experiments with various similarity measures show an improvement allowing a practical deployment within our procurement analytics system prepared for the case study governmental organization.
+ER  - 
+
+TY  - JOUR
+T1  - A kernel entropy manifold learning approach for financial data analysis
+AU  - Huang, Yan
+AU  - Kou, Gang
+JO  - Decision Support Systems
+VL  - 64
+SP  - 31
+EP  - 42
+PY  - 2014
+DA  - 2014/08/01/
+SN  - 0167-9236
+DO  - https://doi.org/10.1016/j.dss.2014.04.004
+UR  - https://www.sciencedirect.com/science/article/pii/S0167923614001250
+KW  - Manifold learning
+KW  - Financial analysis
+KW  - Low-dimensional embedding
+KW  - Information metric
+AB  - Identification of intrinsic characteristics and structure of high-dimensional data is an important task for financial analysis. This paper presents a kernel entropy manifold learning algorithm, which employs the information metric to measure the relationships between two financial data points and yields a reasonable low-dimensional representation of high-dimensional financial data. The proposed algorithm can also be used to describe the characteristics of a financial system by deriving the dynamical properties of the original data space. The experiment shows that the proposed algorithm cannot only improve the accuracy of financial early warning, but also provide objective criteria for explaining and predicting the stock market volatility.
+ER  - 
+
+TY  - JOUR
+T1  - An approach to automatic process deviation detection in a time-critical clinical process
+AU  - Yang, Sen
+AU  - Sarcevic, Aleksandra
+AU  - Farneth, Richard A.
+AU  - Chen, Shuhong
+AU  - Ahmed, Omar Z.
+AU  - Marsic, Ivan
+AU  - Burd, Randall S.
+JO  - Journal of Biomedical Informatics
+VL  - 85
+SP  - 155
+EP  - 167
+PY  - 2018
+DA  - 2018/09/01/
+SN  - 1532-0464
+DO  - https://doi.org/10.1016/j.jbi.2018.07.022
+UR  - https://www.sciencedirect.com/science/article/pii/S1532046418301527
+KW  - Process mining
+KW  - Workflow compliance
+KW  - Process deviations
+KW  - Human error
+KW  - Trauma resuscitation
+AB  - Motivation
+Prior research has shown that minor errors and deviations from recommended guidelines in complex medical processes can accumulate to increase the likelihood that a major error will go uncorrected and lead to an adverse outcome. Real-time automatic and accurate detection of process deviations may help medical teams better prevent or mitigate the effect of errors and improve patient outcomes. Our goal was to develop an approach for automatic detection of errors and process deviations in trauma resuscitation.
+Methods
+Using video review, we coded activity traces of 95 pediatric trauma resuscitations collected in a Level 1 trauma center over two years (2014–2016). Twenty-four randomly selected activity traces were compared with a knowledge-driven model of trauma resuscitation workflow using a phase-based conformance checking algorithm for detecting true and false deviations (alarms). An analysis of false alarms identified three types of causes: (1) model gaps or discrepancies between the model (“work as imagined”) and actual practice (“work as done”), (2) errors in activity traces coding, and (3) algorithm limitations. We repaired the system to remove model gaps, reduce coding errors, and address algorithm limitations. The repaired system was first evaluated with another 20 traces and then applied to the entire dataset of 95 traces.
+Results
+During the training, we detected 573 process deviations in 24 activity traces that include 1099 activities. Among these deviations, only 27% represented true deviations and the remaining 73% were false alarms. This initial deviation detection accuracy was only 66.6%, with a F1-score of 0.42. Detection accuracy of the repaired system increased to 95.2% (0.85 F1-score) during system validation and to 98.5% (0.96 F1-score) during testing. After deploying the repaired deviation detection system to all 95 activity traces, we detected 1060 process deviations in 5659 activities (11.2 deviations per resuscitation). Among the 5659 activities in these traces, 4893 fit the repaired knowledge-driven workflow model, 294 were errors of omission, 538 were errors of commission, and 228 were scheduling errors.
+Conclusion
+Our approach to automatic deviation detection provides a method for identifying repeated, omitted and out-of-sequence activities that can be included in the design of decision support systems for complex medical processes. Our findings show the importance of assessing detected deviations for repairing a knowledge-driven model that best represents “work as done.”
+ER  - 
+
+TY  - JOUR
+T1  - A Novel Feature Selection Method based on an Integrated Data Envelopment Analysis and Entropy Model
+AU  - Bamakan, Seyed Mojtaba Hosseini
+AU  - Gholami, Peyman
+JO  - Procedia Computer Science
+VL  - 31
+SP  - 632
+EP  - 638
+PY  - 2014
+DA  - 2014/01/01/
+T2  - 2nd International Conference on Information Technology and Quantitative Management, ITQM 2014
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2014.05.310
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050914004876
+KW  - Data mining
+KW  - Feature Selection Algorithm
+KW  - Entropy
+KW  - Data Envelopment Analysis
+KW  - Classification
+AB  - Data mining is a one of the growing sciences in the world that can play a competitive advantages rule in many firms. Data mining algorithms based on their functions can be divided in four categories; Classification, Feature selection, Assassination rules and Clustering. One of the most important of these functions is feature selection which has been increasingly developed and many researchers provide variety of algorithms to deal with this function in recent years. Feature selection algorithms mostly used for obtaining more precise and strong machine learning algorithms along with reducing the computation time. Another growing science is Multiple Criteria Decision Making techniques witch it also has variety of methods. In this paper, we use both Data Envelopment Analysis which is a useful technique for determining the efficiency of decision-making units and Entropy method which its function is weighting the criteria to selecting the appropriate features. Hence, our novel integrated method has been analyzed by implementing in a testing environment and we apply it on three datasets of UCI's datasets, so the result showed our innovated approach has comparable accuracy with the other feature selections algorithms.
+ER  - 
+
+TY  - JOUR
+T1  - A novel hybrid artificial immune inspired approach for online break-in fraud detection
+AU  - Huang, R.
+AU  - Tawfik, H.
+AU  - Nagar, A.K.
+JO  - Procedia Computer Science
+VL  - 1
+IS  - 1
+SP  - 2733
+EP  - 2742
+PY  - 2010
+DA  - 2010/05/01/
+T2  - ICCS 2010
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2010.04.307
+UR  - https://www.sciencedirect.com/science/article/pii/S187705091000308X
+KW  - Artificial immune system
+KW  - Fraud detection
+KW  - Dendritic cells algorithm
+AB  - This paper proposes a new hybrid model for online fraud detection of the Video-on-Demand System, which is aimed to improve the current Risk Management Pipeline (RMP) by adding Artificial Immune System (AIS) based fraud detection for logging data. The AIS based model combines two artificial immune system algorithms with behavior based intrusion detection using Classification and Regression trees (CART). Immune inspired algorithms include the improved version of negative selection called Conserved Self Pattern Recognition Algorithm (CSPRA) and a recently established algorithm inspired by Danger Theory (DT) called Dendritic Cells Algorithm (DCA). The hybrid method based on stacking-bagging demonstrates higher detection rate lower false alarm, and handles high dimensional data set better when compared to the results achieved using only CSPRA, DCA, and CART.
+ER  - 
+
+TY  - JOUR
+T1  - Knowledge extraction from multiple criteria linear programming classification approach
+AU  - Zhang, Yuejin
+AU  - Zhang, Peng
+AU  - Zhang, Lingling
+AU  - Shi, Yong
+JO  - Procedia Computer Science
+VL  - 1
+IS  - 1
+SP  - 2441
+EP  - 2448
+PY  - 2010
+DA  - 2010/05/01/
+T2  - ICCS 2010
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2010.04.275
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050910002760
+KW  - MCLP
+KW  - Rule extraction
+KW  - Clustering
+KW  - Rough set
+AB  - As an effective model for classification, Multiple Criteria Linear Programming (MCLP) has been widely used in business intelligence. However, a possible limitation of MCLP is that it generates unexplainable black-box models which can only tell us results without reasons. To overcome this shortage, in this paper, we present a knowledge mining strategy which mines explainable decision rules from black-box MCLP models. Firstly, we use the rough set theory to distinguish the definable set where samples are perfectly classified, from the rough set where misclassified samples may exist. Then, to get explainable knowledge, we present a clustering-based decision rule extraction approach to extract knowledge from the definable set, and a rough set-based rule extraction approach to the rough set. Finally, empirical studies on real world VIP Email data sets demonstrate that our method can effectively extract explicit rules from MCLP model with only a little lost in performance.
+ER  - 
+
+TY  - JOUR
+T1  - Augmenting organizational decision-making with deep learning algorithms: Principles, promises, and challenges
+AU  - Shrestha, Yash Raj
+AU  - Krishna, Vaibhav
+AU  - von Krogh, Georg
+JO  - Journal of Business Research
+VL  - 123
+SP  - 588
+EP  - 603
+PY  - 2021
+DA  - 2021/02/01/
+SN  - 0148-2963
+DO  - https://doi.org/10.1016/j.jbusres.2020.09.068
+UR  - https://www.sciencedirect.com/science/article/pii/S0148296320306512
+KW  - Case studies
+KW  - Decision-making
+KW  - Deep learning
+KW  - Artificial intelligence
+AB  - The current expansion of theory and research on artificial intelligence in management and organization studies has revitalized the theory and research on decision-making in organizations. In particular, recent advances in deep learning (DL) algorithms promise benefits for decision-making within organizations, such as assisting employees with information processing, thereby augment their analytical capabilities and perhaps help their transition to more creative work. We conceptualize the decision-making process in organizations augmented with DL algorithm outcomes (such as predictions or robust patterns from unstructured data) as deep learning–augmented decision-making (DLADM). We contribute to the understanding and application of DL for decision-making in organizations by (a) providing an accessible tutorial on DL algorithms and (b) illustrating DLADM with two case studies drawing on image recognition and sentiment analysis tasks performed on datasets from Zalando, a European e-commerce firm, and Rotten Tomatoes, a review aggregation website for movies, respectively. Finally, promises and challenges of DLADM as well as recommendations for managers in attending to these challenges are also discussed.
+ER  - 
+
+TY  - JOUR
+T1  - Performance of machine learning techniques in the detection of financial frauds
+AU  - SADGALI, I.
+AU  - SAEL, N.
+AU  - BENABBOU, F.
+JO  - Procedia Computer Science
+VL  - 148
+SP  - 45
+EP  - 54
+PY  - 2019
+DA  - 2019/01/01/
+T2  - THE SECOND INTERNATIONAL CONFERENCE ON INTELLIGENT COMPUTING IN DATA SCIENCES, ICDS2018
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2019.01.007
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050919300079
+KW  - Fraud detection
+KW  - financial fraud
+KW  - machine-learning
+KW  - performance
+AB  - Financial fraud presents more and more threat that has serious consequences in the financial sector. As a result, financial institutions are forced to continually im-prove their fraud detection systems. In recent years, several studies have used machine learning and data mining techniques to provide solutions to this problem. In this paper, we propose a state of art on various fraud techniques, as well as de-tection and prevention techniques proposed in the literature such as classification, clustering, and regression. The aim of this study is to identify the techniques and methods that give the best results that have been perfected so far.
+ER  - 
+
+TY  - JOUR
+T1  - A Framework for Outlier Detection in Evolving Data Streams by Weighting Attributes in Clustering
+AU  - Yogita, 
+AU  - Toshniwal, Durga
+JO  - Procedia Technology
+VL  - 6
+SP  - 214
+EP  - 222
+PY  - 2012
+DA  - 2012/01/01/
+T2  - 2nd International Conference on Communication, Computing &amp; Security [ICCCS-2012]
+SN  - 2212-0173
+DO  - https://doi.org/10.1016/j.protcy.2012.10.026
+UR  - https://www.sciencedirect.com/science/article/pii/S2212017312005713
+KW  - Data Streams
+KW  - Outlier Detection
+KW  - Concept Evolution
+KW  - Irrelevant Attribute
+AB  - Outlier detectionin streamingdataisavery challenging problem. Thisis becauseofthefactthatdata streams cannotbe scanned multiple times. Alsonew conceptsmaykeepevolving. Irrelevant attributescanbe termedasnoisy attributesandsuch attributes further magnify the challenge of working with data streams. In this paper, we propose a clustering based framework for outlier detectioninevolving data streams that assigns weightsto attributes depending upon their respective relevance.Weighted attributes arehelpfultoreduceorremovetheeffectofnoisyattributesinminingtasks.Keepinginviewthe challengesofdatastreammining, the proposed framework is incremental and adaptive to concept evolution. Experimental results on synthetic and real world data sets show that our proposed approach outperforms otherexisting approachesin termsof outlier detection rate,false alarm rate, running time and with increasing percentages of outliers.
+ER  - 
+
+TY  - JOUR
+T1  - An Empirical Evaluation of Intelligent Machine Learning Algorithms under Big Data Processing Systems
+AU  - Suleiman, Dima
+AU  - Al-Zewairi, Malek
+AU  - Naymat, Ghazi
+JO  - Procedia Computer Science
+VL  - 113
+SP  - 539
+EP  - 544
+PY  - 2017
+DA  - 2017/01/01/
+T2  - The 8th International Conference on Emerging Ubiquitous Systems and Pervasive Networks (EUSPN 2017) / The 7th International Conference on Current and Future Trends of Information and Communication Technologies in Healthcare (ICTH-2017) / Affiliated Workshops
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2017.08.270
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050917316794
+KW  - Big Data
+KW  - H2O
+KW  - Sparkling Water
+KW  - Prediction
+KW  - Spark
+KW  - Santander Bank Dataset
+AB  - The rapid increase in the magnitude of data produced by industries that need to be processed using Machine Learning algorithms to generate business intelligence has created a dilemma for data scientists. This is due to the fact that traditional machine learning platforms such as Weka and R are not designed to handle data with such Volume, Velocity and Variety. Several machine learning algorithms and associated toolkits have been built specifically to work with big data; however, their performance is yet to be evaluated to allow researchers to get the most of these platforms. In this paper, the authors intend to provide an empirical evaluation of two emerging machine learning platforms under big data processing systems namely, H2O and Sparkling Water, by performing an experimental comparison between the two platforms in terms of performance over several generalization error metrics and model training time using the Santander Bank Dataset. Up to the authors’ knowledge, this is the first time such a study is conducted. The evaluation results showed that the H2O platform has significantly outperformed the Sparkling Water platform in terms of model training time almost by fifty percent, while achieving convergent results.
+ER  - 
+
+TY  - JOUR
+T1  - Classifying payment patterns with artificial neural networks: An autoencoder approach
+AU  - Rubio, Jeniffer
+AU  - Barucca, Paolo
+AU  - Gage, Gerardo
+AU  - Arroyo, John
+AU  - Morales-Resendiz, Raúl
+JO  - Latin American Journal of Central Banking
+VL  - 1
+IS  - 1
+SP  - 100013
+PY  - 2020
+DA  - 2020/01/01/
+SN  - 2666-1438
+DO  - https://doi.org/10.1016/j.latcb.2020.100013
+UR  - https://www.sciencedirect.com/science/article/pii/S2666143820300132
+KW  - Market infrastructure
+KW  - Neural network
+KW  - Anomaly detection
+KW  - Autoencoder
+KW  - Artificial intelligence
+KW  - Retail payments
+KW  - Machine learning
+AB  - Payments and market infrastructures are the backbone of modern financial systems and play a key role in the economy. One of their main goals is to manage systemic risk, especially in the case of systemically important payment systems (SIPS) serving interbank funds transfers. We develop an autoencoder for the Sistema de Pagos Interbancarios (SPI) of Ecuador, which is the largest SIPS, to detect potential anomalies stemming from payment patterns. Our work is similar to Triepels et al. (2018) and Sabetti and Heijmans (2020). We train four different autoencoder models using intraday data structured in three time-intervals for the SPI settlement activity to reconstruct its related payments network. We introduce bank run simulations to feature a baseline scenario and identify relevant autoencoder parametrizations for anomaly detection. The main contribution of our work is training an autoencoder to detect a wide range of anomalies in a payment system, ranging from the unusual behavior of individual banks to systemic changes in the overall structure of the payments network. We also found that these novel techniques are robust enough to support the monitoring of payments’ and market infrastructures’ functioning, but need to be accompanied by the expert judgement of payments overseers.
+ER  - 
+
+TY  - JOUR
+T1  - Extraction of Specific Arguments from Chinese Financial News with out-of-domain Samples
+AU  - Luo, Yu
+AU  - Zou, Xinyi
+AU  - Liu, Di
+AU  - Peng, Wanwan
+AU  - Wu, Xiaohua
+JO  - Procedia Computer Science
+VL  - 183
+SP  - 288
+EP  - 294
+PY  - 2021
+DA  - 2021/01/01/
+T2  - Proceedings of the 10th International Conference of Information and Communication Technology
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2021.02.061
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050921005366
+KW  - Financial risk control
+KW  - Event extraction
+KW  - Entity extraction
+KW  - Out-of-domain data
+KW  - Chinese text analysis
+AB  - The object and evidence are two important parts of financial fraud detection (FFD). In traditional FFD tasks, the detected object generally refers to the enterprise involved in typical financial fraud events, and the evidence comes from corporate statements such as auditing report, etc. Thus, previous FFD methods based on financial statements are limited by the scope of detected objects and the availability of evidence. In this study, we design a financial event library to enlarge the detection scope and expand the source of evidence to financial news, and thus financial entities involved in high-risk events are extracted. The financial event library contains common negative events, each of which corresponds to a negative behaviour that may increase financial risk. Moreover, we propose a novel method to convert the event detection task into the Q&A mode task, which also contributes to the enlargement of the original hand-built dataset. Compared with existing methods on the enlargement of financial dataset, our approach does not require additional annotation. We apply our method into Chinese financial news corpus, and achieves good performance in the extraction task.
+ER  - 
+
+TY  - JOUR
+T1  - An efficient predictive analytics system for high dimensional big data
+AU  - Oo, Myat Cho Mon
+AU  - Thein, Thandar
+JO  - Journal of King Saud University - Computer and Information Sciences
+PY  - 2019
+DA  - 2019/09/07/
+SN  - 1319-1578
+DO  - https://doi.org/10.1016/j.jksuci.2019.09.001
+UR  - https://www.sciencedirect.com/science/article/pii/S1319157819301910
+KW  - Big data
+KW  - High dimensionality
+KW  - Predictive analytics
+KW  - Scalable random forest
+KW  - Dimension reduction
+KW  - Parameter optimization
+AB  - The excessive growth of high dimensional big data has resulted in a greater challenge for data scientists to efficiently obtain valuable knowledge from these data. Traditional data mining techniques are not fit to process big data. Predictive analytics has grown in prominence alongside the emergence of big data. In this paper, an efficient predictive analytics system for high dimensional big data is proposed by enhancing scalable random forest (SRF) algorithm on the Apache Spark platform. SRF is enhanced by optimizing the hyperparameters and prediction performance is improved by reducing the dimensions. The effectiveness of the proposed system is examined on five real-world datasets. Experimental results demonstrated that the proposed system achieves the highly competitive performance compared with RF algorithm implemented by Spark MLlib.
+ER  - 
+
+TY  - JOUR
+T1  - Fraud detection: A systematic literature review of graph-based anomaly detection approaches
+AU  - Pourhabibi, Tahereh
+AU  - Ong, Kok-Leong
+AU  - Kam, Booi H.
+AU  - Boo, Yee Ling
+JO  - Decision Support Systems
+VL  - 133
+SP  - 113303
+PY  - 2020
+DA  - 2020/06/01/
+SN  - 0167-9236
+DO  - https://doi.org/10.1016/j.dss.2020.113303
+UR  - https://www.sciencedirect.com/science/article/pii/S0167923620300580
+KW  - Fraud detection
+KW  - Graph-based anomaly detection
+KW  - Graph data
+KW  - Systematic literature review
+KW  - Social network
+KW  - Big data analytics
+AB  - Graph-based anomaly detection (GBAD) approaches are among the most popular techniques used to analyze connectivity patterns in communication networks and identify suspicious behaviors. Given the different GBAD approaches proposed for fraud detection, in this study, we develop a framework to synthesize the existing literature on the application of GBAD methods in fraud detection published between 2007 and 2018. This study aims to investigate the present trends and identify the key challenges that require significant research efforts to increase the credibility of the technique. Additionally, we provide some recommendations to deal with these challenges.
+ER  - 
+
+TY  - JOUR
+T1  - Spatial anomaly detection in sensor networks using neighborhood information
+AU  - Bosman, Hedde HWJ
+AU  - Iacca, Giovanni
+AU  - Tejada, Arturo
+AU  - Wörtche, Heinrich J.
+AU  - Liotta, Antonio
+JO  - Information Fusion
+VL  - 33
+SP  - 41
+EP  - 56
+PY  - 2017
+DA  - 2017/01/01/
+SN  - 1566-2535
+DO  - https://doi.org/10.1016/j.inffus.2016.04.007
+UR  - https://www.sciencedirect.com/science/article/pii/S1566253516300252
+KW  - Anomaly detection
+KW  - Sensor fusion
+KW  - Sensor networks
+KW  - Collaborative WSN
+AB  - The field of wireless sensor networks (WSNs), embedded systems with sensing and networking capability, has now matured after a decade-long research effort and technological advances in electronics and networked systems. An important remaining challenge now is to extract meaningful information from the ever-increasing amount of sensor data collected by WSNs. In particular, there is strong interest in algorithms capable of automatic detection of patterns, events or other out-of-the order, anomalous system behavior. Data anomalies may indicate states of the system that require further analysis or prompt actions. Traditionally, anomaly detection techniques are executed in a central processing facility, which requires the collection of all measurement data at a central location, an obvious limitation for WSNs due to the high data communication costs involved. In this paper we explore the extent by which one may depart from this classical centralized paradigm, looking at decentralized anomaly detection based on unsupervised machine learning. Our aim is to detect anomalies at the sensor nodes, as opposed to centrally, to reduce energy and spectrum consumption. We study the information gain coming from aggregate neighborhood data, in comparison to performing simple, in-node anomaly detection. We evaluate the effects of neighborhood size and spatio-temporal correlation on the performance of our new neighborhood-based approach using a range of real-world network deployments and datasets. We find the conditions that make neighborhood data fusion advantageous, identifying also the cases in which this approach does not lead to detectable improvements. Improvements are linked to the diffusive properties of data (spatio-temporal correlations) but also to the type of sensors, anomalies and network topological features. Overall, when a dataset stems from a similar mixture of diffusive processes precision tends to benefit, particularly in terms of recall. Our work paves the way towards understanding how distributed data fusion methods may help managing the complexity of wireless sensor networks, for instance in massive Internet of Things scenarios.
+ER  - 
+
+TY  - JOUR
+T1  - The application of artificial intelligence in the IMRT planning process for head and neck cancer
+AU  - Kearney, Vasant
+AU  - Chan, Jason W.
+AU  - Valdes, Gilmer
+AU  - Solberg, Timothy D.
+AU  - Yom, Sue S.
+JO  - Oral Oncology
+VL  - 87
+SP  - 111
+EP  - 116
+PY  - 2018
+DA  - 2018/12/01/
+SN  - 1368-8375
+DO  - https://doi.org/10.1016/j.oraloncology.2018.10.026
+UR  - https://www.sciencedirect.com/science/article/pii/S1368837518303932
+KW  - Artificial intelligence
+KW  - Machine learning
+KW  - Head and neck
+KW  - Treatment planning
+KW  - Radiation oncology
+KW  - Intensity modulated radiation therapy
+KW  - Deep learning
+KW  - Convolutional neural networks
+KW  - Automated treatment planning
+KW  - Predictive medicine
+AB  - Artificial intelligence (AI) is beginning to transform IMRT treatment planning for head and neck patients. However, the complexity and novelty of AI algorithms make them susceptible to misuse by researchers and clinicians. Understanding nuances of new technologies could serve to mitigate potential clinical implementation pitfalls. This article is intended to facilitate integration of AI into the radiotherapy clinic by providing an overview of AI algorithms, including support vector machines (SVMs), random forests (RF), gradient boosting (GB), and several variations of deep learning. This document describes current AI algorithms that have been applied to head and neck IMRT planning and identifies rapidly growing branches of AI in industry that have potential applications to head and neck cancer patients receiving IMRT. AI algorithms have great clinical potential if used correctly but can also cause harm if misused, so it is important to raise the level of AI competence within radiation oncology so that the benefits can be realized in a controlled and safe manner.
+ER  - 
+
+TY  - JOUR
+T1  - Survey on Anomaly Detection using Data Mining Techniques
+AU  - Agrawal, Shikha
+AU  - Agrawal, Jitendra
+JO  - Procedia Computer Science
+VL  - 60
+SP  - 708
+EP  - 713
+PY  - 2015
+DA  - 2015/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems 19th Annual Conference, KES-2015, Singapore, September 2015 Proceedings
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2015.08.220
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050915023479
+KW  - Anomaly Detection
+KW  - Clustering
+KW  - Classification
+KW  - Data Mining
+KW  - Intrusion Detection System.
+AB  - In the present world huge amounts of data are stored and transferred from one location to another. The data when transferred or stored is primed exposed to attack. Although various techniques or applications are available to protect data, loopholes exist. Thus to analyze data and to determine various kind of attack data mining techniques have emerged to make it less vulnerable. Anomaly detection uses these data mining techniques to detect the surprising behaviour hidden within data increasing the chances of being intruded or attacked. Various hybrid approaches have also been made in order to detect known and unknown attacks more accurately. This paper reviews various data mining techniques for anomaly detection to provide better understanding among the existing techniques that may help interested researchers to work future in this direction.
+ER  - 
+
+TY  - JOUR
+T1  - Anomaly detection using a self-organizing map and particle swarm optimization
+AU  - Lotfi Shahreza, M.
+AU  - Moazzami, D.
+AU  - Moshiri, B.
+AU  - Delavar, M.R.
+JO  - Scientia Iranica
+VL  - 18
+IS  - 6
+SP  - 1460
+EP  - 1468
+PY  - 2011
+DA  - 2011/12/01/
+SN  - 1026-3098
+DO  - https://doi.org/10.1016/j.scient.2011.08.025
+UR  - https://www.sciencedirect.com/science/article/pii/S1026309811001751
+KW  - Anomaly detection
+KW  - Data fusion
+KW  - Neural network
+KW  - PSO
+KW  - Forest fire
+AB  - Self-Organizing Maps (SOMs) are among the most well-known, unsupervised neural network approaches to clustering, which are very efficient in handling large and high dimensional datasets. The original Particle Swarm Optimization (PSO) is another algorithm discovered through simplified social model simulation, which is effective in nonlinear optimization problems and easy to implement. In the present study, we combine these two methods and introduce a new method for anomaly detection. A discussion about our method is presented, its results are compared with some other methods and its advantages over them are demonstrated. In order to apply our method, we also performed a case study on forest fire detection. Our algorithm was shown to be simple and to function better than previous ones. We can apply it to different domains of anomaly detection. In fact, we observed our method to be a generic algorithm for anomaly detection that may need few changes for implementation in different domains.
+ER  - 
+
+TY  - JOUR
+T1  - ConvNets for Fraud Detection analysis
+AU  - Chouiekh, Alae
+AU  - EL Haj, EL Hassane Ibn
+JO  - Procedia Computer Science
+VL  - 127
+SP  - 133
+EP  - 138
+PY  - 2018
+DA  - 2018/01/01/
+T2  - PROCEEDINGS OF THE FIRST INTERNATIONAL CONFERENCE ON INTELLIGENT COMPUTING IN DATA SCIENCES, ICDS2017
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2018.01.107
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918301182
+KW  - Fraud
+KW  - Machine learning
+KW  - Deep learning
+KW  - CNN
+AB  - Fraud activity is a big concern for telecom companies. The advances in technology and system information have significantly increased fraud activities, which can have negative impacts on revenue gains and services quality. Therefore, there is an urgent need for telecom companies to develop efficient algorithms that detect early potential frauds and/or prevent them. In this paper, we used deep learning techniques as an effective method to detect fraudsters in mobile communications. Fraud datasets from the customer details records (CDR) of a real mobile communication carrier were used and learning features were extracted and classified to fraudulent and non-fraudulent events activity. Different experiments were performed to evaluate the performance of our proposed model. We found that deep convolution neural networks (DCNN) technique outperformed other traditional machine learning algorithms (Support vector machines, Random Forest and Gradient Boosting Classifier) in term of accuracy (82%) and training duration. Thus, the use of this model can reduce the cost related to illegal use of services without payment.
+ER  - 
+
+TY  - JOUR
+T1  - On oversampling imbalanced data with deep conditional generative models
+AU  - Fajardo, Val Andrei
+AU  - Findlay, David
+AU  - Jaiswal, Charu
+AU  - Yin, Xinshang
+AU  - Houmanfar, Roshanak
+AU  - Xie, Honglei
+AU  - Liang, Jiaxi
+AU  - She, Xichen
+AU  - Emerson, D.B.
+JO  - Expert Systems with Applications
+VL  - 169
+SP  - 114463
+PY  - 2021
+DA  - 2021/05/01/
+SN  - 0957-4174
+DO  - https://doi.org/10.1016/j.eswa.2020.114463
+UR  - https://www.sciencedirect.com/science/article/pii/S0957417420311155
+KW  - Deep generative models
+KW  - Conditional variational autoencoders
+KW  - Class imbalance
+KW  - Oversampling
+AB  - Class imbalanced datasets are common in real-world applications ranging from credit card fraud detection to rare disease diagnosis. Recently, deep generative models have proved successful for an array of machine learning problems such as semi-supervised learning, transfer learning, and recommender systems. However their application to class imbalance situations is limited. In this paper, we consider class conditional variants of generative adversarial networks and variational autoencoders and apply them to the imbalance problem. The main question we seek to answer is whether or not deep conditional generative models can effectively learn the distributions of minority classes so as to produce synthetic observations that ultimately lead to improvements in the performance of a downstream classifier. The numerical results show that this is indeed true and that deep generative models outperform traditional oversampling methods in many circumstances, especially in cases of severe imbalance.
+ER  - 
+
+TY  - JOUR
+T1  - Diverging deep learning cognitive computing techniques into cyber forensics
+AU  - Karie, Nickson M.
+AU  - Kebande, Victor R.
+AU  - Venter, H.S.
+JO  - Forensic Science International: Synergy
+VL  - 1
+SP  - 61
+EP  - 67
+PY  - 2019
+DA  - 2019/01/01/
+SN  - 2589-871X
+DO  - https://doi.org/10.1016/j.fsisyn.2019.03.006
+UR  - https://www.sciencedirect.com/science/article/pii/S2589871X19300737
+KW  - Cyber forensics
+KW  - Deep learning
+KW  - Artificial intelligence
+KW  - Investigations
+KW  - Cyberattacks
+KW  - Cybercrimes
+KW  - Framework
+AB  - More than ever before, the world is nowadays experiencing increased cyber-attacks in all areas of our daily lives. This situation has made combating cybercrimes a daily struggle for both individuals and organisations. Furthermore, this struggle has been aggravated by the fact that today's cybercriminals have gone a step ahead and are able to employ complicated cyber-attack techniques. Some of those techniques are minuscule and inconspicuous in nature and often camouflage in the facade of authentic requests and commands. In order to combat this menace, especially after a security incident has happened, cyber security professionals as well as digital forensic investigators are always forced to sift through large and complex pools of data also known as Big Data in an effort to unveil Potential Digital Evidence (PDE) that can be used to support litigations. Gathered PDE can then be used to help investigators arrive at particular conclusions and/or decisions. In the case of cyber forensics, what makes the process even tough for investigators is the fact that Big Data often comes from multiple sources and has different file formats. Forensic investigators often have less time and budget to handle the increased demands when it comes to the analysis of these large amounts of complex data for forensic purposes. It is for this reason that the authors in this paper have realised that Deep Learning (DL), which is a subset of Artificial Intelligence (AI), has very distinct use-cases in the domain of cyber forensics, and even if many people might argue that it’s not an unrivalled solution, it can help enhance the fight against cybercrime. This paper therefore proposes a generic framework for diverging DL cognitive computing techniques into Cyber Forensics (CF) hereafter referred to as the DLCF Framework. DL uses some machine learning techniques to solve problems through the use of neural networks that simulate human decision-making. Based on these grounds, DL holds the potential to dramatically change the domain of CF in a variety of ways as well as provide solutions to forensic investigators. Such solutions can range from, reducing bias in forensic investigations to challenging what evidence is considered admissible in a court of law or any civil hearing and many more.
+ER  - 
+
+TY  - JOUR
+T1  - An improved BiGAN based approach for anomaly detection
+AU  - Kaplan, M. Oguz
+AU  - Alptekin, S. Emre
+JO  - Procedia Computer Science
+VL  - 176
+SP  - 185
+EP  - 194
+PY  - 2020
+DA  - 2020/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.08.020
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920318445
+KW  - generative models
+KW  - intrusion detection
+KW  - anomaly detection
+AB  - Anomaly detection is considered as a challenging task due to its imbalanced and unlabelled nature. To overcome this challenge, the combination of different machine learning approaches such as supervised, unsupervised, semi-supervised learning are proposed in the literature. With the advent of neural networks and generative models, different methodologies derived from neural networks are applied to anomaly detection tasks. In this study, we use the KDDCUP99 data set, consider it as an anomaly detection task, and implement BiGAN, considering it as a one-class anomaly detection algorithm. Since generator and discriminator are highly dependent on each other in the training phase, to reduce this dependency, in this paper, we propose two different training approaches for BiGAN by adding extra training steps to it. We also demonstrate that proposed approaches increased the performance of BiGAN on anomaly detection task.
+ER  - 
+
+TY  - JOUR
+T1  - Penalty Parameter Selection for Hierarchical Data Stream Clustering
+AU  - Bhagat, Amol
+AU  - Kshirsagar, Nilesh
+AU  - Khodke, Priti
+AU  - Dongre, Kiran
+AU  - Ali, Sadique
+JO  - Procedia Computer Science
+VL  - 79
+SP  - 24
+EP  - 31
+PY  - 2016
+DA  - 2016/01/01/
+T2  - Proceedings of International Conference on Communication, Computing and Virtualization (ICCCV) 2016
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2016.03.005
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050916001368
+KW  - Clustering algorithms
+KW  - data mining
+KW  - data streams clustering
+KW  - hierarchical clustering
+KW  - penalty parameter selection
+AB  - Extracting useful information from large sets of data is the main task of data mining. Clustering is one of the most commonly used data mining technique. Data streams are sequences of data elements continuously generated at high rate from various sources. Data streams are everywhere and are generated by the applications like cell-phones, cars, security sensors, televisions and so on. Partitioning data streams into sets of meaningful subclasses is required for proper and efficient mining of intended data. Identifying the number of clusters required for the precise clustering of data streams is an open research area. This paper gives the overview of the hierarchical data stream clustering algorithms. It also compares the performance analysis of the different algorithms under hierarchical clustering techniques for data streams. Different data clustering tools are also explained and compared in this paper. It also applies the proper hierarchical clustering algorithm to the standard datasets taken as input and the expected result must be the clustered data which is well versed, properly arranged. This paper addresses the issue of identifying the number of clusters by proposed penalty parameter selection approach. The approaches presented in this paper are helpful for the researchers in the field of data stream clustering and data mining.
+ER  - 
+
+TY  - JOUR
+T1  - Information fusion with dempster-shafer evidence theory for software defect prediction
+AU  - Paksoy, Aytunç
+AU  - Göktürk, Mehmet
+JO  - Procedia Computer Science
+VL  - 3
+SP  - 600
+EP  - 605
+PY  - 2011
+DA  - 2011/01/01/
+T2  - World Conference on Information Technology
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2010.12.100
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050910004758
+KW  - Software defect prediction
+KW  - Dempster-Shafer evidence theory
+KW  - Information fusion
+KW  - Software engineering
+AB  - Finding defects in software is a challenging and time and budget consuming task. Minimizing these adverse effects using software defect prediction models via guiding testers with defective parts of software system is an attractive research area. Previous research emphasized the value of these tools with a mean probability of detection of 71 percent and mean false alarm rates of 25 percent. This paper examines software defect prediction and aims to improve prediction results using information fusion technique. Results indicate that the prediction results can be improved using Dempster-Shafer Evidence Theory for information fusion.
+ER  - 
+
+TY  - JOUR
+T1  - Outliers in rules - the comparision of LOF, COF and KMEANS algorithms.
+AU  - Nowak - Brzezińska, Agnieszka
+AU  - Horyń, Czesław
+JO  - Procedia Computer Science
+VL  - 176
+SP  - 1420
+EP  - 1429
+PY  - 2020
+DA  - 2020/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 24th International Conference KES2020
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2020.09.152
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050920320524
+KW  - outliers
+KW  - LOF
+KW  - COF
+KW  - quality indices
+KW  - clustering
+AB  - The aim of the article is the analysis of using LOF, COF and Kmeans algorithms for outlier detection in rule based knowledge bases. The subject of outlier mining is very important nowadays. Outliers in rules mean unusual rules which are rare in comparison to others and should be explored further by the domain expert. In the research the authors use the outlier detection methods to find a given (1%, 5%, 10%) number of outliers in rules. Then, they analyze which of seven various quality indices, that they used for all rules and after removing selected outliers, improve the quality of rule clusters. In the experimental stage the authors used six different knowledge bases. The results show that the optimal results were achieved for COF outlier detection algorithm as the one for which, among all analyzed quality indices, the cluster quality improved most frequently.
+ER  - 
+
+TY  - JOUR
+T1  - Internal fraud in a project-based organization: CHAID decision tree analysis
+AU  - Bach, Mirjana Pejić
+AU  - Dumičić, Ksenija
+AU  - Žmuk, Berislav
+AU  - Ćurlin, Tamara
+AU  - Zoroja, Jovana
+JO  - Procedia Computer Science
+VL  - 138
+SP  - 680
+EP  - 687
+PY  - 2018
+DA  - 2018/01/01/
+T2  - CENTERIS 2018 - International Conference on ENTERprise Information Systems / ProjMAN 2018 - International Conference on Project MANagement / HCist 2018 - International Conference on Health and Social Care Information Systems and Technologies, CENTERIS/ProjMAN/HCist 2018
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2018.10.090
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918317368
+KW  - Project-based organization
+KW  - internal control
+KW  - fraud
+KW  - data mining
+KW  - CHAID
+KW  - association analysis
+AB  - Data mining is one of the most prominent methodologies demonstrating efficiency in various tasks related to pattern detection. Applications of data mining for fraud detection are numerous, for the detection of fraud, ranging from credit card fraud to taxation fraud, are numerous. However, the applications of data mining for fraud related to internal control are scarce. The goal of this paper is to present the application of data mining techniques (the CHAID decision tree) for discovering patterns in internal control-related fraud in one project-based organization.
+ER  - 
+
+TY  - JOUR
+T1  - Visual analytics for event detection: Focusing on fraud
+AU  - Leite, Roger A.
+AU  - Gschwandtner, Theresia
+AU  - Miksch, Silvia
+AU  - Gstrein, Erich
+AU  - Kuntner, Johannes
+JO  - Visual Informatics
+VL  - 2
+IS  - 4
+SP  - 198
+EP  - 212
+PY  - 2018
+DA  - 2018/12/01/
+SN  - 2468-502X
+DO  - https://doi.org/10.1016/j.visinf.2018.11.001
+UR  - https://www.sciencedirect.com/science/article/pii/S2468502X18300548
+KW  - Visual knowledge discovery
+KW  - Time series data
+KW  - Business and finance visualization
+KW  - Financial fraud detection
+AB  - The detection of anomalous events in huge amounts of data is sought in many domains. For instance, in the context of financial data, the detection of suspicious events is a prerequisite to identify and prevent attempts to defraud. Hence, various financial fraud detection approaches have started to exploit Visual Analytics techniques. However, there is no study available giving a systematic outline of the different approaches in this field to understand common strategies but also differences. Thus, we present a survey of existing approaches of visual fraud detection in order to classify different tasks and solutions, to identify and to propose further research opportunities. In this work, fraud detection solutions are explored through five main domains: banks, the stock market, telecommunication companies, insurance companies, and internal frauds. The selected domains explored in this survey were chosen for sharing similar time-oriented and multivariate data characteristics. In this survey, we (1) analyze the current state of the art in this field; (2) define a categorization scheme covering different application domains, visualization methods, interaction techniques, and analytical methods which are used in the context of fraud detection; (3) describe and discuss each approach according to the proposed scheme; and (4) identify challenges and future research topics.
+ER  - 
+
+TY  - JOUR
+T1  - A Study on the Efficient Estimation of the Payment Intention in the Mail Order Industry
+AU  - Takahashi, Masakazu
+AU  - Azuma, Hiroaki
+AU  - Tsuda, Kazuhiko
+JO  - Procedia Computer Science
+VL  - 96
+SP  - 1122
+EP  - 1128
+PY  - 2016
+DA  - 2016/01/01/
+T2  - Knowledge-Based and Intelligent Information & Engineering Systems: Proceedings of the 20th International Conference KES-2016
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2016.08.154
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050916319640
+KW  - Mail Order
+KW  - Customer Analyses
+KW  - Machine Learning
+KW  - Weak learner
+KW  - Risk Management
+KW  - Service Science and Management Engineering
+AB  - This paper presents investigating the customer payment intention prediction in the mail order industry. As the B2C market expands their market volume, the fraud transactions increase in number. The primary indicator for the detection are the shipping address, the recipient name, and the payment method. These information usually make use of the prediction in the Japanese mail order industry. Conventional detecting method for the fraud depends on the human working experiences so far. As the number of transaction becomes large, fraud detection becomes difficult. The mail order industry needs something new method for the detection. The result of the Google Flu Trends shows, accurate prediction needs the heuristics knowledge. For these backgrounds, we observe the transaction data with the customer attribute information gathered from a mail order company in Japan and characterized the customer with machine learning method. From the results of the intensive research, potential fraudulent transactions are identified. Intensive research revealed that the classification of the deliberate customer and the careless customer with machine learning. This result will make use of the customer screening at the time of order received.
+ER  - 
+
+TY  - JOUR
+T1  - Credit card fraud detection using artificial neural network
+AU  - RB, Asha
+AU  - KR, Suresh Kumar
+JO  - Global Transitions Proceedings
+VL  - 2
+IS  - 1
+SP  - 35
+EP  - 41
+PY  - 2021
+DA  - 2021/06/01/
+T2  - 1st International Conference on Advances in Information, Computing and Trends in Data Engineering (AICDE - 2020)
+SN  - 2666-285X
+DO  - https://doi.org/10.1016/j.gltp.2021.01.006
+UR  - https://www.sciencedirect.com/science/article/pii/S2666285X21000066
+KW  - Artificial neural network
+KW  - Credit card
+KW  - Fraud
+KW  - k-Nearest Neighbor
+KW  - Machine learning and support vector machine
+AB  - Frauds in credit card transactions are common today as most of us are using the credit card payment methods more frequently. This is due to the advancement of Technology and increase in online transaction resulting in frauds causing huge financial loss. Therefore, there is need for effective methods to reduce the loss. In addition, fraudsters find ways to steal the credit card information of the user by sending fake SMS and calls, also through masquerading attack, phishing attack and so on. This paper aims in using the multiple algorithms of Machine learning such as support vector machine (SVM), k-nearest neighbor (Knn) and artificial neural network (ANN) in predicting the occurrence of the fraud. Further, we conduct a differentiation of the accomplished supervised machine learning and deep learning techniques to differentiate between fraud and non-fraud transactions.
+ER  - 
+
+TY  - JOUR
+T1  - Predictive Modelling For Credit Card Fraud Detection Using Data Analytics
+AU  - Patil, Suraj
+AU  - Nemade, Varsha
+AU  - Soni, Piyush Kumar
+JO  - Procedia Computer Science
+VL  - 132
+SP  - 385
+EP  - 395
+PY  - 2018
+DA  - 2018/01/01/
+T2  - International Conference on Computational Intelligence and Data Science
+SN  - 1877-0509
+DO  - https://doi.org/10.1016/j.procs.2018.05.199
+UR  - https://www.sciencedirect.com/science/article/pii/S1877050918309347
+KW  - Hadoop
+KW  - SAS
+KW  - PB
+KW  - CCFD
+KW  - Logistic Regression
+KW  - Decision Tree
+AB  - The finance and banking is very important sector in our present day generation, where almost every human has to deal with bank either physically or online [10]. The productivity and profitability of both public and private sector has tremendously increased because of banking information system. Nowadays most of E-commerce application system transactions are done through credit card and online net banking. These systems are vulnerable with new attacks and techniques at alarming rate. Fraud detection in banking is one of the vital aspects nowadays as finance is major sector in our life. As data is increasing in terms of Peta Bytes (PB) and to improve the performance of analytical server in model building, we have interface analytical framework with Hadoop which can read data efficiently and give to analytical server for fraud prediction. In this paper we have discussed a Big data analytical framework to process large volume of data and implemented various machine learning algorithms for fraud detection and observed their performance on benchmark dataset to detect frauds on real time basis there by giving low risk and high customer satisfaction.
+ER  - 
+
+TY  - JOUR
+T1  - Explaining individual predictions when features are dependent: More accurate approximations to Shapley values
+AU  - Aas, Kjersti
+AU  - Jullum, Martin
+AU  - Løland, Anders
+JO  - Artificial Intelligence
+VL  - 298
+SP  - 103502
+PY  - 2021
+DA  - 2021/09/01/
+SN  - 0004-3702
+DO  - https://doi.org/10.1016/j.artint.2021.103502
+UR  - https://www.sciencedirect.com/science/article/pii/S0004370221000539
+KW  - Feature attribution
+KW  - Shapley values
+KW  - Kernel SHAP
+KW  - Dependence
+AB  - Explaining complex or seemingly simple machine learning models is an important practical problem. We want to explain individual predictions from such models by learning simple, interpretable explanations. Shapley value is a game theoretic concept that can be used for this purpose. The Shapley value framework has a series of desirable theoretical properties, and can in principle handle any predictive model. Kernel SHAP is a computationally efficient approximation to Shapley values in higher dimensions. Like several other existing methods, this approach assumes that the features are independent. Since Shapley values currently suffer from inclusion of unrealistic data instances when features are correlated, the explanations may be very misleading. This is the case even if a simple linear model is used for predictions. In this paper, we extend the Kernel SHAP method to handle dependent features. We provide several examples of linear and non-linear models with various degrees of feature dependence, where our method gives more accurate approximations to the true Shapley values.
+ER  - 
+
+TY  - JOUR
+T1  - GP-ELM-RNN: Garson-pruned extreme learning machine based replicator neural network for anomaly detection
+AU  - Hashmi, Adeel Shiraz
+AU  - Ahmad, Tanvir
+JO  - Journal of King Saud University - Computer and Information Sciences
+PY  - 2019
+DA  - 2019/09/14/
+SN  - 1319-1578
+DO  - https://doi.org/10.1016/j.jksuci.2019.09.007
+UR  - https://www.sciencedirect.com/science/article/pii/S1319157819306809
+KW  - Anomaly detection
+KW  - Big data
+KW  - Garson algorithm
+KW  - Replicator neural network
+KW  - Extreme learning machine
+AB  - Replicator Neural Network (RNN) is a popular algorithm for anomaly detection, but finding optimal number of hidden layers and then finding optimal number of neurons in each hidden layer is quite a challenging and time-consuming task. Extreme Learning Machines (ELM) are neural networks with single-hidden layer but the learning algorithm is different and faster than back-propagation. ELM-based RNNs solve our problem of determining the number of hidden layers and the learning algorithm is also faster than gradient-descent based RNN. The problem of identifying the optimal number of neurons in the hidden layer can be solved by Garson algorithm. In this work, the author propose an optimal Replicator Neural Network which is optimized using ELM learning and Garson algorithm for anomaly detection. The experimental results show that the proposed method is fast as well as highly accurate.
+ER  - 
+
+TY  - JOUR
+T1  - Integrating Machine Learning with Human Knowledge
+AU  - Deng, Changyu
+AU  - Ji, Xunbi
+AU  - Rainey, Colton
+AU  - Zhang, Jianyu
+AU  - Lu, Wei
+JO  - iScience
+VL  - 23
+IS  - 11
+SP  - 101656
+PY  - 2020
+DA  - 2020/11/20/
+SN  - 2589-0042
+DO  - https://doi.org/10.1016/j.isci.2020.101656
+UR  - https://www.sciencedirect.com/science/article/pii/S2589004220308488
+KW  - Computer Science
+KW  - Artificial Intelligence
+KW  - Human-Centered Computing
+AB  - Summary
+Machine learning has been heavily researched and widely used in many disciplines. However, achieving high accuracy requires a large amount of data that is sometimes difficult, expensive, or impractical to obtain. Integrating human knowledge into machine learning can significantly reduce data requirement, increase reliability and robustness of machine learning, and build explainable machine learning systems. This allows leveraging the vast amount of human knowledge and capability of machine learning to achieve functions and performance not available before and will facilitate the interaction between human beings and machine learning systems, making machine learning decisions understandable to humans. This paper gives an overview of the knowledge and its representations that can be integrated into machine learning and the methodology. We cover the fundamentals, current status, and recent progress of the methods, with a focus on popular and new topics. The perspectives on future directions are also discussed.
+ER  - 
+
+TY  - JOUR
+T1  - Multi-class decision-theoretic rough sets
+AU  - Zhou, Bing
+JO  - International Journal of Approximate Reasoning
+VL  - 55
+IS  - 1, Part 2
+SP  - 211
+EP  - 224
+PY  - 2014
+DA  - 2014/01/01/
+T2  - Special issue on Decision-Theoretic Rough Sets
+SN  - 0888-613X
+DO  - https://doi.org/10.1016/j.ijar.2013.04.006
+UR  - https://www.sciencedirect.com/science/article/pii/S0888613X13000832
+KW  - Bayesian inference
+KW  - Bayesian decision theory
+KW  - Bayes’ theorem
+KW  - Rough sets
+KW  - Naive Bayes classifier
+KW  - Three-way decisions
+AB  - As a natural extension to rough set approximations with two decision classes, this paper provides a new formulation of multi-class decision-theoretic rough sets. Instead of making an immediate acceptance or rejection decision, a third option of making a deferment decision is added to each class. This gives users the flexibility of further examining the suspicious objects, thereby reducing the chance of misclassification. Different types of misclassification errors are treated separately based on the notion of loss functions from Bayesian decision theory. The losses incurred for making deferment and rejection decisions to each class are also considered. The presented approach appears to be well suited for cost-sensitive classification tasks where different types of classification errors have different costs. The connections and differences with other existing multi-class rough set models are analyzed.
+ER  - 
