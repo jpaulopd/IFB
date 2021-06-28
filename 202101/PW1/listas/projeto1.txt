@@ -1,0 +1,45 @@
+Projeto 1 - descrição e link de entrega
+
+ 
+
+Programação para Internet I
+Projeto 1
+
+
+1. Descrição
+
+O objetivo deste projeto é construir uma aplicação em JavaScript apenas com front-end.
+
+O projeto pode ser feito individualmente ou em duplas.
+
+
+2. Requisitos
+
+Deve ser desenvolvido uma site completo e navegável em uma única página HTML, utilizando CSS e imagens conforme necessário. 
+Além do conteúdo principal, deve haver ao menos uma seção navegável de apresentação e outra com informações sobre os autores 
+(essas seções devem ser acessadas por links que as exibem ou ocultam, sem regarregar a página completa).
+
+A implementação do projeto deve ser escrita exclusivamente em Javascript puro ou Javascript + JQuery. 
+Não podem ser usados outros frameworks, bibliotecas ou linguagens.
+
+O conteúdo principal pode ser o descrito na próxima seção ou outro de complexidade equivalente, desde que previamente acordado com o professor.
+
+
+3. Sugestão de conteúdo: Sudoku
+
+O site desenvolvido deve apresentar ao usuário um problema de Sudoku e permitir a sua resolução.
+
+    Deve ser gerada uma grade Sudoku resolvível diferente a cada início da partida (você pode carregar de uma lista de configurações predeterminadas).
+
+    O usuário pode clicar em cada célula vazia e escolher um número de 1 a 9. O sistema deve alertar em tempo real se o jogador tentar uma jogada inválida.
+
+    O sistema deve detectar e avisar quando o jogo for resolvido com sucesso.
+
+
+4. Entrega e apresentação
+
+A entrega deve ser feita por meio do sistema Nead até a data marcada. A apresentação será feita em nossa sala do Google Meet a partir das 14h. Ambos os componentes da dupla devem ser capazes de responder a perguntas sobre aspectos específicos e detalhados do código escrito. A nota é individual e pode ser diferente para os componentes da mesma equipe.
+
+A nota do projeto será dada de acordo com o cumprimento dos requisitos dispostos neste documento. Não serão levados em consideração outros fatores, como aspectos estéticos da página desenvolvida.
+
+Data da entrega e apresentação: 06/07/2021
