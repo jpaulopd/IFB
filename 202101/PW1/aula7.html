@@ -5,12 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+
     <script src="aula7.js" defer></script>
+
+    <style>
+        .titulo{
+            color:blue;
+            font-size: x-large;
+        }
+        .rodape{
+            color:green;
+            font-size: x-small;
+            font-style: italic;
+        }
+    </style>
 
     <title>Aula de Javascript</title>
 </head>
 <body>
-    <h1> Teste Html</h1>
-    <button onclick="escreveMensagem()">Clique Aqui</button>
+
+    <!-- <h1> Teste Html</h1>
+    <button onclick="escreveMensagem()">Clique Aqui</button> -->
+
+    <!-- <p id="primeirao" class="verde"> Esse é o primeiro parágrafo</p>
+
+    <p>esse é o segundo parágrafo</p>
+
+    <h4 onClick="teste()" style="cursor:pointer">Formulário:</h4>
+
+    <form class="verde">
+        Login: <input type="text" name="login" ><br>
+        Senha: <input type="password" name="senha" >
+        <input type="submit" value="Enviar" >
+
+    </form> -->
+
+    <!-- <div id="paragrafos">
+        <p id="primeirao" class="verde"> Esse é o primeiro parágrafo</p>
+        <p> Esse é o segundo parágrafo </p>
+
+        <button onClick="adiciona()">Adiconar!</button>
+    </div> -->
+
+    <div id="principal">
+        <p id="primeirao">esse é o primeiro parágrafo</p>
+        <p>esse é o <span id="segundo" class="titulo">segundo</span> <strong>parágrafo</strong></p>
+    </div>
+
+    <input type="text" id="texto">
+
+    <img id="figura" src="shyguy.png" style="width:130px">
+
+    <!-- <button onclick="teste()">Vai!</button> -->
+    <button id="botao" ">Vai!</button>
+
 </body>
 </html>

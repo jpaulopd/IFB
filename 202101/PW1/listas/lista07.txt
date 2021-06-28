@@ -1,10 +1,17 @@
 Lista de Exercícios 07 - JavaScript no Navegador
 
-1. Crie uma página HTML simples, que contenha em algum lugar um elemento (div, span ou p) com id="texto". Crie um botão que, ao ser clicado, mude o texto deste elemento.
+1. Crie uma página HTML simples, 
+que contenha em algum lugar um elemento (div, span ou p) com id="texto". 
+Crie um botão que, ao ser clicado, mude o texto deste elemento.
 
-2. Crie um elemento HTML cujo texto seja modificado quando o cursor do mouse está sobre ele e volte ao texto original quando o cursor não estiver mais.
+2. Crie um elemento HTML cujo texto seja modificado quando o cursor do mouse está sobre 
+ele e volte ao texto original quando o cursor não estiver mais.
 
-3. Crie uma página HTML contendo um div e um botão. Faça com que, cada vez que o botão for clicado, um novo parágrafo seja adicionado contendo um texto diferente. (Os possíveis textos podem vir, por exemplo, de um array, em que a cada clique é lido o próximo elemento do array).
+3. Crie uma página HTML contendo um div e um botão. 
+Faça com que, cada vez que o botão for clicado, 
+um novo parágrafo seja adicionado contendo um texto diferente. 
+(Os possíveis textos podem vir, por exemplo, de um array, 
+em que a cada clique é lido o próximo elemento do array).
 
 4. Refaça a questão 2 usando seletores JQuery.
 
@@ -17,7 +24,8 @@ Lista de Exercícios 07 - JavaScript no Navegador
     O texto do segundo parágrafo
     A url da imagem
 
-(Não modifique o código HTML, além do mínimo necessário para inserir as referências ao código Javascript).
+(Não modifique o código HTML, além do mínimo necessário 
+para inserir as referências ao código Javascript).
 
 <!DOCTYPE html>
 <body>
@@ -26,13 +34,23 @@ Lista de Exercícios 07 - JavaScript no Navegador
     <p>Esse é o texto do segundo parágrafo</p>
     <p><img id="imagem" src="https://upload.wikimedia.org/wikipedia/pt/4/4e/Goomba.png" style="width:120px"></p>
     <button>Muda conteúdo</button>
-    </body>
+</body>
 </html>
 
-7. Crie uma página com vários parágrafos. Cada parágrafo, ao ser clicado, deve ter a cor da fonte modificada (acrescente o evento em um único comando JQuery para todos os elementos p).
+7. Crie uma página com vários parágrafos. 
+Cada parágrafo, ao ser clicado, deve ter a cor da fonte modificada 
+(acrescente o evento em um único comando JQuery para todos os elementos p).
 
-8. Adicione alguns elementos <span> no meio dos parágrafos da página anterior. Crie uma nova classe CSS chamada destaque com algumas propriedades visuais (por exemplo, cor de plano de fundo). Adicione um botão à página anterior que, ao ser clicado, aplique essa classe a todos os elementos span.
+8. Adicione alguns elementos <span> no meio dos parágrafos da página anterior. 
+Crie uma nova classe CSS chamada destaque com algumas propriedades visuais 
+(por exemplo, cor de plano de fundo). 
+Adicione um botão à página anterior que, ao ser clicado, 
+aplique essa classe a todos os elementos span.
 
-9. Ainda na mesma página, faça com que cada parágrafo despareça ao ser clicado. Adicione mais um botão à página. Quando esse botão for clicado, todos os parágrafos devem aparecer novamente.
+9. Ainda na mesma página, faça com que cada parágrafo despareça ao ser clicado.
+ Adicione mais um botão à página. 
+ Quando esse botão for clicado, todos os parágrafos devem aparecer novamente.
 
-10. Acrescente ao código HTML anterior controles para escolher o efeito que deve acontecer quando um parágrafo for clicado: hide, fade ou slide. Modifique o código JQuery para refletir a opção selecionada nos eventos.
+10. Acrescente ao código HTML anterior controles para escolher o efeito que deve acontecer 
+quando um parágrafo for clicado: hide, fade ou slide. 
+Modifique o código JQuery para refletir a opção selecionada nos eventos.
