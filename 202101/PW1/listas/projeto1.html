@@ -10,7 +10,7 @@
     <meta name="author" content="JOAO PAULO PIRES DANTAS" />
 	<meta name="description" content="Site de vendas de produtos licenciados do Super Mario." />
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script> -->
     <script src="projeto1.js" defer></script>
     <link href="projeto1.css" rel="stylesheet" type="text/css" />
 
@@ -38,7 +38,47 @@
     </section>
 
     <section id="sudoku" class="sudoku">
-        <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Sudoku-by-L2G-20050714.svg/250px-Sudoku-by-L2G-20050714.svg.png" alt="jogo sudoku"> 
+        <h1>Sudoku</h1>
+        <div id="setup-game">
+            <div id="diff">
+                <h3>Escolha a dificuldade:</h3>
+                <label><input id="diff-1" type="radio" name="diff" value="easy" checked>Easy</label>
+                <label><input id="diff-2" type="radio" name="diff" value="medium" checked>Medium</label>
+                <label><input id="diff-3" type="radio" name="diff" value="hard" checked>Hard</label>
+            </div>
+            <div id="time">
+                <h3>Escolha a tempo:</h3>
+                <label><input id="time-1" type="radio" name="time" value="tres" checked>3 min</label>
+                <label><input id="time-2" type="radio" name="time" value="cinco" checked>5 min</label>
+                <label><input id="time-3" type="radio" name="time" value="dez" checked>10 min</label>
+            </div>
+            <div id="theme">
+                <h3>Escolha o tema:</h3>
+                <label><input id="theme-1" type="radio" name="theme" value="light" checked>Claro</label>
+                <label><input id="theme-2" type="radio" name="theme" value="dark" checked>Dark</label>
+            </div>
+        </div>
+        
+        <button id="start-btn">Novo jogo</button>
+
+        <div id="stats"> 
+            <p id="timer"></p>
+            <p id="lives"></p>
+        </div>
+        <div id="game">
+            <div id="board"></div>
+            <div id="number-container" class="hidden">
+                <p id="one">1</p>
+                <p id="two">2</p>
+                <p id="three">3</p>
+                <p id="four">4</p>
+                <p id="five">5</p>
+                <p id="six">6</p>
+                <p id="seven">7</p>
+                <p id="eight">8</p>
+                <p id="nine">9</p>
+            </div>
+        </div>
     </section>
        
     <footer id="about">
