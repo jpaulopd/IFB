@@ -43,3 +43,7 @@ Não usar tecnicas muito estatisticas ou frameworks
 -identificar trabalhos correlatos e trabalhos para conceituação.
 -colocar diagram prisma nos resultados 
     
+
+
+06/07/2021
+-usar box plot para resumir a estatisticas descritiva
