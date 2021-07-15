@@ -47,3 +47,13 @@ Não usar tecnicas muito estatisticas ou frameworks
 
 06/07/2021
 -usar box plot para resumir a estatisticas descritiva
+
+
+13/07/2021
+-Inserir label nas seções
+-Remover a parte que explica o que é uma revisão sistemática
+-Renomear a Revisão Sistemática para Revisão Sistemática da Literatura
+-  qual técnica de aprendizado de máquina que pode ter a maior precisão e maior revocação possível na detecção de fraudesem  transações  de  cartões  de  créditos? 
+- especificar período da pesquisa na revisão sistemática.
+- fazer o prisma para o resultado da sistematica
+- nos resultados é necessário apenas o que foi utilizado e o resultado.

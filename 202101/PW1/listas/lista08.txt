@@ -1,0 +1,32 @@
+Lista de Exercícios 08 - Ajax
+
+1. Escreva uma página com um div e um botão. Quando o botão for clicado, o conteúdo da URL http://numbersapi.com/8 deve ser carregado no div.
+
+2. Acrescente à página anterior um elemento para que o usuário possa selecionar um número qualquer. Quando o botão for clicado, deve ser carregado o conteúdo da URL http://numbersapi.com/N, onde N é o número selecionado pelo usuário.
+
+3. Modifique a página anterior para que, imediatamente após o botão ser clicado, seja exibido em algum lugar da tela o texto "Carregando...". Quando o conteúdo tiver terminado de ser carregado, esse texto deve mudar para "Pronto!";
+
+4. Modifique o código anterior para usar $.ajax(...) ao invés de load(...), sem alterar o funcionamento da página.
+
+Para as questões seguintes, use a API documentada em https://reqres.in/
+
+5. Crie uma página com elementos vazios para:
+
+    Email
+    Primeiro nome
+    Último nome
+    Avatar (imagem)
+
+Crie um elemento que permita selecionar um número e um botão. Ao ser pressionado, o usuário deve buscar os dados do usuário com aquele id (referência: SINGLE USER) e preencher os campos acima.
+
+Dica: Para mudar a URL de uma imagem, use o método .attr('src', novaurl)
+
+6. Modifique o código acima para, caso não seja encontrado um usuário com aquele id, seja exibida uma mensagem de erro. Teste a página com valores acima de 13 para ver o erro.
+
+7. Crie um formulário com campos para nome e profissão e um botão. Quando o botão for clicado, deve ser enviada uma requisição para a criação desse usuário (referência: CREATE). 
+Após a criação, deve ser informado ao usuário o ID do usuário recém-criado, assim como a confirmação do nome e profissão, tais como recebidos do servidor.
+
+8. Crie um formulário com um campo numérico e um botão. 
+Ao clicar no botão, deve ser enviada uma requisição para que o usuário com aquele ID seja excluído (referência: DELETE). 
+Caso seja retornado o código de status 204, deve ser avisado ao usuário que a exclusão foi realizada com sucesso. 
+Do contrário, que houve um erro ao tentar realizar a operação.
