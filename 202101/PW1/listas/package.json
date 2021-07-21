@@ -1,0 +1,20 @@
+{
+  "name": "listas",
+  "version": "1.0.0",
+  "description": "Programação para Internet I",
+  "main": "lista09_resp_exer_3.js",
+  "dependencies": {
+    "to-capital-case": "^1.0.0",
+    "to-constant-case": "^1.0.0",
+    "to-space-case": "^1.0.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.45.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Paulo",
+  "license": "ISC"
+}
