@@ -1,0 +1,98 @@
+Resumo Capitulo 1
+    conjunto de dados tratados e organizados para trazer significado para um dado em um contexto
+    historico
+        era industrial
+            a informação é consumida para suprir determinadas necessidades como tomada de decisões estratégicas, produtividade, competitividade, etc.
+    concorrencia
+        confidencialidade, integridade e disponibilidade (CID)
+        confidencialidade: permitir acesso à informação somente a grupos autorizados
+        integridade: a informação deve ser mantidade na mesma condição em que foi disponibilizada. protegendo contra alterações indevidas.
+            disponibilidade: a informação deve estar sempre disponível.
+            autenticação: garantir que um usuário é de fato quem alega ser.
+            não repúdio: capacidade do sistema de proar que um usuário executou uma determinada ação.
+            legalidade: garantir que o sistema esteja aderente à legislação.
+            privacidade: capacidade de um usuário anonimo ser relacionado com suas alterações.
+            auditoria: capacidade de relacionar o que foi feito pelo usuários.
+    ativos de informação são aqueles que possuem valor para um negócio e devem ser protegidos.
+        para isso é importante:
+            catalogar esses ativos
+            determinar um proprietário do ativos
+            criar regras de uso da informação
+            classificar a informação em termos de valor, requisitos legais, sensibilidade e criticidade
+    vulnerabilidade ocorro quando existe um ponto frágil de um ativo e um ou mais principios de segurança são fragilizados
+        fisica: riscos de explosão, falta de extintores, detectores de fumaça, etc.
+        natuais: terremotos, enchentes, etc.
+        hardware: desgaste de recursos tecnológicos.
+        software: acessos indevidos a sistemas ou indisponibilidade de recursos.
+        mídias: discos, relatórios perdidos ou danificados.
+        comunicação: perda de comunicação ou acesso não autorizado.
+        humana: falta de treinamento< sabotagens, greves, etc.
+    ameaça é a expectativa de acontecimento acidental ou proposital, podendo ser:
+        ativa: envolvem alterações de dados.
+        passiva: envolvem invasão ou monitoramento, mas sem alteração de informações.
+            natuais: fenômenos da natureza.
+            involuntárias: causadas por desconhecimento.
+            voluntárias: ameaças proposial causadas por pessoas ou sistemas.
+    ataque é um evento decorrente da exploração de uma vulnerabilidade por uma ameaça.
+        passivo: não há alteração do recurso, apenas monitoramento, observação ou análise.
+        ativo: prejudica o conteúdo, modificando-o ou eliminando-o.
+    incidentes de segurança é um evento com consequencias negativas resultado de um ataque bem-sucedido.
+        gerenciamento:
+            detectar, relatar e avaliar os incidentes.
+            responder e gerenciar os incidentes.
+            melhoria continuamente a segurança e gerenciamento dos incidentes.
+    probabilidade e impacto 
+        probabilidade trata-se das chances de uma vulnerabilidade se tornar uma ameaça
+        impacto é o estrago realizado em um processo da organização devido um incidente bem sucessidido.
+            categorias do impacto:
+                zero: irrelevante.
+                um: não afeta a maioria da instituição.
+                dois: indisponibilidade momentanea de sistemas, afeta credibilidade dos clientes.
+                três: perdas financeiras de maior vulto e perda de clientes.
+                quatro: efeitos desastrosos, não afeta sobrevivência da empresa.
+                cinco: efeitos desastrosos, afeta sobrevivência da empresa.
+    
+
+Resumo Capítulo 2
+    ciclo de vidad da informação representa todos os momentos da sua criação até da sua inutilização.
+    idetificação dos requisitos da criação
+        requisitos devem refletir necessidades dos agentes que a utilizam
+        a recompensa da descoberta é sua utilidade e sua utilização
+    obtenção
+        observar integridade dos dados
+    tratamento
+        organização da informação
+        formatação da informação
+        estruturação da informação
+        classificação da informação
+        análise da informação
+        síntese da informação
+        apresentação da informação
+        reprodução da informação
+            observações adicionais:
+                preservação das características da informação  
+                confidencialidade para restringir acessos
+    distribuição
+        consiste na distribuição da informação, quanto mais capilar for a rede de distribuição, mais eficiente será a distribuição.
+    uso
+        integridade
+        disponibilidade
+        confidencialidade
+    armazenamento é o momento me que a informação é armazenada em um Banco de Dados ou mídia.
+    descarte ocorre quando a informação se torna obsoleta ou perde a necessidade de uso.
+        o descarte é necessário devido:
+            economia de recursos;
+            aumento da velocidade na localização da informação.
+            melhora visiblidade dos recursos.
+        o descarte deve obedecer:
+            confidencialidade, destruição segura de informações sensíveis.
+            disponibilidade: preservar dados históricos valiosos para o negócio e disponibilidade de sistemas legados que utilizem a informação descartada.
+    Riscos e ameaças no ciclo de vida da informação
+        perda de integridade > causa: modificações não autorizadas > consequencias: imprecisão da informação, tomada de decisão errada, redução garantia da informação.
+        perda da disponibilidade > causa: informação não disponível para uso > consequencias: perda produtividade, perda de uso.
+        perda de confibilidade > causa: divulgação de informação não autorizada > consequência: perda de credibilidade, sanções legais.
+        
+
+
+
+        
