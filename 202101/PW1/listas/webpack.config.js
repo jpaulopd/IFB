@@ -4,6 +4,6 @@ module.exports = {
     },
     output: {
         filename: 'main.js',
-        // library: 'exemplo'
+        library: 'exemplo'
     }
 };
