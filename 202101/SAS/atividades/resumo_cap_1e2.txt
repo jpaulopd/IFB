@@ -7,7 +7,7 @@ Resumo Capitulo 1
         confidencialidade, integridade e disponibilidade (CID)
         confidencialidade: permitir acesso à informação somente a grupos autorizados
         integridade: a informação deve ser mantidade na mesma condição em que foi disponibilizada. protegendo contra alterações indevidas.
-            disponibilidade: a informação deve estar sempre disponível.
+        disponibilidade: a informação deve estar sempre disponível.
             autenticação: garantir que um usuário é de fato quem alega ser.
             não repúdio: capacidade do sistema de proar que um usuário executou uma determinada ação.
             legalidade: garantir que o sistema esteja aderente à legislação.

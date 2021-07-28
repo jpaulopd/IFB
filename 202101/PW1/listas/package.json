@@ -4,6 +4,8 @@
   "description": "Programação para Internet I",
   "main": "lista09_resp_exer_3.js",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
     "to-capital-case": "^1.0.0",
     "to-constant-case": "^1.0.0",
     "to-space-case": "^1.0.0"

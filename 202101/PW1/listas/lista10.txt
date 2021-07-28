@@ -1,0 +1,54 @@
+1. Escreva um servidor web em Express que retorne uma 
+mensagem simples formatada como HTML ao receber uma requisição GET para o 
+caminho / e outra mensagem diferente para o caminho /seunome. Teste ambas com o navegador e com o Postman.
+
+2. Escreva uma página HTML com dois botões e um div, inicialmente vazio. 
+Faça com que cada botão, ao ser clicado, envie uma requisição Ajax 
+para um dos endereços do seu servidor e escreva no div a mensagem correspondente.
+
+3. Acrescente ao seu servidor web uma URL que retorna um texto contendo as informações enviadas por user-agent do cliente.
+
+Por exemplo, a mesma URL, acessada pelo navegador ou pelo Postman, pode resultar em um dos seguintes textos:
+
+    Você está acessando como: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+    Você está acessando como: PostmanRuntime/7.19.0
+
+4. Escreva um serviço que receba uma temperatura em Fahrenheit e retorne o valor em Celsius.
+
+Por exemplo, ao acessar a URL http://localhost:3000/convfahr/86, deve aparecer o valor 30.
+
+Dica: Você pode precisar transformar o valor numérico em uma string antes de enviar o resultado. Use o método x.toString(), 
+onde x é uma variável numérica.
+
+5. Modifique o serviço anterior para retornar um objeto JSON contendo tanto o valor original em Fahrenheit,
+ quanto os valores convertidos em Celsius e Kelvin.
+
+Por exemplo, a mesma URL do exemplo anterior pode retornar algo como:
+
+{
+    "fahrenheit": "86",
+    "celsius": 30,
+    "kelvin": 303.15
+}
+
+6. Escreva uma página HTML com controles que permitam o usuário digitar uma temperatura em Fahrenheit e um botão que,
+ ao ser clicado, consulte o serviço da questão anterior e escreva na tela o resultado nas três escalas retornadas.
+
+7. Escreva um serviço POST que receba um objeto JSON contendo um parâmetro que indica o tamanho do lado de um quadrado e retorne outro JSON contendo o valor da área e perímetro.
+
+Por exemplo ao enviar um POST para http://localhost:3000/quadrado com o seguinte JSON:
+
+{
+    "lado": 50
+}
+
+Deve ser retornada a resposta:
+
+{
+    "area": 2500,
+    "perimetro": 200
+}
+
+Teste a requisição com o Postman usando diferentes valores.
+
+8. Escreva uma página HTML em que o usuário digite o tamanho do lado de um quadrado e, usando o serviço da questão anterior, sejam exibidos na tela o seu lado e perímetro.
