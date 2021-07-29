@@ -34,7 +34,9 @@ Por exemplo, a mesma URL do exemplo anterior pode retornar algo como:
 6. Escreva uma página HTML com controles que permitam o usuário digitar uma temperatura em Fahrenheit e um botão que,
  ao ser clicado, consulte o serviço da questão anterior e escreva na tela o resultado nas três escalas retornadas.
 
-7. Escreva um serviço POST que receba um objeto JSON contendo um parâmetro que indica o tamanho do lado de um quadrado e retorne outro JSON contendo o valor da área e perímetro.
+7. Escreva um serviço POST que receba um 
+objeto JSON contendo um parâmetro que indica o tamanho do lado de um quadrado 
+e retorne outro JSON contendo o valor da área e perímetro.
 
 Por exemplo ao enviar um POST para http://localhost:3000/quadrado com o seguinte JSON:
 
@@ -51,4 +53,5 @@ Deve ser retornada a resposta:
 
 Teste a requisição com o Postman usando diferentes valores.
 
-8. Escreva uma página HTML em que o usuário digite o tamanho do lado de um quadrado e, usando o serviço da questão anterior, sejam exibidos na tela o seu lado e perímetro.
+8. Escreva uma página HTML em que o usuário digite o tamanho do lado de um quadrado e, 
+usando o serviço da questão anterior, sejam exibidos na tela o seu lado e perímetro.

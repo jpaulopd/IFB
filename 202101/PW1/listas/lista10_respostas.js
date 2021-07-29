@@ -52,6 +52,20 @@ app.post('/convfahr2/:x', (req,res) => {
 });
 
 
+/*RESPOSTA 06*/
+app.post('/quadrado', (req,res) => {
+    console.log(req.body);
+    let lado = req.body.lado;
+    let area = lado*lado;
+    let perimetro = 4*lado;    
+    res.json(
+        {
+            "area": area.toString(),
+            "perimetro": perimetro.toString()
+        }
+    )
+});
+
 app.listen(
     3000,
     function(){
