@@ -57,3 +57,17 @@ Não usar tecnicas muito estatisticas ou frameworks
 - especificar período da pesquisa na revisão sistemática.
 - fazer o prisma para o resultado da sistematica
 - nos resultados é necessário apenas o que foi utilizado e o resultado.
+
+03/08/2021
+Roteiro Apresentação
+trabalho - orientadora
+agenda dos topicos
+contextualização - area - problema
+	solução (proposta/objetivo geral)
+referencial teórico (somente o relevante)
+trabalhos correlatos
+experimento - material e métodos
+	workflow de ML
+	base de dados
+cronograma
+

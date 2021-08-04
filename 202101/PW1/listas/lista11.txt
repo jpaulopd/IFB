@@ -1,0 +1,29 @@
+Lista de Exercícios 11 - Acesso a banco de dados
+
+Antes de iniciar as questões dessa lista, você precisa ter um banco de dados em PostgreSQL em execução e com pelo menos uma tabela com alguns dados.
+
+1. Escreva um script que leia todo o conteúdo de uma tabela do banco de dados 
+e o exiba na tela via console.log com algum tipo de estrutura personalizada.
+
+2. Escreva um web service em Express que retorne um objeto JSON resultante de uma consulta SQL com o comando SELECT....
+
+3. Escreva um web service parametrizado, 
+que use o parâmetro informado pelo usuário para personalizar algum aspecto de uma consulta SQL e retorne o resultado também como um objeto JSON.
+
+4. Escreva uma página HTML com um campo de texto, um botão e outros elementos que possam ser usados para exibir resultados. 
+Ao clicar no botão, o sistema deve enviar uma requisição AJAX para o serviço implementado na questão anterior, 
+receber a resposta de volta e exibi-la para o usuário em algum lugar da página.
+
+5. Escreva um web service que receba um objeto JSON 
+e o utilize para montar uma consulta que insere um item na tabela do banco de dados. 
+O serviço deve retornar um objeto JSON que represente de alguma forma a confirmação de que a operação foi bem sucedida.
+
+Teste o serviço com uma página HTML com os campos apropriados.
+
+6. Escreva um web service que receba um número ID e exclua o item correspondente a essa entrada em uma tabela no banco de dados.
+
+Teste o serviço com uma página HTML com os campos apropriados.
+
+7. Escreva um web service que receba um número ID e mais alguma outra informação do usuário e atualize o item correspondente do banco de dados com essa nova informação.
+
+Teste o serviço com uma página HTML com os campos apropriados.
