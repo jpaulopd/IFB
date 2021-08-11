@@ -1,0 +1,16 @@
+{
+  "name": "projeto_2_ppi1_crud",
+  "version": "0.0.1",
+  "description": "Projeto Final da materia de PPI 1 do IFB 2021/1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joao Paulo Pires Dantas",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
