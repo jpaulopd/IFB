@@ -36,7 +36,7 @@ const retornaUsuarios = (request, response) => {
     console.log('Consultando todos os usuários');
     client.query('SELECT * FROM usuario', (err, results) => {
         error(err, response);
-        response.status(200).json({ info: results.rows });            
+        response.status(200).json( results.rows );            
     });
 };
  
@@ -46,18 +46,17 @@ const retornaUsuarioId = (request, response) => {
     console.log('Consultado o usuário de ID = ' + id);
     client.query('SELECT * FROM usuario WHERE id = $1', [id], (err, results) => {
         error(err, response);
-        response.status(200).json({ info: results.rows });
+        response.status(200).json( results.rows );
     });
 };
  
 // salvar novo usuário
 const salvaUsuario = (request, response) => {
     console.log('Criando novo usuário...');
-    const { nome1, nome2, email, tel } = request.body
+    const { primeiro_nome, ultimo_nome, email, telefone } = request.body
     client.query('INSERT INTO usuario (primeiro_nome, ultimo_nome, email, telefone) VALUES ($1, $2, $3, $4) RETURNING *',
-        [nome1, nome2, email, tel], (err, results) => {
+        [primeiro_nome, ultimo_nome, email, telefone], (err, results) => {
             error(err, response);
-            response.setHeader('id do usuario criado: ', `${results.rows[0].id}`);
             response.status(201).json({ info: 'Usuário criado com sucesso!' });
         });
 };
@@ -79,13 +78,13 @@ const deletaUsuario = (request, response) => {
 // db part skipped for brevity. you are free to play around
 const atualizaUsuario = (request, response) => {
     const id = parseInt(request.params.id);
-    const { nome1, nome2, email, tel } = request.body
+    const { primeiro_nome, ultimo_nome, email, telefone } = request.body
+    console.log(request.body);
     console.log('Atualizado usuário de ID = ' + id);
     client.query('UPDATE usuario SET primeiro_nome = $1, ultimo_nome = $2, email = $3, telefone = $4 WHERE id = $5 RETURNING * ',
-        [nome1, nome2, email, telefone, id], (err, results) => {
+        [primeiro_nome, ultimo_nome, email, telefone, id], (err, results) => {
             error(err,response);
-            response.setHeader('id do usuario alterado: ', `${results.row[0].id}`);
-            response.status(204).json({ info: `Usuário atualizado de ID: ${id}` });
+            response.status(201).json({ info: `Usuário atualizado de ID: ${id}` });
         });
     
 };

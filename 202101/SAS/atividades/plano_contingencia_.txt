@@ -1,0 +1,42 @@
+Plano de contigência para manutenção de servidor LINUX
+
+1) Identificação das necessidades e dos possíveis problemas
+    a) necessidades
+        a.1) servidor deve estar sempre disponível
+        a.2) servidor não pode apresentar lentidão
+        a.3) conteúdo do servidor deve ter backup
+    b) problemas   
+        b.1) SO do servidor pode travar
+            b.1.1) devido falta de espaço em disco
+            b.1.2) falha em pontos de montagem
+            b.1.3) aplicações podem solicitar mais memória que disponível
+        b.2) hardware pode travar o servidor
+            b.2.1) falha na placa de rede pode comprometer acesso ao equipamento.
+            b.2.2) falha em um dos núcleos do processador pode travar o servidor
+            b.2.3) falha na placa mãe pode deixar o servidor indisponível
+            b.2.4) falha na fonte do servidor que pode deixar o servidor indisponível
+        b.3) falha de dados, aplicações ou serviços no reboot do servidor
+2) Avaliação dos impactos dos riscos
+    2.1) servidor indisponível impacta
+        - em consultas de serviços web, pois o servidor roda microserviços JAVA
+        - na execução de diversas aplicações de ETL
+        - no gerenciamento de arquivos e diretórios para evitar que eles venham a exceder o tamanho disponível em disco
+    2.2) servidor recuperado sem backup impacta
+        - na recuperação de programas shell script que não possuem repositório próprio do código fonte
+        - na recuperação de logs de sistemas que ainda não tenham sido armazenados em backup
+        - na recuperação de configurações de ambiente ou de aplicações que eventualmente não foram mapeadas como sensiveis a operação
+3) Definição de prioridades
+    3.1) Deixar servidor operacional
+    3.2) Ter espaço em disco suficiente a operação
+    3.3) Verificar se os dados de aplicações, configurações, etc, estão disponíveis
+    3.4) Realizar pontos de montagem
+    3.5) Verificar se o agendador de execução das aplicações está executando
+    3.6) Verificar se aplicações críticas que podem encher discos estão executando corretamente
+    3.7) Verificar se aplicações consumidoras de filas MQ estão executando
+    3.8) Veriicar se microserviços Java estão executando
+    3.9) Verificar se outros servidores dependentes estão conectados
+4) Planejamento de estratégias de contingências e controle
+    4.1) Executar aplicações consumidoras de filas MQ em servidor auxiliar
+    4.2) Executar aplicações que gerenciamento arquivos e diretórios em servidor auxiliar
+    4.3) Executar aplicações de ETL mais críticas em servidor auxiliar
+    4.4) orientar equipe para utilizar serviços de consulta alternativo aos micro serviços JAVA
