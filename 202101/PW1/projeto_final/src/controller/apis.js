@@ -1,12 +1,12 @@
 // importing module
 const pg = require('pg');
-// const bodyParser = require('body-parser');
+const { connection } = require('./dbconf.js')
 
 // db configuração
 const client = new pg.Client(
     {
-        user: 'jpaulopd',
-        host: 'localhost',
+        user: connection.user,
+        host: connection.host,
         database: 'ppi1_projeto2',
         password: 'jpc0d3',
         port: 5432,
