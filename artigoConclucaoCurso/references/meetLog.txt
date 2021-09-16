@@ -71,3 +71,27 @@ experimento - material e métodos
 	base de dados
 cronograma
 
+02/09/2021
+
+1) adicionar seção: 
+    descrever melhor a seção de de material e métodos: 
+        explicar melhor a base de dados de teste e alterar base de metadados para de identifcação
+        descrever quais configurações/parâmetros foram utilizados na construção de qualquer modelo e porque
+        verificar se os artigos possuem as informações de parâmetros.
+    exploração dos dados mostram um box plot
+    preprocessamento: mostrar limpeza, normalização, valores nulos
+    construção do modelo: mostrar todas as ferramentas
+    visualização dos resultados: 
+    O processo básico de machine learning pode ser descrito em 6 etapas, a saber (hands on machine learning with Scikit-learn and TensorFlow 2ed.) 
+
+https://estatsite.com.br/2020/09/15/exemplos-pipelines-usando-scikit-learn/
+
+1. entender o problemas;
+2. coletar os dados;
+3. análise exploratória dos dados 
+4. pré-processamento
+5. construção do modelo
+Regia Mendonca18:44
+6. Visualizar os resultados.
+
+nas considerações finais chamar a questão norteadora novamente. falar sobre achados e dificuldades. melhorias para o futuro.

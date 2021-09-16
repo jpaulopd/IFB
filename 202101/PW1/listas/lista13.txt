@@ -1,0 +1,12 @@
+Crie um projeto em Angular com um componente que represente as informações de um usuário, com as seguintes propriedades como atributos de tags:
+
+Nome
+Imagem (nome do arquivo)
+Tipo (Premium ou Padrão)
+Além da representação visual dessas propriedades, o componente deve incluir os seguintes elementos visuais:
+
+Um elemento CSS cuja cor varia de acordo com o tipo de usuário
+Um botão que, ao ser clicado, mude o tipo de usuário
+Crie uma página inicial de sua aplicação com várias instâncias desse componente.
+
+Envie o código de todo o projeto, exceto a pasta node_modules

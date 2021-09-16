@@ -1,0 +1,65 @@
+Boa noite prezados professores!
+Me chamo João Paulo e hoje falarei sobre meu PTCC sobre TITULO.
+
+Este trabalho foi orientado pela profa dra Ana Regia.
+
+Esta apresentação está organizada em uma contextualização, revisão sistemática, material e métodos e cronogograma.
+
+O contexto da necessidade desse trabalho ocorre quando há expansão da internet e muitos serviços/produtos passam a ser disponibilizados nela possibilitando que bilhões de transações possam ocorrer diariamente.
+
+O cartão de crédito surge nesse cenário como o maior meio de pagamento da internet o que facilitou também a atuação de quadrilhas especializadas em fraudes com a utilização deste meio de pagamento.
+No Brasil a estimativa é que a fraude ocorra na ordem de 7 bilhões de dólares por ano.
+
+Existem diversas formas de realizar fraudes com cartões de crédito, porém o tipo de fraude deste trabalho é a fraude comportamento que ocorre quando um fraudador realiza transações com dados do cartão de crédito sem a autorização do titular. Normalmente essa transações fogem do padrão de comportamento do titular, por exemplo, ocorrerão em CEP muito divergente do que o habitual ou será usado em aquisições que não fazem parte da cesta de consumo habitual.
+
+Hoje, as principais instituições utilizam o sistema de regras que utiliza analise humana, ....
+
+A proposta de solução do trabalho é investigar a utilização do aprendizado de máquina para identificar fraudes comportamento, pois ...
+
+Para desenvolver essa proposta de solução, utilizamos a revisão sistemática da literatura para identificar trabalhos, métodos, principais técnicas de aprendizado de máquina que são utilizadas para detecção de fraude. A vantagem dessa metodologia é que identificar as melhores evidências e sintetizar para posterior proposta de mudança.
+
+A questão norteadora é ...
+
+Foram utilizados os seguintes critérios de inclusão e de exclusão...
+
+E como fonte de pesquisa foram utilizados as seguintes palavras-chaves nas seguintes bases de dados.
+
+O resultado da revisão sistemática foi organizado no diagrama Prisma.
+
+Foram obtidos 114 trabalhos das bases de dados informadas e nenhum trabalho duplicado foi encontrado.
+
+Depois foi realizada a leitura dos títulos e resumos dos trabalhos com auxílio do aplicativo Rayyan e nele foram removidos 102 trabalhos principalmente por não terem relacação com o objetivo deste trabalho.
+
+Por fim, foram analisados apenas 12 trabalhos.
+
+Desses trabalhos dois conceitos são importantes de serem esclarecidos.
+
+O primeiro conceito é o de métodos supervisionados.
+
+Nessa figura temos dois tipos de transações de cartões de crédito, o vermelho são transações normais e as azuis são fraudadas.
+
+Métodos supervisionados funcionam em bases que os dados estão divididos em pelo menos dois grupos ou classes, sendo que cada uma delas deve possuir um rótulo de qual tipo cada transação faz parte.
+
+O método supervisionado ainda necessita que a base de dados seja dividida em conjunto de treino e de teste.
+
+O segundo conceito é o de desbalanceamentos de classes.
+
+Usando a mesma figura anterior, podemos observa um outro ponto de interesse, as transações legitimas são muitos superiores do que as transações fraudadas.
+
+Esse desequilibrio de quantidade entre os tipos de transações faz com que uma técnica de aprendizado de máquina aprenda mais características das transações normais o que gerará dificuldade posterior em identificar uma transação fraudada.
+
+O trabalho do autor utilizou pré-processamento de ... e técnicas ... sendo o resultado ....
+
+No trabalho será utilizado o fluxo do aprendizado de máquina em que ...
+
+A base de dados são de transações reais disponibilizados pela empresa Vesta ao Kaggle e estão resumidas suas principais características.
+
+Ela é organizada em dois tipos de transações: financeira e metadados associados ao dispotivido utilizado na transação.
+
+A base financeira possui .... registros e os principais atributos são ....
+A base metadados possui .... registros e os principais atributos são ....
+
+O cronograma foi distribuido entre os meses de setembro/2021 e janeiro/2020.
+
+Agradeço a oportunidade de apresentar o trabalho a vocês.
+

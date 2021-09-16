@@ -1,0 +1,30 @@
+A apresentação consiste em relatar o desenvolvimento de um sistema que estime o número de visualizações de OVNIs de forma que a equipe possa concentrar seus esforços nos locais com maior número de visualizações, descartando locais que possuem número pequeno ou inconsistente de aparições relatadas.
+
+
+    Inovação e Criatividade
+    Vontade / Entusiasmo
+    Utilidade / Objetivo
+    Requisitos do projeto (Coleta / Exploração / Preparação / Armazenamento / Análise)
+    Apresentação (tom de voz, postura, conteúdo, aparência dos slides - se for o caso)
+
+
+TELA 1 
+	TITULO: Sistema de previsão de visualização de OVNIs para Pacotes de Turismo
+TELA 2
+	Descrição do sistema: Apresentar calendário anual com a informação dos dias com maior previsão de visualização de OVNIS em várias cidades dos EUA.
+TELA 3
+	Coleta e Armazenamento: 
+        a fonte de dados é o NUFORC em que estão presentes dados de visualiação de dados de todos o continenten norte-americano.
+        o scrapping será realizar por meio de aplicação PYTHON que atualizará a base de dados em MongoDb
+TELA 4
+    Exploração e Preparação:
+        Os dados serão acompanhados e corrigidos por meio de Google Colaboratory
+TELA 5 
+    O resultado da Análise do modelo preditivo de séries temporais será disponibilizado via API:
+        -poderá ser consultado apenas 1 dia especifico sobre o número de possíveis visualizações de OVNIS
+        -poderá ser consultado um período de 120 dias no máximo sobre possíveis visualizações de OVNIS
+TELA 6
+    Com base nos resultados da API, poderá ser desenvolvida página que renderize os dados obtidos em um calendário.
+    Com base nos dias com maior número de visualizações, será possível para a empresa de turismo vender seus pacotes turísticos para as cidades destacadas.
+TELA 7
+    Agradecimento

@@ -1,0 +1,91 @@
+Listas de Exercícios 12 - TypeScript
+1. Corrija todos os erros do seguinte código TypeScript, de modo que ele compile corretamente:
+
+let sistema : string = 'Ubuntu';
+let versao : string = 19.10;
+let lts : boolean = 1;
+console.log(`${sistema}, versão ${versao}, ${lts? 'LTS' : ''}`);
+
+let pi = '3.14159';
+let tau = pi * 2;
+console.log(`${tau} é igual a ${pi} vezes dois.`);
+2. Modifique o código abaixo para que todas as declarações de variáveis tenham tipos explícitos, assim como o parâmetro da função escreveSabor:
+
+let sabor;
+sabor = 'chocolate';
+
+function escreveSabor(sab){
+    console.log(`Pizza sabor ${sab}`);    
+}
+
+let registrado;
+console.log(`${registrado ? 'Usuário registrado' : 'Usuário não registrado'}`);
+3. Modifique o código abaixo para que as quatro declarações de arrays tenham tipos explícitos que funcionem corretamente (utilize os tipos mais estritos possíveis):
+
+const numeros = [1, 2, 3, 4, 5];
+const animais = ['tamanduá', 'tatu', 'onça', 'paca'];
+const misto = [1, 'um', 2, 'dois', 3, 'três'];
+const matriz = [numeros, animais, misto];
+
+console.log(matriz);
+4.
+
+Crie um tipo enum chamado Veiculo com opções como Carro, Onibus, Bicicleta, etc...
+
+Crie uma função com a assinatura function descreveVeiculo(v: Veiculo), a qual escreva uma frase diferentena tela dependendo do tipo de veículo passado. Teste a função escrevendo chamadas com valores diferentes.
+
+5. Transforme a interface anônima usada como tipo no método abaixo em uma interface explícita chamada Item, tendo modelo como atributo opcional. Aplique o tipo explícito no objeto sapato.
+
+function adicionaAoCarrinho(item: {id: number, nome: string, modelo: number}) {
+    console.log(`Adicionando ${item.nome} (id ${item.id}) ao carrinho`);
+}
+
+let sapato = {id: 1, nome: 'Sapatos de couro'}
+adicionaAoCarrinho(sapato);
+6. Crie uma interface chamada Filme com propriedades titulo e duracao, com os tipos apropriados. Crie um array de objetos do tipo Filme, e acrescente alguns objetos a ele. Ao menos um dos objetos acrescentados deve ter uma propriedade extra, que não está definida na interface (por exemplo, diretor).
+
+Crie uma função que recebe um Filme como parâmetro e escreva seu título e duração.
+
+No código principal, use um for .. of para exibir chamar essa função em todos os elementos do array.
+
+(Use tipagem explícita em todas as declarações de variáveis e parâmetros)
+
+7. Dado o seguinte código:
+
+interface Cidade { nome: string; } // não alterar essa linha
+
+let brasilia = {
+    coords: {
+        latitude: -15.7608947,
+        longitude: -47.8924659,
+    },
+    nome: 'Brasília',
+};
+
+let goiania = {
+    coords: {
+        latitude: '-16.6869871',
+        longitude: '-49.2648432',
+    },
+    nome: 'Goiânia',
+};
+
+function obterInformacoes(cidade: Cidade) {
+    const coords = `(${cidade.coords.latitude.toFixed(3)}, ${cidade.coords.longitude.toFixed(3)})`;
+    return `${cidade.nome.toUpperCase()} está localizada em ${coords}.`;
+}
+
+console.log( obterInformacoes(brasilia) );
+console.log( obterInformacoes(goiania) );
+Sem modificar a primeira linha, estenda a interface Cidade de modo a incluir a propriedade coords, com o tipo apropriado. Corrija a definição da variável goiania, de modo a tornar o código compatível com esse tipo.
+
+8. Recupere o código das funções escritas nas questões 3, 7 e 8 da Lista de Exercícios 2 e acrescente a elas os tipos de parâmetro e retorno apropriados, além de marcações de parâmetro opcional quando aplicável.
+
+9. Dado o seguinte código:
+
+let codigos : number[] = [12, 13, 14, 21, 22, 25, 28, 31];
+
+//seu código aqui
+
+console.log(codigos.filter(filtro));
+Crie a variável filtro, com o tipo apropriado, de modo a fazer funcionar o código acima.
