@@ -1,0 +1,50 @@
+/*********************************************ULB******************************************************************/
+
+https://www.kaggle.com/arbazkhan971/credit-card-eda-25-models-for-beginners <--
+https://www.kaggle.com/anshuls235/working-with-imbalanced-datasets <--
+https://towardsdatascience.com/how-to-effortlessly-handle-class-imbalance-with-python-and-smote-9b715ca8e5a7 <--
+https://towardsdatascience.com/applying-smote-for-class-imbalance-with-just-a-few-lines-of-code-python-cdf603e58688 <--
+https://www.geeksforgeeks.org/standardscaler-minmaxscaler-and-robustscaler-techniques-ml/ <--
+
+https://www.kaggle.com/monkeydunkey/simple-eda 
+https://www.kaggle.com/nishkarshtripathi/fraud-detection-indepth-eda-and-model-building
+https://www.kaggle.com/mlg-ulb/creditcardfraud
+https://www.kaggle.com/jdelamorena/recall-97-by-using-undersampling-neural-network
+https://www.kaggle.com/andreshg/automatic-eda-libraries-comparisson
+
+
+https://www.kaggle.com/franckepeixoto/fraud-detection-exploratory-data-analysis-eda
+https://www.kaggle.com/nareshbhat/fraud-detection-feature-selection-over-sampling
+
+
+https://towardsdatascience.com/create-and-customize-boxplots-with-pythons-matplotlib-to-get-lots-of-insights-from-your-data-d561c9883643
+https://www.kaggle.com/nareshbhat/outlier-the-silent-killer
+https://www.codecademy.com/articles/seaborn-design-i
+
+
+
+
+
+
+
+
+
+
+
+/**********************************************IEEE**********************************************************/
+https://www.analyticsvidhya.com/blog/2021/04/how-to-reduce-memory-usage-in-python-pandas/ para redução da memória
+
+
+https://www.kaggle.com/imranozdemiryilmaz/fraud-detection <--
+https://www.kaggle.com/jesucristo/fraud-complete-eda <--
+https://www.kaggle.com/robikscube/ieee-fraud-detection-first-look-and-eda <--
+https://www.kaggle.com/makin119/ieee-fraud-detection-novice
+https://www.kaggle.com/muke5hy/modeling-and-training-ieee-cis-fraud-detection
+https://www.kaggle.com/artgor/eda-and-models
+
+https://www.kaggle.com/anmspro/pandas-profiling
+https://towardsdatascience.com/ieee-cis-fraud-detection-by-lightgbm-b8956a8e4b53
+https://towardsdatascience.com/ieee-cis-fraud-detection-top-5-solution-5488fc66e95f
+https://www.kaggle.com/anastasia484/ieee-cis-fraud-detection-first-model-w-o-eda
+https://www.kaggle.com/aussie84/eda-starter-wip
+https://towardsdatascience.com/an-introduction-to-t-sne-with-python-example-5a3a293108d1
