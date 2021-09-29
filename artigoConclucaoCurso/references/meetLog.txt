@@ -91,7 +91,6 @@ https://estatsite.com.br/2020/09/15/exemplos-pipelines-usando-scikit-learn/
 3. análise exploratória dos dados 
 4. pré-processamento
 5. construção do modelo
-Regia Mendonca18:44
 6. Visualizar os resultados.
 
 nas considerações finais chamar a questão norteadora novamente. falar sobre achados e dificuldades. melhorias para o futuro.
