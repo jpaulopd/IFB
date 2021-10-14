@@ -94,3 +94,32 @@ https://estatsite.com.br/2020/09/15/exemplos-pipelines-usando-scikit-learn/
 6. Visualizar os resultados.
 
 nas considerações finais chamar a questão norteadora novamente. falar sobre achados e dificuldades. melhorias para o futuro.
+
+
+05/10/2021
+
+ajustar lista sem numero para numerada
+
+ajustar parte que fala das variáveis V1 até V28 e ajustar o trecho do texto para retirar a "A maioria"
+
+no proximo paragrafo colocar o restante em numero dos atributos e marcar a lista dos atributos em lista numerada
+
+(i) 
+4 atributos....., quais sejam: (i) ,....; (ii).....
+
+ajustar o termo "nas figuras" colocando qual figura a que se referencial
+
+nas figuras explicar os dados de maneira descritiva, tentar plotar os outliers
+
+justificar pq a razão de alguns modelos estarem com parametros padrão e outros não
+
+ajustar tabela 4 informando que os parametros são default
+padrão X padrão smote x alterado
+
+explicar mais os resultados
+
+fazer uma nova seção para a 3.5 que vira o "Resultados e discussão"
+
+mostrando o que é precisão, acurácia, etc 
+
+destacar o melhor resultado em negrito nas tabelas o menor e maior valor
