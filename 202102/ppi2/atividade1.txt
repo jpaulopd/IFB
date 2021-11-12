@@ -1,0 +1,12 @@
+1) Atividade Definição dos Projetos
+
+Contexto:  considera o desenvolvimento de projetos para internet e as skills previstas pa
+
+Na continuidade do cronograma de aulas, seguiremos na ementa do componente, objetivando
+ a definição do padrão de desenvolvimento (modelo MVC), 
+ explorar e utilizar  ferramentas para o desenvolvimento e sistemas para internet, 
+ definir o ambiente de desenvolvimento, 
+ buscar solução para problemas identificados, 
+ implementar cadastros, 
+ gerar formulários, entre outras especificidades do projeto de sistema para internet.
+
