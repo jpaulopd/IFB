@@ -1,0 +1,11 @@
+1) paragrafo com elencar todos as variáveis não é necessário.
+2) não trazer informações sobre o tipo de dados int64, float64, etc
+3) ajustar o valor do smoothing no artigo está escrito sem precisão
+4) verificar acurácia e sensibilidade zeradas
+5) verificar possibilidade de focar apenas no pre processamento ou apenas nas metricas
+6) usar vermelho para fraude
+7) ajustar as formulas para paragrafo
+8) box-plot colocar um cada slide
+9) descrever melhor a parte da criação do algoritmo
+10) analise fatorial para encontrar o parâmetro ideal
+11) retirar SVM e ajustar percentual dos valores.
